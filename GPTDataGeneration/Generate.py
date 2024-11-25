@@ -1,8 +1,12 @@
 import openai
 import yaml
 
+from dotenv import load_dotenv
+import os 
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # Set up OpenAI API key
-openai.api_key = "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"
+# openai.api_key = "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"
 
 def process_topic_with_gpt(topic, text, output_file_nlu, output_file_responses):
     """

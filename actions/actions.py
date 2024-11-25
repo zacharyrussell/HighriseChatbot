@@ -29,9 +29,10 @@
 import openai
 from rasa_sdk import Action
 from rasa_sdk.events import SlotSet
-
-# Set your OpenAI API key
-openai.api_key = "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"
+from dotenv import load_dotenv
+import os 
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 from rasa_sdk import Action
 from rasa_sdk.events import UserUtteranceReverted
 
