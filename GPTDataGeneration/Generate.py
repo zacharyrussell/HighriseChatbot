@@ -85,9 +85,7 @@ To unpin, follow the same steps and choose 'Unpin.' Pinned items are marked
 with a icon and sorted by the most recent pin. You can pin up to 64 items.
 """
 
-# Specify output files
-output_file_nlu = "delete.yml"
-output_file_responses = "deletethis.yml"
-
-# Generate and append YAML
-process_topic_with_gpt(topic, text, output_file_nlu, output_file_responses)
+# Testing
+# output_file_nlu = "delete.yml"
+# output_file_responses = "deletethis.yml"
+# process_topic_with_gpt(topic, text, output_file_nlu, output_file_responses)
