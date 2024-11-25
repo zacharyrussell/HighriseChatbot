@@ -1,0 +1,3320 @@
+rules:
+  - rule: Ask for feedback
+    steps:
+      - action: action_log_and_request_feedback
+  - rule: Handle helpful feedback
+    steps:
+      - intent: feedback_helpful
+      - action: action_handle_helpful_feedback
+  - rule: Handle unhelpful feedback
+    steps:
+      - intent: feedback_unhelpful
+      - action: action_handle_unhelpful_feedback
+  - rule: Handle fallback with GPT-4
+    steps:
+      - intent: nlu_fallback
+      - action: action_gpt4_response
+      - action: action_log_and_request_feedback
+  - rule: Respond to pin_feature_overview
+    steps:
+      - intent: pin_feature_overview
+      - action: utter_pin_feature_overview
+      - action: action_log_and_request_feedback
+  - rule: Respond to pin_content_types
+    steps:
+      - intent: pin_content_types
+      - action: utter_pin_content_types
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_pin
+    steps:
+      - intent: how_to_pin
+      - action: utter_how_to_pin
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_unpin
+    steps:
+      - intent: how_to_unpin
+      - action: utter_how_to_unpin
+      - action: action_log_and_request_feedback
+  - rule: Respond to pin_limit
+    steps:
+      - intent: pin_limit
+      - action: utter_pin_limit
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_locations
+    steps:
+      - intent: pinning_locations
+      - action: utter_pinning_locations
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_posts
+    steps:
+      - intent: pinning_posts
+      - action: utter_pinning_posts
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_comments
+    steps:
+      - intent: pinning_comments
+      - action: utter_pinning_comments
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_assets
+    steps:
+      - intent: pinning_assets
+      - action: utter_pinning_assets
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_limit_and_organization
+    steps:
+      - intent: pinning_limit_and_organization
+      - action: utter_pinning_limit_and_organization
+      - action: action_log_and_request_feedback
+  - rule: Respond to delete_items_earn_bubbles
+    steps:
+      - intent: delete_items_earn_bubbles
+      - action: utter_delete_items_earn_bubbles
+      - action: action_log_and_request_feedback
+  - rule: Respond to new_delete_feature
+    steps:
+      - intent: new_delete_feature
+      - action: utter_new_delete_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to use_delete_feature
+    steps:
+      - intent: use_delete_feature
+      - action: utter_use_delete_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to confirm_delete_action
+    steps:
+      - intent: confirm_delete_action
+      - action: utter_confirm_delete_action
+      - action: action_log_and_request_feedback
+  - rule: Respond to receive_bubbles_notification
+    steps:
+      - intent: receive_bubbles_notification
+      - action: utter_receive_bubbles_notification
+      - action: action_log_and_request_feedback
+  - rule: Respond to profile_changes_overview
+    steps:
+      - intent: profile_changes_overview
+      - action: utter_profile_changes_overview
+      - action: action_log_and_request_feedback
+  - rule: Respond to animated_avatars
+    steps:
+      - intent: animated_avatars
+      - action: utter_animated_avatars
+      - action: action_log_and_request_feedback
+  - rule: Respond to customizable_backgrounds
+    steps:
+      - intent: customizable_backgrounds
+      - action: utter_customizable_backgrounds
+      - action: action_log_and_request_feedback
+  - rule: Respond to social_media_links
+    steps:
+      - intent: social_media_links
+      - action: utter_social_media_links
+      - action: action_log_and_request_feedback
+  - rule: Respond to improved_connections_interface
+    steps:
+      - intent: improved_connections_interface
+      - action: utter_improved_connections_interface
+      - action: action_log_and_request_feedback
+  - rule: Respond to enhanced_creations_section
+    steps:
+      - intent: enhanced_creations_section
+      - action: utter_enhanced_creations_section
+      - action: action_log_and_request_feedback
+  - rule: Respond to pinning_feature
+    steps:
+      - intent: pinning_feature
+      - action: utter_pinning_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to changing_background_overview
+    steps:
+      - intent: changing_background_overview
+      - action: utter_changing_background_overview
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_profile
+    steps:
+      - intent: navigate_to_profile
+      - action: utter_navigate_to_profile
+      - action: action_log_and_request_feedback
+  - rule: Respond to access_pose_and_background
+    steps:
+      - intent: access_pose_and_background
+      - action: utter_access_pose_and_background
+      - action: action_log_and_request_feedback
+  - rule: Respond to select_new_background
+    steps:
+      - intent: select_new_background
+      - action: utter_select_new_background
+      - action: action_log_and_request_feedback
+  - rule: Respond to enjoy_creativity
+    steps:
+      - intent: enjoy_creativity
+      - action: utter_enjoy_creativity
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_grab_swapping
+    steps:
+      - intent: explain_grab_swapping
+      - action: utter_explain_grab_swapping
+      - action: action_log_and_request_feedback
+  - rule: Respond to transparency_in_grab
+    steps:
+      - intent: transparency_in_grab
+      - action: utter_transparency_in_grab
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_perform_swap
+    steps:
+      - intent: how_to_perform_swap
+      - action: utter_how_to_perform_swap
+      - action: action_log_and_request_feedback
+  - rule: Respond to swap_impact_on_rewards
+    steps:
+      - intent: swap_impact_on_rewards
+      - action: utter_swap_impact_on_rewards
+      - action: action_log_and_request_feedback
+  - rule: Respond to identifying_swappable_items
+    steps:
+      - intent: identifying_swappable_items
+      - action: utter_identifying_swappable_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to when_to_swap_items
+    steps:
+      - intent: when_to_swap_items
+      - action: utter_when_to_swap_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_ootd_feature
+    steps:
+      - intent: ask_about_ootd_feature
+      - action: utter_ask_about_ootd_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_where_to_find_ootd
+    steps:
+      - intent: ask_where_to_find_ootd
+      - action: utter_ask_where_to_find_ootd
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_ootd_item_source
+    steps:
+      - intent: ask_ootd_item_source
+      - action: utter_ask_ootd_item_source
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_sharing_ootd_look
+    steps:
+      - intent: ask_sharing_ootd_look
+      - action: utter_ask_sharing_ootd_look
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_ootd_rewards
+    steps:
+      - intent: ask_about_ootd_rewards
+      - action: utter_ask_about_ootd_rewards
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_ootd_frequency
+    steps:
+      - intent: ask_about_ootd_frequency
+      - action: utter_ask_about_ootd_frequency
+      - action: action_log_and_request_feedback
+  - rule: Respond to suggest_ootd_improvements
+    steps:
+      - intent: suggest_ootd_improvements
+      - action: utter_suggest_ootd_improvements
+      - action: action_log_and_request_feedback
+  - rule: Respond to greet_directory
+    steps:
+      - intent: greet_directory
+      - action: utter_greet_directory
+      - action: action_log_and_request_feedback
+  - rule: Respond to access_worlds_rooms
+    steps:
+      - intent: access_worlds_rooms
+      - action: utter_access_worlds_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to beta_label
+    steps:
+      - intent: beta_label
+      - action: utter_beta_label
+      - action: action_log_and_request_feedback
+  - rule: Respond to discover_worlds
+    steps:
+      - intent: discover_worlds
+      - action: utter_discover_worlds
+      - action: action_log_and_request_feedback
+  - rule: Respond to search_worlds
+    steps:
+      - intent: search_worlds
+      - action: utter_search_worlds
+      - action: action_log_and_request_feedback
+  - rule: Respond to world_slide_up
+    steps:
+      - intent: world_slide_up
+      - action: utter_world_slide_up
+      - action: action_log_and_request_feedback
+  - rule: Respond to follow_worlds
+    steps:
+      - intent: follow_worlds
+      - action: utter_follow_worlds
+      - action: action_log_and_request_feedback
+  - rule: Respond to world_stats
+    steps:
+      - intent: world_stats
+      - action: utter_world_stats
+      - action: action_log_and_request_feedback
+  - rule: Respond to followers_screen
+    steps:
+      - intent: followers_screen
+      - action: utter_followers_screen
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_sharing_socials
+    steps:
+      - intent: ask_about_sharing_socials
+      - action: utter_ask_about_sharing_socials
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_add_social_media_links
+    steps:
+      - intent: how_to_add_social_media_links
+      - action: utter_how_to_add_social_media_links
+      - action: action_log_and_request_feedback
+  - rule: Respond to available_social_media_platforms
+    steps:
+      - intent: available_social_media_platforms
+      - action: utter_available_social_media_platforms
+      - action: action_log_and_request_feedback
+  - rule: Respond to age_restriction_social_links
+    steps:
+      - intent: age_restriction_social_links
+      - action: utter_age_restriction_social_links
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_inappropriate_links
+    steps:
+      - intent: report_inappropriate_links
+      - action: utter_report_inappropriate_links
+      - action: action_log_and_request_feedback
+  - rule: Respond to privacy_and_safety_reminder
+    steps:
+      - intent: privacy_and_safety_reminder
+      - action: utter_privacy_and_safety_reminder
+      - action: action_log_and_request_feedback
+  - rule: Respond to subscribe_highrise_plus
+    steps:
+      - intent: subscribe_highrise_plus
+      - action: utter_subscribe_highrise_plus
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_plus_tiers
+    steps:
+      - intent: highrise_plus_tiers
+      - action: utter_highrise_plus_tiers
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_plus_perks
+    steps:
+      - intent: highrise_plus_perks
+      - action: utter_highrise_plus_perks
+      - action: action_log_and_request_feedback
+  - rule: Respond to managing_subscription
+    steps:
+      - intent: managing_subscription
+      - action: utter_managing_subscription
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_plus_support
+    steps:
+      - intent: highrise_plus_support
+      - action: utter_highrise_plus_support
+      - action: action_log_and_request_feedback
+  - rule: Respond to start_inbox_calls
+    steps:
+      - intent: start_inbox_calls
+      - action: utter_start_inbox_calls
+      - action: action_log_and_request_feedback
+  - rule: Respond to user_restriction
+    steps:
+      - intent: user_restriction
+      - action: utter_user_restriction
+      - action: action_log_and_request_feedback
+  - rule: Respond to call_notifications
+    steps:
+      - intent: call_notifications
+      - action: utter_call_notifications
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_during_calls
+    steps:
+      - intent: manage_during_calls
+      - action: utter_manage_during_calls
+      - action: action_log_and_request_feedback
+  - rule: Respond to switch_call_modes
+    steps:
+      - intent: switch_call_modes
+      - action: utter_switch_call_modes
+      - action: action_log_and_request_feedback
+  - rule: Respond to pin_message
+    steps:
+      - intent: pin_message
+      - action: utter_pin_message
+      - action: action_log_and_request_feedback
+  - rule: Respond to unpin_message
+    steps:
+      - intent: unpin_message
+      - action: utter_unpin_message
+      - action: action_log_and_request_feedback
+  - rule: Respond to delete_message
+    steps:
+      - intent: delete_message
+      - action: utter_delete_message
+      - action: action_log_and_request_feedback
+  - rule: Respond to edit_message
+    steps:
+      - intent: edit_message
+      - action: utter_edit_message
+      - action: action_log_and_request_feedback
+  - rule: Respond to send_gif
+    steps:
+      - intent: send_gif
+      - action: utter_send_gif
+      - action: action_log_and_request_feedback
+  - rule: Respond to view_gif
+    steps:
+      - intent: view_gif
+      - action: utter_view_gif
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_inbox_media
+    steps:
+      - intent: ask_inbox_media
+      - action: utter_ask_inbox_media
+      - action: action_log_and_request_feedback
+  - rule: Respond to benefit_of_inbox_media
+    steps:
+      - intent: benefit_of_inbox_media
+      - action: utter_benefit_of_inbox_media
+      - action: action_log_and_request_feedback
+  - rule: Respond to media_sending_process
+    steps:
+      - intent: media_sending_process
+      - action: utter_media_sending_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to media_display_features
+    steps:
+      - intent: media_display_features
+      - action: utter_media_display_features
+      - action: action_log_and_request_feedback
+  - rule: Respond to subscription_requirements
+    steps:
+      - intent: subscription_requirements
+      - action: utter_subscription_requirements
+      - action: action_log_and_request_feedback
+  - rule: Respond to safety_and_restrictions
+    steps:
+      - intent: safety_and_restrictions
+      - action: utter_safety_and_restrictions
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_engagement_earnings
+    steps:
+      - intent: ask_about_engagement_earnings
+      - action: utter_ask_about_engagement_earnings
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_earned_gold_conversion
+    steps:
+      - intent: inquire_earned_gold_conversion
+      - action: utter_inquire_earned_gold_conversion
+      - action: action_log_and_request_feedback
+  - rule: Respond to faq_engagement_based_payouts
+    steps:
+      - intent: faq_engagement_based_payouts
+      - action: utter_faq_engagement_based_payouts
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_display_name_feature
+    steps:
+      - intent: ask_display_name_feature
+      - action: utter_ask_display_name_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to customize_display_name
+    steps:
+      - intent: customize_display_name
+      - action: utter_customize_display_name
+      - action: action_log_and_request_feedback
+  - rule: Respond to change_display_name
+    steps:
+      - intent: change_display_name
+      - action: utter_change_display_name
+      - action: action_log_and_request_feedback
+  - rule: Respond to display_name_guidelines
+    steps:
+      - intent: display_name_guidelines
+      - action: utter_display_name_guidelines
+      - action: action_log_and_request_feedback
+  - rule: Respond to display_name_visibility
+    steps:
+      - intent: display_name_visibility
+      - action: utter_display_name_visibility
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_offensive_display_name
+    steps:
+      - intent: report_offensive_display_name
+      - action: utter_report_offensive_display_name
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_guidelines_intro
+    steps:
+      - intent: inquire_guidelines_intro
+      - action: utter_inquire_guidelines_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_positive_community_engagement
+    steps:
+      - intent: inquire_positive_community_engagement
+      - action: utter_inquire_positive_community_engagement
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_age_guidelines
+    steps:
+      - intent: inquire_age_guidelines
+      - action: utter_inquire_age_guidelines
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_community_safety
+    steps:
+      - intent: inquire_community_safety
+      - action: utter_inquire_community_safety
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_trade_safety
+    steps:
+      - intent: inquire_trade_safety
+      - action: utter_inquire_trade_safety
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_account_rules
+    steps:
+      - intent: inquire_account_rules
+      - action: utter_inquire_account_rules
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_suicide_prevention
+    steps:
+      - intent: inquire_suicide_prevention
+      - action: utter_inquire_suicide_prevention
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_highrise
+    steps:
+      - intent: ask_about_highrise
+      - action: utter_ask_about_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_socialize
+    steps:
+      - intent: how_to_socialize
+      - action: utter_how_to_socialize
+      - action: action_log_and_request_feedback
+  - rule: Respond to fashion_in_highrise
+    steps:
+      - intent: fashion_in_highrise
+      - action: utter_fashion_in_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to building_in_highrise
+    steps:
+      - intent: building_in_highrise
+      - action: utter_building_in_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to life_reporting_in_highrise
+    steps:
+      - intent: life_reporting_in_highrise
+      - action: utter_life_reporting_in_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to participating_in_contests
+    steps:
+      - intent: participating_in_contests
+      - action: utter_participating_in_contests
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_play_highrise
+    steps:
+      - intent: how_to_play_highrise
+      - action: utter_how_to_play_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_chat_filter_works
+    steps:
+      - intent: ask_how_chat_filter_works
+      - action: utter_ask_how_chat_filter_works
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_whats_allowed_in_chat
+    steps:
+      - intent: ask_whats_allowed_in_chat
+      - action: utter_ask_whats_allowed_in_chat
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_filter_understands_context
+    steps:
+      - intent: ask_how_filter_understands_context
+      - action: utter_ask_how_filter_understands_context
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_reputation_system
+    steps:
+      - intent: ask_about_reputation_system
+      - action: utter_ask_about_reputation_system
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_tweaks_and_feedback
+    steps:
+      - intent: ask_about_tweaks_and_feedback
+      - action: utter_ask_about_tweaks_and_feedback
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_bubbles
+    steps:
+      - intent: inquire_bubbles
+      - action: utter_inquire_bubbles
+      - action: action_log_and_request_feedback
+  - rule: Respond to bubble_goal_getter
+    steps:
+      - intent: bubble_goal_getter
+      - action: utter_bubble_goal_getter
+      - action: action_log_and_request_feedback
+  - rule: Respond to bubble_gift_grabber
+    steps:
+      - intent: bubble_gift_grabber
+      - action: utter_bubble_gift_grabber
+      - action: action_log_and_request_feedback
+  - rule: Respond to bubble_crewmate_charm
+    steps:
+      - intent: bubble_crewmate_charm
+      - action: utter_bubble_crewmate_charm
+      - action: action_log_and_request_feedback
+  - rule: Respond to bubble_spare_seller
+    steps:
+      - intent: bubble_spare_seller
+      - action: utter_bubble_spare_seller
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_gold_options
+    steps:
+      - intent: inquire_gold_options
+      - action: utter_inquire_gold_options
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchase_gold
+    steps:
+      - intent: purchase_gold
+      - action: utter_purchase_gold
+      - action: action_log_and_request_feedback
+  - rule: Respond to earn_gold_builder
+    steps:
+      - intent: earn_gold_builder
+      - action: utter_earn_gold_builder
+      - action: action_log_and_request_feedback
+  - rule: Respond to earn_gold_offers
+    steps:
+      - intent: earn_gold_offers
+      - action: utter_earn_gold_offers
+      - action: action_log_and_request_feedback
+  - rule: Respond to earn_gold_games
+    steps:
+      - intent: earn_gold_games
+      - action: utter_earn_gold_games
+      - action: action_log_and_request_feedback
+  - rule: Respond to receive_gold_tips
+    steps:
+      - intent: receive_gold_tips
+      - action: utter_receive_gold_tips
+      - action: action_log_and_request_feedback
+  - rule: Respond to earn_gold_crew
+    steps:
+      - intent: earn_gold_crew
+      - action: utter_earn_gold_crew
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_purchase_issues
+    steps:
+      - intent: inquire_purchase_issues
+      - action: utter_inquire_purchase_issues
+      - action: action_log_and_request_feedback
+  - rule: Respond to troubleshoot_purchase_issue
+    steps:
+      - intent: troubleshoot_purchase_issue
+      - action: utter_troubleshoot_purchase_issue
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_double_charge
+    steps:
+      - intent: inquire_double_charge
+      - action: utter_inquire_double_charge
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_accidental_purchase
+    steps:
+      - intent: inquire_accidental_purchase
+      - action: utter_inquire_accidental_purchase
+      - action: action_log_and_request_feedback
+  - rule: Respond to resolve_double_charge_ios
+    steps:
+      - intent: resolve_double_charge_ios
+      - action: utter_resolve_double_charge_ios
+      - action: action_log_and_request_feedback
+  - rule: Respond to resolve_double_charge_android
+    steps:
+      - intent: resolve_double_charge_android
+      - action: utter_resolve_double_charge_android
+      - action: action_log_and_request_feedback
+  - rule: Respond to request_refund_ios
+    steps:
+      - intent: request_refund_ios
+      - action: utter_request_refund_ios
+      - action: action_log_and_request_feedback
+  - rule: Respond to request_refund_android
+    steps:
+      - intent: request_refund_android
+      - action: utter_request_refund_android
+      - action: action_log_and_request_feedback
+  - rule: Respond to direct_support_contact
+    steps:
+      - intent: direct_support_contact
+      - action: utter_direct_support_contact
+      - action: action_log_and_request_feedback
+  - rule: Respond to prevent_accidental_purchase
+    steps:
+      - intent: prevent_accidental_purchase
+      - action: utter_prevent_accidental_purchase
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_gold_offer_availability
+    steps:
+      - intent: inquire_gold_offer_availability
+      - action: utter_inquire_gold_offer_availability
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_access_cash_shop
+    steps:
+      - intent: how_to_access_cash_shop
+      - action: utter_how_to_access_cash_shop
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquiry_post_offer_completion
+    steps:
+      - intent: inquiry_post_offer_completion
+      - action: utter_inquiry_post_offer_completion
+      - action: action_log_and_request_feedback
+  - rule: Respond to contact_sponsor_support
+    steps:
+      - intent: contact_sponsor_support
+      - action: utter_contact_sponsor_support
+      - action: action_log_and_request_feedback
+  - rule: Respond to follow_up_missing_gold_status
+    steps:
+      - intent: follow_up_missing_gold_status
+      - action: utter_follow_up_missing_gold_status
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_gold_bar_premium
+    steps:
+      - intent: inquire_gold_bar_premium
+      - action: utter_inquire_gold_bar_premium
+      - action: action_log_and_request_feedback
+  - rule: Respond to gold_bar_tradability
+    steps:
+      - intent: gold_bar_tradability
+      - action: utter_gold_bar_tradability
+      - action: action_log_and_request_feedback
+  - rule: Respond to gold_bar_inflation_protection
+    steps:
+      - intent: gold_bar_inflation_protection
+      - action: utter_gold_bar_inflation_protection
+      - action: action_log_and_request_feedback
+  - rule: Respond to gold_bar_as_decor
+    steps:
+      - intent: gold_bar_as_decor
+      - action: utter_gold_bar_as_decor
+      - action: action_log_and_request_feedback
+  - rule: Respond to summary_gold_bar_importance
+    steps:
+      - intent: summary_gold_bar_importance
+      - action: utter_summary_gold_bar_importance
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_sales_work
+    steps:
+      - intent: ask_how_sales_work
+      - action: utter_ask_how_sales_work
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_sales_special_features
+    steps:
+      - intent: explain_sales_special_features
+      - action: utter_explain_sales_special_features
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_types_of_sales
+    steps:
+      - intent: inquire_types_of_sales
+      - action: utter_inquire_types_of_sales
+      - action: action_log_and_request_feedback
+  - rule: Respond to account_specific_sales_info
+    steps:
+      - intent: account_specific_sales_info
+      - action: utter_account_specific_sales_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to targeted_sales_criteria
+    steps:
+      - intent: targeted_sales_criteria
+      - action: utter_targeted_sales_criteria
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_tipping_system
+    steps:
+      - intent: inquire_tipping_system
+      - action: utter_inquire_tipping_system
+      - action: action_log_and_request_feedback
+  - rule: Respond to about_tipping_in_highrise
+    steps:
+      - intent: about_tipping_in_highrise
+      - action: utter_about_tipping_in_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to guide_to_tipping
+    steps:
+      - intent: guide_to_tipping
+      - action: utter_guide_to_tipping
+      - action: action_log_and_request_feedback
+  - rule: Respond to tipping_options
+    steps:
+      - intent: tipping_options
+      - action: utter_tipping_options
+      - action: action_log_and_request_feedback
+  - rule: Respond to gold_conversion
+    steps:
+      - intent: gold_conversion
+      - action: utter_gold_conversion
+      - action: action_log_and_request_feedback
+  - rule: Respond to indirect_tipping
+    steps:
+      - intent: indirect_tipping
+      - action: utter_indirect_tipping
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_tip_jars_intro
+    steps:
+      - intent: ask_tip_jars_intro
+      - action: utter_ask_tip_jars_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to setup_tip_jar
+    steps:
+      - intent: setup_tip_jar
+      - action: utter_setup_tip_jar
+      - action: action_log_and_request_feedback
+  - rule: Respond to tipping_tip_jar
+    steps:
+      - intent: tipping_tip_jar
+      - action: utter_tipping_tip_jar
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_message_to_tip
+    steps:
+      - intent: add_message_to_tip
+      - action: utter_add_message_to_tip
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_offensive_message
+    steps:
+      - intent: report_offensive_message
+      - action: utter_report_offensive_message
+      - action: action_log_and_request_feedback
+  - rule: Respond to top_tippers_info
+    steps:
+      - intent: top_tippers_info
+      - action: utter_top_tippers_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to collect_gold_from_jar
+    steps:
+      - intent: collect_gold_from_jar
+      - action: utter_collect_gold_from_jar
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_eligibility_in_ads
+    steps:
+      - intent: ask_about_eligibility_in_ads
+      - action: utter_ask_about_eligibility_in_ads
+      - action: action_log_and_request_feedback
+  - rule: Respond to reward_for_short_appearances
+    steps:
+      - intent: reward_for_short_appearances
+      - action: utter_reward_for_short_appearances
+      - action: action_log_and_request_feedback
+  - rule: Respond to reward_for_long_appearances
+    steps:
+      - intent: reward_for_long_appearances
+      - action: utter_reward_for_long_appearances
+      - action: action_log_and_request_feedback
+  - rule: Respond to no_reward_for_public_appearances
+    steps:
+      - intent: no_reward_for_public_appearances
+      - action: utter_no_reward_for_public_appearances
+      - action: action_log_and_request_feedback
+  - rule: Respond to policy_exceptions
+    steps:
+      - intent: policy_exceptions
+      - action: utter_policy_exceptions
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_verified_resellers
+    steps:
+      - intent: inquire_verified_resellers
+      - action: utter_inquire_verified_resellers
+      - action: action_log_and_request_feedback
+  - rule: Respond to reseller_offers
+    steps:
+      - intent: reseller_offers
+      - action: utter_reseller_offers
+      - action: action_log_and_request_feedback
+  - rule: Respond to reseller_transactions
+    steps:
+      - intent: reseller_transactions
+      - action: utter_reseller_transactions
+      - action: action_log_and_request_feedback
+  - rule: Respond to become_verified_reseller
+    steps:
+      - intent: become_verified_reseller
+      - action: utter_become_verified_reseller
+      - action: action_log_and_request_feedback
+  - rule: Respond to contact_information
+    steps:
+      - intent: contact_information
+      - action: utter_contact_information
+      - action: action_log_and_request_feedback
+  - rule: Respond to other_resources
+    steps:
+      - intent: other_resources
+      - action: utter_other_resources
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_earned_gold_definition
+    steps:
+      - intent: inquire_earned_gold_definition
+      - action: utter_inquire_earned_gold_definition
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_earned_gold_usage
+    steps:
+      - intent: inquire_earned_gold_usage
+      - action: utter_inquire_earned_gold_usage
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_earned_gold_cashout
+    steps:
+      - intent: inquire_earned_gold_cashout
+      - action: utter_inquire_earned_gold_cashout
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_view_earned_gold_balance
+    steps:
+      - intent: inquire_view_earned_gold_balance
+      - action: utter_inquire_view_earned_gold_balance
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_cashout_requirements
+    steps:
+      - intent: inquire_cashout_requirements
+      - action: utter_inquire_cashout_requirements
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_cashout_processing_time
+    steps:
+      - intent: inquire_cashout_processing_time
+      - action: utter_inquire_cashout_processing_time
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_earned_gold_support_issues
+    steps:
+      - intent: inquire_earned_gold_support_issues
+      - action: utter_inquire_earned_gold_support_issues
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_to_take_screenshot
+    steps:
+      - intent: ask_how_to_take_screenshot
+      - action: utter_ask_how_to_take_screenshot
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_sharing_screenshots
+    steps:
+      - intent: ask_about_sharing_screenshots
+      - action: utter_ask_about_sharing_screenshots
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_first_post_help
+    steps:
+      - intent: create_first_post_help
+      - action: utter_create_first_post_help
+      - action: action_log_and_request_feedback
+  - rule: Respond to share_adventures
+    steps:
+      - intent: share_adventures
+      - action: utter_share_adventures
+      - action: action_log_and_request_feedback
+  - rule: Respond to post_options
+    steps:
+      - intent: post_options
+      - action: utter_post_options
+      - action: action_log_and_request_feedback
+  - rule: Respond to permission_issues_help
+    steps:
+      - intent: permission_issues_help
+      - action: utter_permission_issues_help
+      - action: action_log_and_request_feedback
+  - rule: Respond to device_permission_steps
+    steps:
+      - intent: device_permission_steps
+      - action: utter_device_permission_steps
+      - action: action_log_and_request_feedback
+  - rule: Respond to share_post_action
+    steps:
+      - intent: share_post_action
+      - action: utter_share_post_action
+      - action: action_log_and_request_feedback
+  - rule: Respond to enthusiasm_for_posting
+    steps:
+      - intent: enthusiasm_for_posting
+      - action: utter_enthusiasm_for_posting
+      - action: action_log_and_request_feedback
+  - rule: Respond to post_removal_inquiry
+    steps:
+      - intent: post_removal_inquiry
+      - action: utter_post_removal_inquiry
+      - action: action_log_and_request_feedback
+  - rule: Respond to community_guidelines_violation
+    steps:
+      - intent: community_guidelines_violation
+      - action: utter_community_guidelines_violation
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_guideline_violation
+    steps:
+      - intent: report_guideline_violation
+      - action: utter_report_guideline_violation
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_profile_public
+    steps:
+      - intent: ask_profile_public
+      - action: utter_ask_profile_public
+      - action: action_log_and_request_feedback
+  - rule: Respond to change_privacy_settings
+    steps:
+      - intent: change_privacy_settings
+      - action: utter_change_privacy_settings
+      - action: action_log_and_request_feedback
+  - rule: Respond to followers_interaction
+    steps:
+      - intent: followers_interaction
+      - action: utter_followers_interaction
+      - action: action_log_and_request_feedback
+  - rule: Respond to delete_post
+    steps:
+      - intent: delete_post
+      - action: utter_delete_post
+      - action: action_log_and_request_feedback
+  - rule: Respond to delete_comment
+    steps:
+      - intent: delete_comment
+      - action: utter_delete_comment
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_room_subscriptions
+    steps:
+      - intent: manage_room_subscriptions
+      - action: utter_manage_room_subscriptions
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_custom_room
+    steps:
+      - intent: create_custom_room
+      - action: utter_create_custom_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to subscription_payment
+    steps:
+      - intent: subscription_payment
+      - action: utter_subscription_payment
+      - action: action_log_and_request_feedback
+  - rule: Respond to cancel_subscription
+    steps:
+      - intent: cancel_subscription
+      - action: utter_cancel_subscription
+      - action: action_log_and_request_feedback
+  - rule: Respond to subscription_notifications
+    steps:
+      - intent: subscription_notifications
+      - action: utter_subscription_notifications
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_own_room
+    steps:
+      - intent: create_own_room
+      - action: utter_create_own_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_owned_room
+    steps:
+      - intent: manage_owned_room
+      - action: utter_manage_owned_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to explore_owned_rooms
+    steps:
+      - intent: explore_owned_rooms
+      - action: utter_explore_owned_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to owned_room_cost
+    steps:
+      - intent: owned_room_cost
+      - action: utter_owned_room_cost
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_room_intro
+    steps:
+      - intent: create_room_intro
+      - action: utter_create_room_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_creation_step_one
+    steps:
+      - intent: room_creation_step_one
+      - action: utter_room_creation_step_one
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_design_process
+    steps:
+      - intent: room_design_process
+      - action: utter_room_design_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to complete_room_creation
+    steps:
+      - intent: complete_room_creation
+      - action: utter_complete_room_creation
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_room_design
+    steps:
+      - intent: inquire_room_design
+      - action: utter_inquire_room_design
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_furniture_acquisition
+    steps:
+      - intent: inquire_furniture_acquisition
+      - action: utter_inquire_furniture_acquisition
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_furniture_customization
+    steps:
+      - intent: inquire_furniture_customization
+      - action: utter_inquire_furniture_customization
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_special_item_features
+    steps:
+      - intent: inquire_special_item_features
+      - action: utter_inquire_special_item_features
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_design_save_and_exit
+    steps:
+      - intent: inquire_design_save_and_exit
+      - action: utter_inquire_design_save_and_exit
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_change_intro
+    steps:
+      - intent: room_change_intro
+      - action: utter_room_change_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_rooms
+    steps:
+      - intent: navigate_to_rooms
+      - action: utter_navigate_to_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_a_room
+    steps:
+      - intent: create_a_room
+      - action: utter_create_a_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to delete_a_room
+    steps:
+      - intent: delete_a_room
+      - action: utter_delete_a_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_room_privacy_settings
+    steps:
+      - intent: ask_room_privacy_settings
+      - action: utter_ask_room_privacy_settings
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_locking_gates
+    steps:
+      - intent: inquire_locking_gates
+      - action: utter_inquire_locking_gates
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_settings_instruction
+    steps:
+      - intent: room_settings_instruction
+      - action: utter_room_settings_instruction
+      - action: action_log_and_request_feedback
+  - rule: Respond to adjust_guest_list
+    steps:
+      - intent: adjust_guest_list
+      - action: utter_adjust_guest_list
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_moderate_room
+    steps:
+      - intent: inquire_moderate_room
+      - action: utter_inquire_moderate_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_delegate_moderation_privileges
+    steps:
+      - intent: inquire_delegate_moderation_privileges
+      - action: utter_inquire_delegate_moderation_privileges
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_moderation_actions
+    steps:
+      - intent: inquire_moderation_actions
+      - action: utter_inquire_moderation_actions
+      - action: action_log_and_request_feedback
+  - rule: Respond to teamwork_collaboration_introduction
+    steps:
+      - intent: teamwork_collaboration_introduction
+      - action: utter_teamwork_collaboration_introduction
+      - action: action_log_and_request_feedback
+  - rule: Respond to setup_wobbly_bookcases
+    steps:
+      - intent: setup_wobbly_bookcases
+      - action: utter_setup_wobbly_bookcases
+      - action: action_log_and_request_feedback
+  - rule: Respond to give_design_rights
+    steps:
+      - intent: give_design_rights
+      - action: utter_give_design_rights
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_user_to_room
+    steps:
+      - intent: add_user_to_room
+      - action: utter_add_user_to_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to furniture_management
+    steps:
+      - intent: furniture_management
+      - action: utter_furniture_management
+      - action: action_log_and_request_feedback
+  - rule: Respond to start_adding_music
+    steps:
+      - intent: start_adding_music
+      - action: utter_start_adding_music
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_room_settings
+    steps:
+      - intent: navigate_room_settings
+      - action: utter_navigate_room_settings
+      - action: action_log_and_request_feedback
+  - rule: Respond to edit_room_information
+    steps:
+      - intent: edit_room_information
+      - action: utter_edit_room_information
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_radio_station
+    steps:
+      - intent: add_radio_station
+      - action: utter_add_radio_station
+      - action: action_log_and_request_feedback
+  - rule: Respond to change_or_clear_music
+    steps:
+      - intent: change_or_clear_music
+      - action: utter_change_or_clear_music
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_deletion_intro
+    steps:
+      - intent: room_deletion_intro
+      - action: utter_room_deletion_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_deletion_steps
+    steps:
+      - intent: room_deletion_steps
+      - action: utter_room_deletion_steps
+      - action: action_log_and_request_feedback
+  - rule: Respond to room_deletion_warning
+    steps:
+      - intent: room_deletion_warning
+      - action: utter_room_deletion_warning
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_crew_rooms
+    steps:
+      - intent: ask_about_crew_rooms
+      - action: utter_ask_about_crew_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to building_community_with_crew_rooms
+    steps:
+      - intent: building_community_with_crew_rooms
+      - action: utter_building_community_with_crew_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_crew_room
+    steps:
+      - intent: create_crew_room
+      - action: utter_create_crew_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_crew_room
+    steps:
+      - intent: manage_crew_room
+      - action: utter_manage_crew_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to design_and_customize_crew_room
+    steps:
+      - intent: design_and_customize_crew_room
+      - action: utter_design_and_customize_crew_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_room_boost_introduction
+    steps:
+      - intent: inquire_room_boost_introduction
+      - action: utter_inquire_room_boost_introduction
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_room_boost_duration
+    steps:
+      - intent: inquire_room_boost_duration
+      - action: utter_inquire_room_boost_duration
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_room_reboost_feature
+    steps:
+      - intent: inquire_room_reboost_feature
+      - action: utter_inquire_room_reboost_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_room_boost_benefits
+    steps:
+      - intent: inquire_room_boost_benefits
+      - action: utter_inquire_room_boost_benefits
+      - action: action_log_and_request_feedback
+  - rule: Respond to enquire_directory_categories
+    steps:
+      - intent: enquire_directory_categories
+      - action: utter_enquire_directory_categories
+      - action: action_log_and_request_feedback
+  - rule: Respond to enquire_category_effect_on_gameplay
+    steps:
+      - intent: enquire_category_effect_on_gameplay
+      - action: utter_enquire_category_effect_on_gameplay
+      - action: action_log_and_request_feedback
+  - rule: Respond to enquire_room_subcategory_info
+    steps:
+      - intent: enquire_room_subcategory_info
+      - action: utter_enquire_room_subcategory_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to enquire_category_change_limit
+    steps:
+      - intent: enquire_category_change_limit
+      - action: utter_enquire_category_change_limit
+      - action: action_log_and_request_feedback
+  - rule: Respond to enquire_access_directory_categories
+    steps:
+      - intent: enquire_access_directory_categories
+      - action: utter_enquire_access_directory_categories
+      - action: action_log_and_request_feedback
+  - rule: Respond to problem_finding_room_in_directory
+    steps:
+      - intent: problem_finding_room_in_directory
+      - action: utter_problem_finding_room_in_directory
+      - action: action_log_and_request_feedback
+  - rule: Respond to start_voice_chat
+    steps:
+      - intent: start_voice_chat
+      - action: utter_start_voice_chat
+      - action: action_log_and_request_feedback
+  - rule: Respond to microphone_access
+    steps:
+      - intent: microphone_access
+      - action: utter_microphone_access
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_voice_chat
+    steps:
+      - intent: manage_voice_chat
+      - action: utter_manage_voice_chat
+      - action: action_log_and_request_feedback
+  - rule: Respond to voice_chat_costs
+    steps:
+      - intent: voice_chat_costs
+      - action: utter_voice_chat_costs
+      - action: action_log_and_request_feedback
+  - rule: Respond to age_restriction_voice_chat
+    steps:
+      - intent: age_restriction_voice_chat
+      - action: utter_age_restriction_voice_chat
+      - action: action_log_and_request_feedback
+  - rule: Respond to welcome_to_spectating
+    steps:
+      - intent: welcome_to_spectating
+      - action: utter_welcome_to_spectating
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_enable_spectating
+    steps:
+      - intent: how_to_enable_spectating
+      - action: utter_how_to_enable_spectating
+      - action: action_log_and_request_feedback
+  - rule: Respond to benefits_of_spectating
+    steps:
+      - intent: benefits_of_spectating
+      - action: utter_benefits_of_spectating
+      - action: action_log_and_request_feedback
+  - rule: Respond to limitations_of_spectating
+    steps:
+      - intent: limitations_of_spectating
+      - action: utter_limitations_of_spectating
+      - action: action_log_and_request_feedback
+  - rule: Respond to managing_spectators
+    steps:
+      - intent: managing_spectators
+      - action: utter_managing_spectators
+      - action: action_log_and_request_feedback
+  - rule: Respond to spectating_rules
+    steps:
+      - intent: spectating_rules
+      - action: utter_spectating_rules
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_what_is_skypass
+    steps:
+      - intent: ask_what_is_skypass
+      - action: utter_ask_what_is_skypass
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_to_access_skypass
+    steps:
+      - intent: ask_how_to_access_skypass
+      - action: utter_ask_how_to_access_skypass
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_stars_and_tiers
+    steps:
+      - intent: ask_about_stars_and_tiers
+      - action: utter_ask_about_stars_and_tiers
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_rewards
+    steps:
+      - intent: ask_about_rewards
+      - action: utter_ask_about_rewards
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_skypass_plus
+    steps:
+      - intent: ask_about_skypass_plus
+      - action: utter_ask_about_skypass_plus
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_season_end
+    steps:
+      - intent: ask_about_season_end
+      - action: utter_ask_about_season_end
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_troubleshooting_skypass
+    steps:
+      - intent: ask_troubleshooting_skypass
+      - action: utter_ask_troubleshooting_skypass
+      - action: action_log_and_request_feedback
+  - rule: Respond to provide_feedback
+    steps:
+      - intent: provide_feedback
+      - action: utter_provide_feedback
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_free_gift_boxes
+    steps:
+      - intent: ask_about_free_gift_boxes
+      - action: utter_ask_about_free_gift_boxes
+      - action: action_log_and_request_feedback
+  - rule: Respond to find_gift_boxes
+    steps:
+      - intent: find_gift_boxes
+      - action: utter_find_gift_boxes
+      - action: action_log_and_request_feedback
+  - rule: Respond to open_gift_boxes
+    steps:
+      - intent: open_gift_boxes
+      - action: utter_open_gift_boxes
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_crew_gifts
+    steps:
+      - intent: ask_about_crew_gifts
+      - action: utter_ask_about_crew_gifts
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_gifts_benefits
+    steps:
+      - intent: crew_gifts_benefits
+      - action: utter_crew_gifts_benefits
+      - action: action_log_and_request_feedback
+  - rule: Respond to receiving_crew_gifts
+    steps:
+      - intent: receiving_crew_gifts
+      - action: utter_receiving_crew_gifts
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_lucky_wheel
+    steps:
+      - intent: ask_about_lucky_wheel
+      - action: utter_ask_about_lucky_wheel
+      - action: action_log_and_request_feedback
+  - rule: Respond to lucky_wheel_spinning_frequency
+    steps:
+      - intent: lucky_wheel_spinning_frequency
+      - action: utter_lucky_wheel_spinning_frequency
+      - action: action_log_and_request_feedback
+  - rule: Respond to lucky_wheel_multiple_accounts
+    steps:
+      - intent: lucky_wheel_multiple_accounts
+      - action: utter_lucky_wheel_multiple_accounts
+      - action: action_log_and_request_feedback
+  - rule: Respond to lucky_wheel_timer_reset
+    steps:
+      - intent: lucky_wheel_timer_reset
+      - action: utter_lucky_wheel_timer_reset
+      - action: action_log_and_request_feedback
+  - rule: Respond to finding_lucky_wheel
+    steps:
+      - intent: finding_lucky_wheel
+      - action: utter_finding_lucky_wheel
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_to_redeem_promo_code
+    steps:
+      - intent: ask_how_to_redeem_promo_code
+      - action: utter_ask_how_to_redeem_promo_code
+      - action: action_log_and_request_feedback
+  - rule: Respond to log_into_website
+    steps:
+      - intent: log_into_website
+      - action: utter_log_into_website
+      - action: action_log_and_request_feedback
+  - rule: Respond to choose_redeem_option
+    steps:
+      - intent: choose_redeem_option
+      - action: utter_choose_redeem_option
+      - action: action_log_and_request_feedback
+  - rule: Respond to enter_promo_code
+    steps:
+      - intent: enter_promo_code
+      - action: utter_enter_promo_code
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_redeemed_items
+    steps:
+      - intent: check_redeemed_items
+      - action: utter_check_redeemed_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_grabs
+    steps:
+      - intent: ask_about_grabs
+      - action: utter_ask_about_grabs
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_to_find_grabs
+    steps:
+      - intent: ask_how_to_find_grabs
+      - action: utter_ask_how_to_find_grabs
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_event_room
+    steps:
+      - intent: ask_about_event_room
+      - action: utter_ask_about_event_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_rarities
+    steps:
+      - intent: ask_about_rarities
+      - action: utter_ask_about_rarities
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_legendary_items
+    steps:
+      - intent: ask_about_legendary_items
+      - action: utter_ask_about_legendary_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_item_rarity_value
+    steps:
+      - intent: ask_item_rarity_value
+      - action: utter_ask_item_rarity_value
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_item_rarity_categories
+    steps:
+      - intent: inquire_item_rarity_categories
+      - action: utter_inquire_item_rarity_categories
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_spin_chances
+    steps:
+      - intent: ask_spin_chances
+      - action: utter_ask_spin_chances
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_grab_types
+    steps:
+      - intent: inquire_grab_types
+      - action: utter_inquire_grab_types
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_item_availability_and_trade
+    steps:
+      - intent: ask_item_availability_and_trade
+      - action: utter_ask_item_availability_and_trade
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_shopping_experience
+    steps:
+      - intent: inquire_shopping_experience
+      - action: utter_inquire_shopping_experience
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_store
+    steps:
+      - intent: navigate_to_store
+      - action: utter_navigate_to_store
+      - action: action_log_and_request_feedback
+  - rule: Respond to explore_shop_sections
+    steps:
+      - intent: explore_shop_sections
+      - action: utter_explore_shop_sections
+      - action: action_log_and_request_feedback
+  - rule: Respond to understand_trade_options
+    steps:
+      - intent: understand_trade_options
+      - action: utter_understand_trade_options
+      - action: action_log_and_request_feedback
+  - rule: Respond to enter_design_mode
+    steps:
+      - intent: enter_design_mode
+      - action: utter_enter_design_mode
+      - action: action_log_and_request_feedback
+  - rule: Respond to shop_for_furniture
+    steps:
+      - intent: shop_for_furniture
+      - action: utter_shop_for_furniture
+      - action: action_log_and_request_feedback
+  - rule: Respond to browse_storefront
+    steps:
+      - intent: browse_storefront
+      - action: utter_browse_storefront
+      - action: action_log_and_request_feedback
+  - rule: Respond to pay_for_items
+    steps:
+      - intent: pay_for_items
+      - action: utter_pay_for_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to find_grab_item
+    steps:
+      - intent: find_grab_item
+      - action: utter_find_grab_item
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_grab_expiry
+    steps:
+      - intent: ask_about_grab_expiry
+      - action: utter_ask_about_grab_expiry
+      - action: action_log_and_request_feedback
+  - rule: Respond to grab_expiry_difference
+    steps:
+      - intent: grab_expiry_difference
+      - action: utter_grab_expiry_difference
+      - action: action_log_and_request_feedback
+  - rule: Respond to missed_grab_options
+    steps:
+      - intent: missed_grab_options
+      - action: utter_missed_grab_options
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_grab_info
+    steps:
+      - intent: check_grab_info
+      - action: utter_check_grab_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to spin_rates_variability
+    steps:
+      - intent: spin_rates_variability
+      - action: utter_spin_rates_variability
+      - action: action_log_and_request_feedback
+  - rule: Respond to grab_rigging_misconception
+    steps:
+      - intent: grab_rigging_misconception
+      - action: utter_grab_rigging_misconception
+      - action: action_log_and_request_feedback
+  - rule: Respond to grab_probability_explanation
+    steps:
+      - intent: grab_probability_explanation
+      - action: utter_grab_probability_explanation
+      - action: action_log_and_request_feedback
+  - rule: Respond to introduce_second_hand_grabs
+    steps:
+      - intent: introduce_second_hand_grabs
+      - action: utter_introduce_second_hand_grabs
+      - action: action_log_and_request_feedback
+  - rule: Respond to setup_second_hand_grabs
+    steps:
+      - intent: setup_second_hand_grabs
+      - action: utter_setup_second_hand_grabs
+      - action: action_log_and_request_feedback
+  - rule: Respond to manage_second_hand_grabs
+    steps:
+      - intent: manage_second_hand_grabs
+      - action: utter_manage_second_hand_grabs
+      - action: action_log_and_request_feedback
+  - rule: Respond to visitor_interactions
+    steps:
+      - intent: visitor_interactions
+      - action: utter_visitor_interactions
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_progress_rewards
+    steps:
+      - intent: explain_progress_rewards
+      - action: utter_explain_progress_rewards
+      - action: action_log_and_request_feedback
+  - rule: Respond to progress_rewards_earning
+    steps:
+      - intent: progress_rewards_earning
+      - action: utter_progress_rewards_earning
+      - action: action_log_and_request_feedback
+  - rule: Respond to progress_reward_meters
+    steps:
+      - intent: progress_reward_meters
+      - action: utter_progress_reward_meters
+      - action: action_log_and_request_feedback
+  - rule: Respond to claiming_progress_rewards
+    steps:
+      - intent: claiming_progress_rewards
+      - action: utter_claiming_progress_rewards
+      - action: action_log_and_request_feedback
+  - rule: Respond to progress_rewards_variability
+    steps:
+      - intent: progress_rewards_variability
+      - action: utter_progress_rewards_variability
+      - action: action_log_and_request_feedback
+  - rule: Respond to post_legendary_rewards_reset
+    steps:
+      - intent: post_legendary_rewards_reset
+      - action: utter_post_legendary_rewards_reset
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_grab_tokens
+    steps:
+      - intent: inquire_grab_tokens
+      - action: utter_inquire_grab_tokens
+      - action: action_log_and_request_feedback
+  - rule: Respond to usage_of_grab_tokens
+    steps:
+      - intent: usage_of_grab_tokens
+      - action: utter_usage_of_grab_tokens
+      - action: action_log_and_request_feedback
+  - rule: Respond to run_out_of_tokens
+    steps:
+      - intent: run_out_of_tokens
+      - action: utter_run_out_of_tokens
+      - action: action_log_and_request_feedback
+  - rule: Respond to special_grab_rules
+    steps:
+      - intent: special_grab_rules
+      - action: utter_special_grab_rules
+      - action: action_log_and_request_feedback
+  - rule: Respond to greet_highrise_community
+    steps:
+      - intent: greet_highrise_community
+      - action: utter_greet_highrise_community
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_violation_intro
+    steps:
+      - intent: report_violation_intro
+      - action: utter_report_violation_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to using_in_app_reporting
+    steps:
+      - intent: using_in_app_reporting
+      - action: utter_using_in_app_reporting
+      - action: action_log_and_request_feedback
+  - rule: Respond to step_by_step_reporting
+    steps:
+      - intent: step_by_step_reporting
+      - action: utter_step_by_step_reporting
+      - action: action_log_and_request_feedback
+  - rule: Respond to importance_of_detailed_reports
+    steps:
+      - intent: importance_of_detailed_reports
+      - action: utter_importance_of_detailed_reports
+      - action: action_log_and_request_feedback
+  - rule: Respond to request_appeal_process
+    steps:
+      - intent: request_appeal_process
+      - action: utter_request_appeal_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to appeal_wait_time
+    steps:
+      - intent: appeal_wait_time
+      - action: utter_appeal_wait_time
+      - action: action_log_and_request_feedback
+  - rule: Respond to appeal_eligibility
+    steps:
+      - intent: appeal_eligibility
+      - action: utter_appeal_eligibility
+      - action: action_log_and_request_feedback
+  - rule: Respond to appeal_guidelines
+    steps:
+      - intent: appeal_guidelines
+      - action: utter_appeal_guidelines
+      - action: action_log_and_request_feedback
+  - rule: Respond to appeal_final_decision
+    steps:
+      - intent: appeal_final_decision
+      - action: utter_appeal_final_decision
+      - action: action_log_and_request_feedback
+  - rule: Respond to ban_unruly_players
+    steps:
+      - intent: ban_unruly_players
+      - action: utter_ban_unruly_players
+      - action: action_log_and_request_feedback
+  - rule: Respond to ban_with_moderation_rights
+    steps:
+      - intent: ban_with_moderation_rights
+      - action: utter_ban_with_moderation_rights
+      - action: action_log_and_request_feedback
+  - rule: Respond to permanence_of_ban
+    steps:
+      - intent: permanence_of_ban
+      - action: utter_permanence_of_ban
+      - action: action_log_and_request_feedback
+  - rule: Respond to block_someone_general
+    steps:
+      - intent: block_someone_general
+      - action: utter_block_someone_general
+      - action: action_log_and_request_feedback
+  - rule: Respond to block_someone_instructions
+    steps:
+      - intent: block_someone_instructions
+      - action: utter_block_someone_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to unblock_someone_instructions
+    steps:
+      - intent: unblock_someone_instructions
+      - action: utter_unblock_someone_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to block_advantage
+    steps:
+      - intent: block_advantage
+      - action: utter_block_advantage
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_crew_gifts_work
+    steps:
+      - intent: ask_how_crew_gifts_work
+      - action: utter_ask_how_crew_gifts_work
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_when_crew_gifts_are_received
+    steps:
+      - intent: ask_when_crew_gifts_are_received
+      - action: utter_ask_when_crew_gifts_are_received
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_about_crew_purchases
+    steps:
+      - intent: inquire_about_crew_purchases
+      - action: utter_inquire_about_crew_purchases
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_multiple_crews
+    steps:
+      - intent: ask_multiple_crews
+      - action: utter_ask_multiple_crews
+      - action: action_log_and_request_feedback
+  - rule: Respond to express_concern_betrayal
+    steps:
+      - intent: express_concern_betrayal
+      - action: utter_express_concern_betrayal
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_admin_rights
+    steps:
+      - intent: inquire_admin_rights
+      - action: utter_inquire_admin_rights
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_admin_instructions
+    steps:
+      - intent: add_admin_instructions
+      - action: utter_add_admin_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_member_list_usage
+    steps:
+      - intent: crew_member_list_usage
+      - action: utter_crew_member_list_usage
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_kicking_member
+    steps:
+      - intent: ask_about_kicking_member
+      - action: utter_ask_about_kicking_member
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_kicking_during_event
+    steps:
+      - intent: ask_about_kicking_during_event
+      - action: utter_ask_about_kicking_during_event
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_adding_member_back
+    steps:
+      - intent: ask_about_adding_member_back
+      - action: utter_ask_about_adding_member_back
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_reporting_member
+    steps:
+      - intent: ask_about_reporting_member
+      - action: utter_ask_about_reporting_member
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_blocking_member
+    steps:
+      - intent: ask_about_blocking_member
+      - action: utter_ask_about_blocking_member
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_how_to_leave_crew
+    steps:
+      - intent: inquire_how_to_leave_crew
+      - action: utter_inquire_how_to_leave_crew
+      - action: action_log_and_request_feedback
+  - rule: Respond to confirm_leave_crew_action
+    steps:
+      - intent: confirm_leave_crew_action
+      - action: utter_confirm_leave_crew_action
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_crew_instructions
+    steps:
+      - intent: create_crew_instructions
+      - action: utter_create_crew_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_creation_cost
+    steps:
+      - intent: crew_creation_cost
+      - action: utter_crew_creation_cost
+      - action: action_log_and_request_feedback
+  - rule: Respond to invite_friends_to_crew
+    steps:
+      - intent: invite_friends_to_crew
+      - action: utter_invite_friends_to_crew
+      - action: action_log_and_request_feedback
+  - rule: Respond to request_join_crew
+    steps:
+      - intent: request_join_crew
+      - action: utter_request_join_crew
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_request_invite
+    steps:
+      - intent: crew_request_invite
+      - action: utter_crew_request_invite
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_after_approval
+    steps:
+      - intent: crew_after_approval
+      - action: utter_crew_after_approval
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_membership_rule
+    steps:
+      - intent: crew_membership_rule
+      - action: utter_crew_membership_rule
+      - action: action_log_and_request_feedback
+  - rule: Respond to define_crew
+    steps:
+      - intent: define_crew
+      - action: utter_define_crew
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_benefits
+    steps:
+      - intent: crew_benefits
+      - action: utter_crew_benefits
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_activity_features
+    steps:
+      - intent: crew_activity_features
+      - action: utter_crew_activity_features
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_gifts
+    steps:
+      - intent: crew_gifts
+      - action: utter_crew_gifts
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_crew_gifts
+    steps:
+      - intent: check_crew_gifts
+      - action: utter_check_crew_gifts
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_how_to_trade
+    steps:
+      - intent: inquire_how_to_trade
+      - action: utter_inquire_how_to_trade
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_items_to_trade
+    steps:
+      - intent: add_items_to_trade
+      - action: utter_add_items_to_trade
+      - action: action_log_and_request_feedback
+  - rule: Respond to confirm_trade
+    steps:
+      - intent: confirm_trade
+      - action: utter_confirm_trade
+      - action: action_log_and_request_feedback
+  - rule: Respond to ensure_trade_safety
+    steps:
+      - intent: ensure_trade_safety
+      - action: utter_ensure_trade_safety
+      - action: action_log_and_request_feedback
+  - rule: Respond to collect_traded_items
+    steps:
+      - intent: collect_traded_items
+      - action: utter_collect_traded_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_about_scammers
+    steps:
+      - intent: warn_about_scammers
+      - action: utter_warn_about_scammers
+      - action: action_log_and_request_feedback
+  - rule: Respond to advice_on_borrowing_items
+    steps:
+      - intent: advice_on_borrowing_items
+      - action: utter_advice_on_borrowing_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to caution_against_free_offers
+    steps:
+      - intent: caution_against_free_offers
+      - action: utter_caution_against_free_offers
+      - action: action_log_and_request_feedback
+  - rule: Respond to rules_on_currency
+    steps:
+      - intent: rules_on_currency
+      - action: utter_rules_on_currency
+      - action: action_log_and_request_feedback
+  - rule: Respond to reporting_scam_activity
+    steps:
+      - intent: reporting_scam_activity
+      - action: utter_reporting_scam_activity
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_items_disappeared_after_trade_canceled
+    steps:
+      - intent: ask_items_disappeared_after_trade_canceled
+      - action: utter_ask_items_disappeared_after_trade_canceled
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_restore_items_after_trade_cancel
+    steps:
+      - intent: how_to_restore_items_after_trade_cancel
+      - action: utter_how_to_restore_items_after_trade_cancel
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_market
+    steps:
+      - intent: navigate_to_market
+      - action: utter_navigate_to_market
+      - action: action_log_and_request_feedback
+  - rule: Respond to list_items_in_market
+    steps:
+      - intent: list_items_in_market
+      - action: utter_list_items_in_market
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_my_listings
+    steps:
+      - intent: check_my_listings
+      - action: utter_check_my_listings
+      - action: action_log_and_request_feedback
+  - rule: Respond to sell_items_on_market
+    steps:
+      - intent: sell_items_on_market
+      - action: utter_sell_items_on_market
+      - action: action_log_and_request_feedback
+  - rule: Respond to market_fees_explanation
+    steps:
+      - intent: market_fees_explanation
+      - action: utter_market_fees_explanation
+      - action: action_log_and_request_feedback
+  - rule: Respond to market_expiration_policy
+    steps:
+      - intent: market_expiration_policy
+      - action: utter_market_expiration_policy
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_buggy_item
+    steps:
+      - intent: report_buggy_item
+      - action: utter_report_buggy_item
+      - action: action_log_and_request_feedback
+  - rule: Respond to contact_concierge
+    steps:
+      - intent: contact_concierge
+      - action: utter_contact_concierge
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_subjective_feedback
+    steps:
+      - intent: report_subjective_feedback
+      - action: utter_report_subjective_feedback
+      - action: action_log_and_request_feedback
+  - rule: Respond to understand_bug_evaluation
+    steps:
+      - intent: understand_bug_evaluation
+      - action: utter_understand_bug_evaluation
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_unfixable_bug
+    steps:
+      - intent: report_unfixable_bug
+      - action: utter_report_unfixable_bug
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_spin_crash_outcome
+    steps:
+      - intent: ask_about_spin_crash_outcome
+      - action: utter_ask_about_spin_crash_outcome
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_for_item_received_after_spin_crash
+    steps:
+      - intent: ask_for_item_received_after_spin_crash
+      - action: utter_ask_for_item_received_after_spin_crash
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_item_missing_info
+    steps:
+      - intent: inquire_item_missing_info
+      - action: utter_inquire_item_missing_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to action_restart_app
+    steps:
+      - intent: action_restart_app
+      - action: utter_action_restart_app
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_support_ticket_info
+    steps:
+      - intent: inquire_support_ticket_info
+      - action: utter_inquire_support_ticket_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_account_frozen_appeal_steps
+    steps:
+      - intent: ask_account_frozen_appeal_steps
+      - action: utter_ask_account_frozen_appeal_steps
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_age_verification_process
+    steps:
+      - intent: inquire_age_verification_process
+      - action: utter_inquire_age_verification_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_verification_outcome
+    steps:
+      - intent: ask_verification_outcome
+      - action: utter_ask_verification_outcome
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_delete_account
+    steps:
+      - intent: ask_delete_account
+      - action: utter_ask_delete_account
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_delete_account_steps
+    steps:
+      - intent: verify_delete_account_steps
+      - action: utter_verify_delete_account_steps
+      - action: action_log_and_request_feedback
+  - rule: Respond to cancel_account_deletion
+    steps:
+      - intent: cancel_account_deletion
+      - action: utter_cancel_account_deletion
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_irreversible_deletion
+    steps:
+      - intent: warn_irreversible_deletion
+      - action: utter_warn_irreversible_deletion
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_safety_lock
+    steps:
+      - intent: ask_about_safety_lock
+      - action: utter_ask_about_safety_lock
+      - action: action_log_and_request_feedback
+  - rule: Respond to enable_safety_lock
+    steps:
+      - intent: enable_safety_lock
+      - action: utter_enable_safety_lock
+      - action: action_log_and_request_feedback
+  - rule: Respond to safety_lock_requirements
+    steps:
+      - intent: safety_lock_requirements
+      - action: utter_safety_lock_requirements
+      - action: action_log_and_request_feedback
+  - rule: Respond to reset_safety_lock_pin
+    steps:
+      - intent: reset_safety_lock_pin
+      - action: utter_reset_safety_lock_pin
+      - action: action_log_and_request_feedback
+  - rule: Respond to security_of_safety_lock
+    steps:
+      - intent: security_of_safety_lock
+      - action: utter_security_of_safety_lock
+      - action: action_log_and_request_feedback
+  - rule: Respond to consequences_without_safety_lock
+    steps:
+      - intent: consequences_without_safety_lock
+      - action: utter_consequences_without_safety_lock
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_safety_tools
+    steps:
+      - intent: ask_about_safety_tools
+      - action: utter_ask_about_safety_tools
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_age_restriction
+    steps:
+      - intent: inquire_age_restriction
+      - action: utter_inquire_age_restriction
+      - action: action_log_and_request_feedback
+  - rule: Respond to caution_sharing_personal_info
+    steps:
+      - intent: caution_sharing_personal_info
+      - action: utter_caution_sharing_personal_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to risk_of_sharing_account_details
+    steps:
+      - intent: risk_of_sharing_account_details
+      - action: utter_risk_of_sharing_account_details
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_and_block_guide
+    steps:
+      - intent: report_and_block_guide
+      - action: utter_report_and_block_guide
+      - action: action_log_and_request_feedback
+  - rule: Respond to account_security_tips
+    steps:
+      - intent: account_security_tips
+      - action: utter_account_security_tips
+      - action: action_log_and_request_feedback
+  - rule: Respond to guidelines_and_moderation
+    steps:
+      - intent: guidelines_and_moderation
+      - action: utter_guidelines_and_moderation
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_account_sales
+    steps:
+      - intent: ask_about_account_sales
+      - action: utter_ask_about_account_sales
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_account_purchases
+    steps:
+      - intent: ask_about_account_purchases
+      - action: utter_ask_about_account_purchases
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_giving_away_account
+    steps:
+      - intent: ask_about_giving_away_account
+      - action: utter_ask_about_giving_away_account
+      - action: action_log_and_request_feedback
+  - rule: Respond to change_username_instructions
+    steps:
+      - intent: change_username_instructions
+      - action: utter_change_username_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to change_username_effects
+    steps:
+      - intent: change_username_effects
+      - action: utter_change_username_effects
+      - action: action_log_and_request_feedback
+  - rule: Respond to username_change_cost
+    steps:
+      - intent: username_change_cost
+      - action: utter_username_change_cost
+      - action: action_log_and_request_feedback
+  - rule: Respond to revert_username
+    steps:
+      - intent: revert_username
+      - action: utter_revert_username
+      - action: action_log_and_request_feedback
+  - rule: Respond to username_availability
+    steps:
+      - intent: username_availability
+      - action: utter_username_availability
+      - action: action_log_and_request_feedback
+  - rule: Respond to inactive_usernames
+    steps:
+      - intent: inactive_usernames
+      - action: utter_inactive_usernames
+      - action: action_log_and_request_feedback
+  - rule: Respond to account_security
+    steps:
+      - intent: account_security
+      - action: utter_account_security
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_settings
+    steps:
+      - intent: navigate_to_settings
+      - action: utter_navigate_to_settings
+      - action: action_log_and_request_feedback
+  - rule: Respond to account_management
+    steps:
+      - intent: account_management
+      - action: utter_account_management
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_email
+    steps:
+      - intent: add_email
+      - action: utter_add_email
+      - action: action_log_and_request_feedback
+  - rule: Respond to email_purpose
+    steps:
+      - intent: email_purpose
+      - action: utter_email_purpose
+      - action: action_log_and_request_feedback
+  - rule: Respond to email_privacy
+    steps:
+      - intent: email_privacy
+      - action: utter_email_privacy
+      - action: action_log_and_request_feedback
+  - rule: Respond to link_account_instructions
+    steps:
+      - intent: link_account_instructions
+      - action: utter_link_account_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to disconnect_account_instructions
+    steps:
+      - intent: disconnect_account_instructions
+      - action: utter_disconnect_account_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to social_visibility_details
+    steps:
+      - intent: social_visibility_details
+      - action: utter_social_visibility_details
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_about_scammers
+    steps:
+      - intent: warn_about_scammers
+      - action: utter_warn_about_scammers
+      - action: action_log_and_request_feedback
+  - rule: Respond to advise_on_borrowing
+    steps:
+      - intent: advise_on_borrowing
+      - action: utter_advise_on_borrowing
+      - action: action_log_and_request_feedback
+  - rule: Respond to avoid_phishing_scams
+    steps:
+      - intent: avoid_phishing_scams
+      - action: utter_avoid_phishing_scams
+      - action: action_log_and_request_feedback
+  - rule: Respond to password_protection_advice
+    steps:
+      - intent: password_protection_advice
+      - action: utter_password_protection_advice
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_about_real_money_trades
+    steps:
+      - intent: warn_about_real_money_trades
+      - action: utter_warn_about_real_money_trades
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_scam_activity
+    steps:
+      - intent: report_scam_activity
+      - action: utter_report_scam_activity
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_against_hacking
+    steps:
+      - intent: warn_against_hacking
+      - action: utter_warn_against_hacking
+      - action: action_log_and_request_feedback
+  - rule: Respond to password_reset_intro
+    steps:
+      - intent: password_reset_intro
+      - action: utter_password_reset_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to update_registered_email
+    steps:
+      - intent: update_registered_email
+      - action: utter_update_registered_email
+      - action: action_log_and_request_feedback
+  - rule: Respond to initiate_password_reset
+    steps:
+      - intent: initiate_password_reset
+      - action: utter_initiate_password_reset
+      - action: action_log_and_request_feedback
+  - rule: Respond to complete_password_reset
+    steps:
+      - intent: complete_password_reset
+      - action: utter_complete_password_reset
+      - action: action_log_and_request_feedback
+  - rule: Respond to email_link_issue
+    steps:
+      - intent: email_link_issue
+      - action: utter_email_link_issue
+      - action: action_log_and_request_feedback
+  - rule: Respond to contact_support_for_password
+    steps:
+      - intent: contact_support_for_password
+      - action: utter_contact_support_for_password
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_udc_feature
+    steps:
+      - intent: ask_about_udc_feature
+      - action: utter_ask_about_udc_feature
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_contest_types
+    steps:
+      - intent: inquire_contest_types
+      - action: utter_inquire_contest_types
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_submitting_entry
+    steps:
+      - intent: ask_submitting_entry
+      - action: utter_ask_submitting_entry
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_voting_process
+    steps:
+      - intent: inquire_voting_process
+      - action: utter_inquire_voting_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_name_on_submission
+    steps:
+      - intent: ask_name_on_submission
+      - action: utter_ask_name_on_submission
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_delete_entry
+    steps:
+      - intent: how_to_delete_entry
+      - action: utter_how_to_delete_entry
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_vote_retraction
+    steps:
+      - intent: ask_vote_retraction
+      - action: utter_ask_vote_retraction
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_submission_error
+    steps:
+      - intent: ask_submission_error
+      - action: utter_ask_submission_error
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_inspired_items
+    steps:
+      - intent: ask_about_inspired_items
+      - action: utter_ask_about_inspired_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to design_contest_winners
+    steps:
+      - intent: design_contest_winners
+      - action: utter_design_contest_winners
+      - action: action_log_and_request_feedback
+  - rule: Respond to other_player_inspired_items
+    steps:
+      - intent: other_player_inspired_items
+      - action: utter_other_player_inspired_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_for_missing_attribution
+    steps:
+      - intent: check_for_missing_attribution
+      - action: utter_check_for_missing_attribution
+      - action: action_log_and_request_feedback
+  - rule: Respond to understand_parallel_thinking
+    steps:
+      - intent: understand_parallel_thinking
+      - action: utter_understand_parallel_thinking
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_rot_d
+    steps:
+      - intent: ask_about_rot_d
+      - action: utter_ask_about_rot_d
+      - action: action_log_and_request_feedback
+  - rule: Respond to enter_rot_d
+    steps:
+      - intent: enter_rot_d
+      - action: utter_enter_rot_d
+      - action: action_log_and_request_feedback
+  - rule: Respond to rules_rot_d
+    steps:
+      - intent: rules_rot_d
+      - action: utter_rules_rot_d
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_rot_w
+    steps:
+      - intent: ask_about_rot_w
+      - action: utter_ask_about_rot_w
+      - action: action_log_and_request_feedback
+  - rule: Respond to enter_rot_w
+    steps:
+      - intent: enter_rot_w
+      - action: utter_enter_rot_w
+      - action: action_log_and_request_feedback
+  - rule: Respond to rules_rot_w
+    steps:
+      - intent: rules_rot_w
+      - action: utter_rules_rot_w
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_oot_d
+    steps:
+      - intent: ask_about_oot_d
+      - action: utter_ask_about_oot_d
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_avatar_layering_guide
+    steps:
+      - intent: ask_avatar_layering_guide
+      - action: utter_ask_avatar_layering_guide
+      - action: action_log_and_request_feedback
+  - rule: Respond to query_avatar_layering_updates
+    steps:
+      - intent: query_avatar_layering_updates
+      - action: utter_query_avatar_layering_updates
+      - action: action_log_and_request_feedback
+  - rule: Respond to seeking_avatar_layering_tips
+    steps:
+      - intent: seeking_avatar_layering_tips
+      - action: utter_seeking_avatar_layering_tips
+      - action: action_log_and_request_feedback
+  - rule: Respond to about_mini_design_contests
+    steps:
+      - intent: about_mini_design_contests
+      - action: utter_about_mini_design_contests
+      - action: action_log_and_request_feedback
+  - rule: Respond to entry_guidelines
+    steps:
+      - intent: entry_guidelines
+      - action: utter_entry_guidelines
+      - action: action_log_and_request_feedback
+  - rule: Respond to contest_judging_criteria
+    steps:
+      - intent: contest_judging_criteria
+      - action: utter_contest_judging_criteria
+      - action: action_log_and_request_feedback
+  - rule: Respond to post_winning_process
+    steps:
+      - intent: post_winning_process
+      - action: utter_post_winning_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to designing_tips
+    steps:
+      - intent: designing_tips
+      - action: utter_designing_tips
+      - action: action_log_and_request_feedback
+  - rule: Respond to contest_overview
+    steps:
+      - intent: contest_overview
+      - action: utter_contest_overview
+      - action: action_log_and_request_feedback
+  - rule: Respond to contest_rules
+    steps:
+      - intent: contest_rules
+      - action: utter_contest_rules
+      - action: action_log_and_request_feedback
+  - rule: Respond to contest_submission
+    steps:
+      - intent: contest_submission
+      - action: utter_contest_submission
+      - action: action_log_and_request_feedback
+  - rule: Respond to finalist_selection
+    steps:
+      - intent: finalist_selection
+      - action: utter_finalist_selection
+      - action: action_log_and_request_feedback
+  - rule: Respond to prize_distribution
+    steps:
+      - intent: prize_distribution
+      - action: utter_prize_distribution
+      - action: action_log_and_request_feedback
+  - rule: Respond to currency_types
+    steps:
+      - intent: currency_types
+      - action: utter_currency_types
+      - action: action_log_and_request_feedback
+  - rule: Respond to daily_gift_tokens
+    steps:
+      - intent: daily_gift_tokens
+      - action: utter_daily_gift_tokens
+      - action: action_log_and_request_feedback
+  - rule: Respond to how_to_access_heart_mart
+    steps:
+      - intent: how_to_access_heart_mart
+      - action: utter_how_to_access_heart_mart
+      - action: action_log_and_request_feedback
+  - rule: Respond to heart_mart_usage
+    steps:
+      - intent: heart_mart_usage
+      - action: utter_heart_mart_usage
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_highrise_brands
+    steps:
+      - intent: ask_about_highrise_brands
+      - action: utter_ask_about_highrise_brands
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_about_deerly
+    steps:
+      - intent: inquire_about_deerly
+      - action: utter_inquire_about_deerly
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_about_elixir
+    steps:
+      - intent: inquire_about_elixir
+      - action: utter_inquire_about_elixir
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_skyrise_mall
+    steps:
+      - intent: ask_about_skyrise_mall
+      - action: utter_ask_about_skyrise_mall
+      - action: action_log_and_request_feedback
+  - rule: Respond to accessing_skyrise_mall
+    steps:
+      - intent: accessing_skyrise_mall
+      - action: utter_accessing_skyrise_mall
+      - action: action_log_and_request_feedback
+  - rule: Respond to exploring_skyrise_mall
+    steps:
+      - intent: exploring_skyrise_mall
+      - action: utter_exploring_skyrise_mall
+      - action: action_log_and_request_feedback
+  - rule: Respond to items_in_skyrise_mall
+    steps:
+      - intent: items_in_skyrise_mall
+      - action: utter_items_in_skyrise_mall
+      - action: action_log_and_request_feedback
+  - rule: Respond to teleportation_in_skyrise_mall
+    steps:
+      - intent: teleportation_in_skyrise_mall
+      - action: utter_teleportation_in_skyrise_mall
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_check_verification_role
+    steps:
+      - intent: verify_account_error_check_verification_role
+      - action: utter_verify_account_error_check_verification_role
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_mismatched_username
+    steps:
+      - intent: verify_account_error_mismatched_username
+      - action: utter_verify_account_error_mismatched_username
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_relink
+    steps:
+      - intent: verify_account_error_relink
+      - action: utter_verify_account_error_relink
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_multiple_accounts
+    steps:
+      - intent: verify_account_error_multiple_accounts
+      - action: utter_verify_account_error_multiple_accounts
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_too_new
+    steps:
+      - intent: verify_account_error_too_new
+      - action: utter_verify_account_error_too_new
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_wrong_discord_account
+    steps:
+      - intent: verify_account_error_wrong_discord_account
+      - action: utter_verify_account_error_wrong_discord_account
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_suspended_banned
+    steps:
+      - intent: verify_account_error_suspended_banned
+      - action: utter_verify_account_error_suspended_banned
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_inactive_account
+    steps:
+      - intent: verify_account_error_inactive_account
+      - action: utter_verify_account_error_inactive_account
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_account_error_authorization_cancelled
+    steps:
+      - intent: verify_account_error_authorization_cancelled
+      - action: utter_verify_account_error_authorization_cancelled
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_how_to_verify_account
+    steps:
+      - intent: ask_how_to_verify_account
+      - action: utter_ask_how_to_verify_account
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_join_server
+    steps:
+      - intent: ask_join_server
+      - action: utter_ask_join_server
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_navigate_verification_channel
+    steps:
+      - intent: ask_navigate_verification_channel
+      - action: utter_ask_navigate_verification_channel
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_press_buttons_verify
+    steps:
+      - intent: ask_press_buttons_verify
+      - action: utter_ask_press_buttons_verify
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_login_with_accounts
+    steps:
+      - intent: ask_login_with_accounts
+      - action: utter_ask_login_with_accounts
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_join_discord
+    steps:
+      - intent: ask_join_discord
+      - action: utter_ask_join_discord
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_verification_process
+    steps:
+      - intent: ask_verification_process
+      - action: utter_ask_verification_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_account_eligibility
+    steps:
+      - intent: ask_account_eligibility
+      - action: utter_ask_account_eligibility
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_highrise_assets
+    steps:
+      - intent: ask_about_highrise_assets
+      - action: utter_ask_about_highrise_assets
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_highrise_style_guides
+    steps:
+      - intent: ask_about_highrise_style_guides
+      - action: utter_ask_about_highrise_style_guides
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_highrise_assets_contents
+    steps:
+      - intent: ask_about_highrise_assets_contents
+      - action: utter_ask_about_highrise_assets_contents
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_hrlive
+    steps:
+      - intent: explain_hrlive
+      - action: utter_explain_hrlive
+      - action: action_log_and_request_feedback
+  - rule: Respond to event_types_hrlive
+    steps:
+      - intent: event_types_hrlive
+      - action: utter_event_types_hrlive
+      - action: action_log_and_request_feedback
+  - rule: Respond to hr_live_eligibility
+    steps:
+      - intent: hr_live_eligibility
+      - action: utter_hr_live_eligibility
+      - action: action_log_and_request_feedback
+  - rule: Respond to apply_hrlive
+    steps:
+      - intent: apply_hrlive
+      - action: utter_apply_hrlive
+      - action: action_log_and_request_feedback
+  - rule: Respond to hr_live_support
+    steps:
+      - intent: hr_live_support
+      - action: utter_hr_live_support
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_highrise_bot
+    steps:
+      - intent: explain_highrise_bot
+      - action: utter_explain_highrise_bot
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_highrise_bot
+    steps:
+      - intent: create_highrise_bot
+      - action: utter_create_highrise_bot
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_bot_sdk
+    steps:
+      - intent: highrise_bot_sdk
+      - action: utter_highrise_bot_sdk
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_bot_additional_info
+    steps:
+      - intent: highrise_bot_additional_info
+      - action: utter_highrise_bot_additional_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to concept_empowerment
+    steps:
+      - intent: concept_empowerment
+      - action: utter_concept_empowerment
+      - action: action_log_and_request_feedback
+  - rule: Respond to design_contest_prizes
+    steps:
+      - intent: design_contest_prizes
+      - action: utter_design_contest_prizes
+      - action: action_log_and_request_feedback
+  - rule: Respond to fairness_in_design
+    steps:
+      - intent: fairness_in_design
+      - action: utter_fairness_in_design
+      - action: action_log_and_request_feedback
+  - rule: Respond to design_restrictions
+    steps:
+      - intent: design_restrictions
+      - action: utter_design_restrictions
+      - action: action_log_and_request_feedback
+  - rule: Respond to collaboration_in_concepts
+    steps:
+      - intent: collaboration_in_concepts
+      - action: utter_collaboration_in_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to concept_guidelines
+    steps:
+      - intent: concept_guidelines
+      - action: utter_concept_guidelines
+      - action: action_log_and_request_feedback
+  - rule: Respond to contact_art_team
+    steps:
+      - intent: contact_art_team
+      - action: utter_contact_art_team
+      - action: action_log_and_request_feedback
+  - rule: Respond to submission_notifications
+    steps:
+      - intent: submission_notifications
+      - action: utter_submission_notifications
+      - action: action_log_and_request_feedback
+  - rule: Respond to send_design_notes
+    steps:
+      - intent: send_design_notes
+      - action: utter_send_design_notes
+      - action: action_log_and_request_feedback
+  - rule: Respond to concept_progress_updates
+    steps:
+      - intent: concept_progress_updates
+      - action: utter_concept_progress_updates
+      - action: action_log_and_request_feedback
+  - rule: Respond to multi_way_chat
+    steps:
+      - intent: multi_way_chat
+      - action: utter_multi_way_chat
+      - action: action_log_and_request_feedback
+  - rule: Respond to edit_request_timeline
+    steps:
+      - intent: edit_request_timeline
+      - action: utter_edit_request_timeline
+      - action: action_log_and_request_feedback
+  - rule: Respond to post_live_feedback
+    steps:
+      - intent: post_live_feedback
+      - action: utter_post_live_feedback
+      - action: action_log_and_request_feedback
+  - rule: Respond to item_delivery
+    steps:
+      - intent: item_delivery
+      - action: utter_item_delivery
+      - action: action_log_and_request_feedback
+  - rule: Respond to start_submission
+    steps:
+      - intent: start_submission
+      - action: utter_start_submission
+      - action: action_log_and_request_feedback
+  - rule: Respond to upload_images
+    steps:
+      - intent: upload_images
+      - action: utter_upload_images
+      - action: action_log_and_request_feedback
+  - rule: Respond to edit_submission_images
+    steps:
+      - intent: edit_submission_images
+      - action: utter_edit_submission_images
+      - action: action_log_and_request_feedback
+  - rule: Respond to concept_submission_strategy
+    steps:
+      - intent: concept_submission_strategy
+      - action: utter_concept_submission_strategy
+      - action: action_log_and_request_feedback
+  - rule: Respond to view_delete_submission
+    steps:
+      - intent: view_delete_submission
+      - action: utter_view_delete_submission
+      - action: action_log_and_request_feedback
+  - rule: Respond to troubleshoot_submission_issues
+    steps:
+      - intent: troubleshoot_submission_issues
+      - action: utter_troubleshoot_submission_issues
+      - action: action_log_and_request_feedback
+  - rule: Respond to update_submission_images
+    steps:
+      - intent: update_submission_images
+      - action: utter_update_submission_images
+      - action: action_log_and_request_feedback
+  - rule: Respond to voting_instructions
+    steps:
+      - intent: voting_instructions
+      - action: utter_voting_instructions
+      - action: action_log_and_request_feedback
+  - rule: Respond to elo_scoring_explanation
+    steps:
+      - intent: elo_scoring_explanation
+      - action: utter_elo_scoring_explanation
+      - action: action_log_and_request_feedback
+  - rule: Respond to voting_mechanics
+    steps:
+      - intent: voting_mechanics
+      - action: utter_voting_mechanics
+      - action: action_log_and_request_feedback
+  - rule: Respond to vote_tracking
+    steps:
+      - intent: vote_tracking
+      - action: utter_vote_tracking
+      - action: action_log_and_request_feedback
+  - rule: Respond to fair_chance_voting
+    steps:
+      - intent: fair_chance_voting
+      - action: utter_fair_chance_voting
+      - action: action_log_and_request_feedback
+  - rule: Respond to report_violation
+    steps:
+      - intent: report_violation
+      - action: utter_report_violation
+      - action: action_log_and_request_feedback
+  - rule: Respond to navigate_to_highrise
+    steps:
+      - intent: navigate_to_highrise
+      - action: utter_navigate_to_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to locate_concepts
+    steps:
+      - intent: locate_concepts
+      - action: utter_locate_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to vote_or_submit
+    steps:
+      - intent: vote_or_submit
+      - action: utter_vote_or_submit
+      - action: action_log_and_request_feedback
+  - rule: Respond to view_concept_details
+    steps:
+      - intent: view_concept_details
+      - action: utter_view_concept_details
+      - action: action_log_and_request_feedback
+  - rule: Respond to search_concept
+    steps:
+      - intent: search_concept
+      - action: utter_search_concept
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_highrise_concepts
+    steps:
+      - intent: explain_highrise_concepts
+      - action: utter_explain_highrise_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to voting_in_concepts
+    steps:
+      - intent: voting_in_concepts
+      - action: utter_voting_in_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to benefits_of_elo_rating
+    steps:
+      - intent: benefits_of_elo_rating
+      - action: utter_benefits_of_elo_rating
+      - action: action_log_and_request_feedback
+  - rule: Respond to community_involvement_concepts
+    steps:
+      - intent: community_involvement_concepts
+      - action: utter_community_involvement_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to future_plans_for_concepts
+    steps:
+      - intent: future_plans_for_concepts
+      - action: utter_future_plans_for_concepts
+      - action: action_log_and_request_feedback
+  - rule: Respond to general_information_events
+    steps:
+      - intent: general_information_events
+      - action: utter_general_information_events
+      - action: action_log_and_request_feedback
+  - rule: Respond to event_styles_info
+    steps:
+      - intent: event_styles_info
+      - action: utter_event_styles_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to earning_tickets
+    steps:
+      - intent: earning_tickets
+      - action: utter_earning_tickets
+      - action: action_log_and_request_feedback
+  - rule: Respond to party_time_bonus
+    steps:
+      - intent: party_time_bonus
+      - action: utter_party_time_bonus
+      - action: action_log_and_request_feedback
+  - rule: Respond to buying_event_items
+    steps:
+      - intent: buying_event_items
+      - action: utter_buying_event_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to lucky_wheel_info
+    steps:
+      - intent: lucky_wheel_info
+      - action: utter_lucky_wheel_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to token_info
+    steps:
+      - intent: token_info
+      - action: utter_token_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_tickets_info
+    steps:
+      - intent: crew_tickets_info
+      - action: utter_crew_tickets_info
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_kick_policy
+    steps:
+      - intent: crew_kick_policy
+      - action: utter_crew_kick_policy
+      - action: action_log_and_request_feedback
+  - rule: Respond to event_introduction
+    steps:
+      - intent: event_introduction
+      - action: utter_event_introduction
+      - action: action_log_and_request_feedback
+  - rule: Respond to model_strategy
+    steps:
+      - intent: model_strategy
+      - action: utter_model_strategy
+      - action: action_log_and_request_feedback
+  - rule: Respond to judge_strategy
+    steps:
+      - intent: judge_strategy
+      - action: utter_judge_strategy
+      - action: action_log_and_request_feedback
+  - rule: Respond to boosts_and_items
+    steps:
+      - intent: boosts_and_items
+      - action: utter_boosts_and_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to event_tips
+    steps:
+      - intent: event_tips
+      - action: utter_event_tips
+      - action: action_log_and_request_feedback
+  - rule: Respond to guide_intro
+    steps:
+      - intent: guide_intro
+      - action: utter_guide_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to initiating_prank
+    steps:
+      - intent: initiating_prank
+      - action: utter_initiating_prank
+      - action: action_log_and_request_feedback
+  - rule: Respond to choosing_prank_item
+    steps:
+      - intent: choosing_prank_item
+      - action: utter_choosing_prank_item
+      - action: action_log_and_request_feedback
+  - rule: Respond to earning_tickets
+    steps:
+      - intent: earning_tickets
+      - action: utter_earning_tickets
+      - action: action_log_and_request_feedback
+  - rule: Respond to bonus_strategy
+    steps:
+      - intent: bonus_strategy
+      - action: utter_bonus_strategy
+      - action: action_log_and_request_feedback
+  - rule: Respond to general_event_details
+    steps:
+      - intent: general_event_details
+      - action: utter_general_event_details
+      - action: action_log_and_request_feedback
+  - rule: Respond to event_overview
+    steps:
+      - intent: event_overview
+      - action: utter_event_overview
+      - action: action_log_and_request_feedback
+  - rule: Respond to collect_items
+    steps:
+      - intent: collect_items
+      - action: utter_collect_items
+      - action: action_log_and_request_feedback
+  - rule: Respond to donate_to_npcs
+    steps:
+      - intent: donate_to_npcs
+      - action: utter_donate_to_npcs
+      - action: action_log_and_request_feedback
+  - rule: Respond to earn_tickets
+    steps:
+      - intent: earn_tickets
+      - action: utter_earn_tickets
+      - action: action_log_and_request_feedback
+  - rule: Respond to filling_meter
+    steps:
+      - intent: filling_meter
+      - action: utter_filling_meter
+      - action: action_log_and_request_feedback
+  - rule: Respond to participation_milestones
+    steps:
+      - intent: participation_milestones
+      - action: utter_participation_milestones
+      - action: action_log_and_request_feedback
+  - rule: Respond to crew_score
+    steps:
+      - intent: crew_score
+      - action: utter_crew_score
+      - action: action_log_and_request_feedback
+  - rule: Respond to gather_in_bulk
+    steps:
+      - intent: gather_in_bulk
+      - action: utter_gather_in_bulk
+      - action: action_log_and_request_feedback
+  - rule: Respond to use_party_time
+    steps:
+      - intent: use_party_time
+      - action: utter_use_party_time
+      - action: action_log_and_request_feedback
+  - rule: Respond to explain_creature_coins
+    steps:
+      - intent: explain_creature_coins
+      - action: utter_explain_creature_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to earning_creature_coins
+    steps:
+      - intent: earning_creature_coins
+      - action: utter_earning_creature_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to epic_creature_earnings
+    steps:
+      - intent: epic_creature_earnings
+      - action: utter_epic_creature_earnings
+      - action: action_log_and_request_feedback
+  - rule: Respond to legendary_creature_earnings
+    steps:
+      - intent: legendary_creature_earnings
+      - action: utter_legendary_creature_earnings
+      - action: action_log_and_request_feedback
+  - rule: Respond to claiming_coins
+    steps:
+      - intent: claiming_coins
+      - action: utter_claiming_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to using_creature_coins
+    steps:
+      - intent: using_creature_coins
+      - action: utter_using_creature_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchasing_risks_warning
+    steps:
+      - intent: purchasing_risks_warning
+      - action: utter_purchasing_risks_warning
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchase_requirements
+    steps:
+      - intent: purchase_requirements
+      - action: utter_purchase_requirements
+      - action: action_log_and_request_feedback
+  - rule: Respond to setup_metamask
+    steps:
+      - intent: setup_metamask
+      - action: utter_setup_metamask
+      - action: action_log_and_request_feedback
+  - rule: Respond to connect_wallet_to_immutable_X
+    steps:
+      - intent: connect_wallet_to_immutable_X
+      - action: utter_connect_wallet_to_immutable_X
+      - action: action_log_and_request_feedback
+  - rule: Respond to add_funds
+    steps:
+      - intent: add_funds
+      - action: utter_add_funds
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchase_creature
+    steps:
+      - intent: purchase_creature
+      - action: utter_purchase_creature
+      - action: action_log_and_request_feedback
+  - rule: Respond to view_and_use_creature
+    steps:
+      - intent: view_and_use_creature
+      - action: utter_view_and_use_creature
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_alternative_ways_to_get_creature
+    steps:
+      - intent: ask_alternative_ways_to_get_creature
+      - action: utter_ask_alternative_ways_to_get_creature
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_price_highrise_creatures
+    steps:
+      - intent: ask_price_highrise_creatures
+      - action: utter_ask_price_highrise_creatures
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_creature_price_low
+    steps:
+      - intent: highrise_creature_price_low
+      - action: utter_highrise_creature_price_low
+      - action: action_log_and_request_feedback
+  - rule: Respond to highrise_creature_price_high
+    steps:
+      - intent: highrise_creature_price_high
+      - action: utter_highrise_creature_price_high
+      - action: action_log_and_request_feedback
+  - rule: Respond to benefits_wear_items_metaverse
+    steps:
+      - intent: benefits_wear_items_metaverse
+      - action: utter_benefits_wear_items_metaverse
+      - action: action_log_and_request_feedback
+  - rule: Respond to access_club_room
+    steps:
+      - intent: access_club_room
+      - action: utter_access_club_room
+      - action: action_log_and_request_feedback
+  - rule: Respond to access_discord_channel
+    steps:
+      - intent: access_discord_channel
+      - action: utter_access_discord_channel
+      - action: action_log_and_request_feedback
+  - rule: Respond to daily_creature_coins
+    steps:
+      - intent: daily_creature_coins
+      - action: utter_daily_creature_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to unlock_skypass_plus
+    steps:
+      - intent: unlock_skypass_plus
+      - action: utter_unlock_skypass_plus
+      - action: action_log_and_request_feedback
+  - rule: Respond to exclusive_creature_content
+    steps:
+      - intent: exclusive_creature_content
+      - action: utter_exclusive_creature_content
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_becoming_member
+    steps:
+      - intent: ask_about_becoming_member
+      - action: utter_ask_about_becoming_member
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_benefits_membership
+    steps:
+      - intent: inquire_benefits_membership
+      - action: utter_inquire_benefits_membership
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_creature_coins
+    steps:
+      - intent: ask_about_creature_coins
+      - action: utter_ask_about_creature_coins
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_about_nfts
+    steps:
+      - intent: ask_about_nfts
+      - action: utter_ask_about_nfts
+      - action: action_log_and_request_feedback
+  - rule: Respond to buy_sell_nfts
+    steps:
+      - intent: buy_sell_nfts
+      - action: utter_buy_sell_nfts
+      - action: action_log_and_request_feedback
+  - rule: Respond to uniqueness_of_nfts
+    steps:
+      - intent: uniqueness_of_nfts
+      - action: utter_uniqueness_of_nfts
+      - action: action_log_and_request_feedback
+  - rule: Respond to about_highrise_creature_club
+    steps:
+      - intent: about_highrise_creature_club
+      - action: utter_about_highrise_creature_club
+      - action: action_log_and_request_feedback
+  - rule: Respond to perks_highrise_creature_club
+    steps:
+      - intent: perks_highrise_creature_club
+      - action: utter_perks_highrise_creature_club
+      - action: action_log_and_request_feedback
+  - rule: Respond to join_highrise_discord
+    steps:
+      - intent: join_highrise_discord
+      - action: utter_join_highrise_discord
+      - action: action_log_and_request_feedback
+  - rule: Respond to detect_scam_accounts
+    steps:
+      - intent: detect_scam_accounts
+      - action: utter_detect_scam_accounts
+      - action: action_log_and_request_feedback
+  - rule: Respond to verify_secure_links
+    steps:
+      - intent: verify_secure_links
+      - action: utter_verify_secure_links
+      - action: action_log_and_request_feedback
+  - rule: Respond to avoid_false_collections
+    steps:
+      - intent: avoid_false_collections
+      - action: utter_avoid_false_collections
+      - action: action_log_and_request_feedback
+  - rule: Respond to warning_trust_trades
+    steps:
+      - intent: warning_trust_trades
+      - action: utter_warning_trust_trades
+      - action: action_log_and_request_feedback
+  - rule: Respond to protect_wallet_security
+    steps:
+      - intent: protect_wallet_security
+      - action: utter_protect_wallet_security
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_other_ways_to_own_land
+    steps:
+      - intent: ask_other_ways_to_own_land
+      - action: utter_ask_other_ways_to_own_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_about_land_updates
+    steps:
+      - intent: inquire_about_land_updates
+      - action: utter_inquire_about_land_updates
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_land_purchase
+    steps:
+      - intent: inquire_land_purchase
+      - action: utter_inquire_land_purchase
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_land_benefits
+    steps:
+      - intent: inquire_land_benefits
+      - action: utter_inquire_land_benefits
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_customizable_rooms
+    steps:
+      - intent: create_customizable_rooms
+      - action: utter_create_customizable_rooms
+      - action: action_log_and_request_feedback
+  - rule: Respond to link_room_to_land
+    steps:
+      - intent: link_room_to_land
+      - action: utter_link_room_to_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to land_tokens_usage
+    steps:
+      - intent: land_tokens_usage
+      - action: utter_land_tokens_usage
+      - action: action_log_and_request_feedback
+  - rule: Respond to exclusive_land_shop
+    steps:
+      - intent: exclusive_land_shop
+      - action: utter_exclusive_land_shop
+      - action: action_log_and_request_feedback
+  - rule: Respond to increase_room_capacity
+    steps:
+      - intent: increase_room_capacity
+      - action: utter_increase_room_capacity
+      - action: action_log_and_request_feedback
+  - rule: Respond to surprise_airdrops
+    steps:
+      - intent: surprise_airdrops
+      - action: utter_surprise_airdrops
+      - action: action_log_and_request_feedback
+  - rule: Respond to exclusive_discord_channel
+    steps:
+      - intent: exclusive_discord_channel
+      - action: utter_exclusive_discord_channel
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_land_cost_range
+    steps:
+      - intent: ask_land_cost_range
+      - action: utter_ask_land_cost_range
+      - action: action_log_and_request_feedback
+  - rule: Respond to inquire_land_price_factors
+    steps:
+      - intent: inquire_land_price_factors
+      - action: utter_inquire_land_price_factors
+      - action: action_log_and_request_feedback
+  - rule: Respond to ask_land_rarity_difference
+    steps:
+      - intent: ask_land_rarity_difference
+      - action: utter_ask_land_rarity_difference
+      - action: action_log_and_request_feedback
+  - rule: Respond to warn_purchase_risk
+    steps:
+      - intent: warn_purchase_risk
+      - action: utter_warn_purchase_risk
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_metamask_wallet
+    steps:
+      - intent: create_metamask_wallet
+      - action: utter_create_metamask_wallet
+      - action: action_log_and_request_feedback
+  - rule: Respond to connect_wallet_opensea
+    steps:
+      - intent: connect_wallet_opensea
+      - action: utter_connect_wallet_opensea
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchase_highrise_land
+    steps:
+      - intent: purchase_highrise_land
+      - action: utter_purchase_highrise_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to connect_wallet_highrise
+    steps:
+      - intent: connect_wallet_highrise
+      - action: utter_connect_wallet_highrise
+      - action: action_log_and_request_feedback
+  - rule: Respond to understand_crypto_purchase
+    steps:
+      - intent: understand_crypto_purchase
+      - action: utter_understand_crypto_purchase
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_estate_intro
+    steps:
+      - intent: create_estate_intro
+      - action: utter_create_estate_intro
+      - action: action_log_and_request_feedback
+  - rule: Respond to connect_wallet
+    steps:
+      - intent: connect_wallet
+      - action: utter_connect_wallet
+      - action: action_log_and_request_feedback
+  - rule: Respond to estate_land_requirements
+    steps:
+      - intent: estate_land_requirements
+      - action: utter_estate_land_requirements
+      - action: action_log_and_request_feedback
+  - rule: Respond to create_estate_steps
+    steps:
+      - intent: create_estate_steps
+      - action: utter_create_estate_steps
+      - action: action_log_and_request_feedback
+  - rule: Respond to dissolve_estate
+    steps:
+      - intent: dissolve_estate
+      - action: utter_dissolve_estate
+      - action: action_log_and_request_feedback
+  - rule: Respond to customize_estate_thumbnail
+    steps:
+      - intent: customize_estate_thumbnail
+      - action: utter_customize_estate_thumbnail
+      - action: action_log_and_request_feedback
+  - rule: Respond to withdraw_land
+    steps:
+      - intent: withdraw_land
+      - action: utter_withdraw_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to locate_land
+    steps:
+      - intent: locate_land
+      - action: utter_locate_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to transaction_process
+    steps:
+      - intent: transaction_process
+      - action: utter_transaction_process
+      - action: action_log_and_request_feedback
+  - rule: Respond to check_gas_prices
+    steps:
+      - intent: check_gas_prices
+      - action: utter_check_gas_prices
+      - action: action_log_and_request_feedback
+  - rule: Respond to promotional_sale_notice
+    steps:
+      - intent: promotional_sale_notice
+      - action: utter_promotional_sale_notice
+      - action: action_log_and_request_feedback
+  - rule: Respond to what_is_highrise_land
+    steps:
+      - intent: what_is_highrise_land
+      - action: utter_what_is_highrise_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to explore_creature_island
+    steps:
+      - intent: explore_creature_island
+      - action: utter_explore_creature_island
+      - action: action_log_and_request_feedback
+  - rule: Respond to parcel_types
+    steps:
+      - intent: parcel_types
+      - action: utter_parcel_types
+      - action: action_log_and_request_feedback
+  - rule: Respond to purchasing_land
+    steps:
+      - intent: purchasing_land
+      - action: utter_purchasing_land
+      - action: action_log_and_request_feedback
+  - rule: Respond to secondary_market
+    steps:
+      - intent: secondary_market
+      - action: utter_secondary_market
+      - action: action_log_and_request_feedback
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+  - rule: greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - rule: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+version: '3.1'

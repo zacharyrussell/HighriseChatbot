@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-action",
+      "2": "I-action",
+      "3": "L-action",
+      "4": "U-action",
+      "5": "B-content_type",
+      "6": "I-content_type",
+      "7": "L-content_type",
+      "8": "U-content_type",
+      "9": "B-feature",
+      "10": "I-feature",
+      "11": "L-feature",
+      "12": "U-feature",
+      "13": "B-object",
+      "14": "I-object",
+      "15": "L-object",
+      "16": "U-object",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-action": 1,
+      "I-action": 2,
+      "L-action": 3,
+      "U-action": 4,
+      "B-content_type": 5,
+      "I-content_type": 6,
+      "L-content_type": 7,
+      "U-content_type": 8,
+      "B-feature": 9,
+      "I-feature": 10,
+      "L-feature": 11,
+      "U-feature": 12,
+      "B-object": 13,
+      "I-object": 14,
+      "L-object": 15,
+      "U-object": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

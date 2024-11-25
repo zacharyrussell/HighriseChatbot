@@ -1,0 +1,1396 @@
+responses:
+  utter_pin_feature_overview:
+    - text: "Pinning allows you to highlight important content in your profile or feed."
+  utter_pin_content_types:
+    - text: "You can pin feed comments, profile posts, creations, and showcase items."
+  utter_how_to_pin:
+    - text: "To pin a post, navigate to it, tap and hold, then select the 'Pin' option."
+  utter_how_to_unpin:
+    - text: "To unpin, follow the same steps as pinning and choose 'Unpin'."
+  utter_pin_limit:
+    - text: "You can pin up to 64 items in your profile or feed."
+  utter_introduction_to_pinning:
+    - text: "Imagine conjuring your beloved content to the forefront of your app. Our Pinning feature allows you to highlight what matters most, be it your Profile or crucial conversations in the Inbox."
+  utter_pinning_locations:
+    - text: "You can use the Pinning feature in the following areas: Feed Comments, Profile Posts, Creations, and Showcase. It helps in spotlighting crucial content."
+  utter_pinning_posts:
+    - text: "To pin a post to your profile, navigate to the desired post, tap and hold, then select the Pin option. To unpin, follow the same steps and choose 'unpin'. This feature is only available on your own profile."
+  utter_pinning_comments:
+    - text: "To pin a comment, tap and hold on the comment, then choose the Pin option. To unpin, repeat the steps and select 'unpin'."
+  utter_pinning_assets:
+    - text: "Pin your best creations like Assets, Worlds, and Rooms by selecting the item, clicking the ellipses icon '���', and choosing the Pin option. Showcase your masterpieces to everyone on Highrise!"
+  utter_pinning_limit_and_organization:
+    - text: "You can pin up to 64 items, allowing you to flaunt your awesomeness to the fullest. However, you can't organize pins; the most recent Pin will always show first, reigning as king above the rest."
+  utter_delete_items_earn_bubbles:
+    - text: "Deleting your items can earn you Bubbles!"
+  utter_new_delete_feature:
+    - text: "We're introducing a new Delete Feature that's straightforward and replaces the old Pawn Shop method, allowing you a seamless inventory management experience."
+  utter_use_delete_feature:
+    - text: "To use the Delete Feature, head to the 'My Items' section where you�ll find the delete option. Tap and hold the item you wish to remove."
+  utter_confirm_delete_action:
+    - text: "When you select delete, an alert will confirm your action and inform you of the Bubbles you'll receive."
+  utter_receive_bubbles_notification:
+    - text: "After confirmation, a toast notification will let you know about the Bubbles added to your account!"
+  utter_profile_changes_overview:
+    - text: "Profile 4.0 is a complete overhaul of our user profile design. It showcases animated avatars and allows for a continuous, scrollable profile interface, making it more engaging and user-friendly."
+  utter_animated_avatars:
+    - text: "Animated Avatars: Your avatar comes to life with subtle animations, giving your profile a dynamic and lively feel. It adds personality and a sense of presence to your profile."
+  utter_customizable_backgrounds:
+    - text: "Profile 4.0 allows you to customize your background, emphasizing your individuality. You can choose a background that best represents you."
+  utter_social_media_links:
+    - text: "Easy-to-Access Social Media Links: Connect your profile to your social media easily and access them quickly from the main profile page."
+  utter_improved_connections_interface:
+    - text: "Improved 'Following and Followers' Interface: A revamped interface to see who you're connected with, providing a better overview and interaction."
+  utter_enhanced_creations_section:
+    - text: "Enhanced 'Creations' Section: A dedicated space to showcase your creative work, allowing you to easily display and manage your projects."
+  utter_pinning_feature:
+    - text: "Pinning Feature: Highlight your favorite posts or creations directly on your profile, making them more visible and easily accessible to visitors."
+  utter_changing_background_overview:
+    - text: "Fancy a change? No worries, we've got you covered. To change your background, follow these simple steps."
+  utter_navigate_to_profile:
+    - text: "Navigate to your profile by clicking the profile icon in the bottom right-hand corner."
+  utter_access_pose_and_background:
+    - text: "Once you're on your profile, swipe your mini-profile down (you can also tap on the background behind your avatar) to see the option 'Pose & Background'. Click it."
+  utter_select_new_background:
+    - text: "You can now select a new background color and also set the pose of your avatar."
+  utter_enjoy_creativity:
+    - text: "That's it! Have fun and get creative!"
+  utter_explain_grab_swapping:
+    - text: "The Grab Swapping feature allows you to exchange items you've won from a Grab for a different item from a rarity-based loot table. This gives you a chance to improve the value of your prizes and reduce duplicates in your inventory."
+  utter_transparency_in_grab:
+    - text: "We've introduced a dedicated screen displaying explicit probabilities for winning each item within a Grab, which ensures transparency and helps you make informed decisions."
+  utter_how_to_perform_swap:
+    - text: "To swap an item, select it for swapping, then hold the Swap button for 3 seconds to initiate the sequence. Tap to reveal the new item you've received in exchange."
+  utter_swap_impact_on_rewards:
+    - text: "You'll retain your progress and rewards are based on the initial winnings. Rewards are given after pressing 'Got it,' even if you swap the item later."
+  utter_identifying_swappable_items:
+    - text: "Items eligible for swapping will have a 'Swappable' label on the banner of Grabs that include this feature. This label is visible both on the Grab screen and in the Store."
+  utter_when_to_swap_items:
+    - text: "You do not have to swap your items immediately after winning them. As long as the Grab is up, you�ll be able to swap items. Once a Grab expires, swapping will no longer be possible."
+  utter_ask_about_ootd_feature:
+    - text: "The Outfit of the Day (OOTD) feature lets you explore a special closet filled with a random selection of items to style your avatar. You can engage with daily goals, discover new items, and share your looks with the community."
+  utter_ask_where_to_find_ootd:
+    - text: "You can find the OOTD feature under your Daily Goals. Simply look for the goal labeled 'Outfit of the Day' and hit the 'Go' button to begin."
+  utter_ask_ootd_item_source:
+    - text: "The special OOTD closet provides a selection of unique items not from your personal collection. This gives you the chance to experiment with styles and items you might not own yet."
+  utter_ask_sharing_ootd_look:
+    - text: "While the outfits you create with OOTD cannot be saved to your avatar, you're encouraged to take pictures and share them on social media using the daily hashtag to connect with others."
+  utter_ask_about_ootd_rewards:
+    - text: "Yes, completing the OOTD daily goal will earn you rewards. The type and amount of these can vary, so be sure to check the details when participating."
+  utter_ask_about_ootd_frequency:
+    - text: "Currently, the OOTD feature is designed as a daily goal. You can participate once per day, ensuring each experience is unique."
+  utter_suggest_ootd_improvements:
+    - text: "We love hearing from our community! Feel free to share your suggestions and ideas for OOTD themes or items you'd like to see included. We're always looking to enhance your experience."
+  utter_greet_directory:
+    - text: "Welcome to Directory 4.0, a fresh way to navigate and discover worlds within our platform. This update brings a streamlined experience to find, follow, and interact with worlds and rooms, making it easier than ever to connect with content you love."
+  utter_access_worlds_rooms:
+    - text: "You can access Worlds and Rooms from the Directory, as well as from the Creations Tab in your profile. Worlds and Rooms are neatly categorized under different tabs for your convenience."
+  utter_beta_label:
+    - text: "The �Beta� label indicates that the Worlds feature is in a testing phase. We're constantly looking to improve, and your feedback during this phase is invaluable!"
+  utter_discover_worlds:
+    - text: "In the Directory, you'll first see Worlds you're following, followed by a Spotlight section featuring handpicked Worlds by our Live Ops team. The Spotlight section has infinite scrolling, allowing you to discover an endless array of popular and emerging Worlds."
+  utter_search_worlds:
+    - text: "Access the Worlds Search via the top right corner of the Worlds Directory. You can use suggested keywords for quick searches or type in your query for more specific results. Rooms and Worlds have separate tabs for easier navigation."
+  utter_world_slide_up:
+    - text: "Tapping on a World opens up the World Slide Up, providing detailed information about the World, including user scores, total visits, and a brief description. It's a quick and convenient way to learn more about a World before joining."
+  utter_follow_worlds:
+    - text: "Yes! You can follow Worlds to see their posts in your feed and under the \"Following\" section in the Directory. You can also like or dislike a World, but you cannot do both simultaneously."
+  utter_world_stats:
+    - text: "World Stats give you a quick overview of a World�s popularity and engagement. Stats include the number of active users, user score percentage, total followers, total visits, and the creation date of the World."
+  utter_followers_screen:
+    - text: "Tapping on the Followers count in the World Stats will open up the Followers Screen, showing you friends who are following the World first, followed by other users sorted by recency."
+  utter_ask_about_sharing_socials:
+    - text: "Our latest feature, Social Media Links, lets you connect your Highrise profile with your social media accounts, opening up a world of digital connections. Share your social media links and discover the profiles of others within Highrise."
+  utter_how_to_add_social_media_links:
+    - text: "To add social media links: Go to the Edit Profile screen. Type in your username for the social media platforms you wish to link (e.g., Instagram, Snapchat, TikTok, X). Our system automatically generates the URL to your profile based on the username you provide."
+  utter_available_social_media_platforms:
+    - text: "You can link profiles from X, Snapchat, Instagram, and TikTok. Just enter your username, and we'll handle the rest! We're looking to add Discord and other profiles in the future."
+  utter_age_restriction_social_links:
+    - text: "For safety reasons, users under the age of 17 cannot add social media links to their profiles. We encourage everyone to share responsibly and ensure they're comfortable with the content they're connecting to their Highrise account."
+  utter_report_inappropriate_links:
+    - text: "If you come across a social media link that you believe is inappropriate or potentially harmful, please report it immediately through our app. Select �Inappropriate social links� as the reason when reporting the User's profile."
+  utter_privacy_and_safety_reminder:
+    - text: "We implement measures to protect our users, but it's also important for you to stay vigilant. Before clicking on a social media link, please be aware that it will take you outside of Highrise, where different privacy and content policies apply. We provide an alert before redirecting as a reminder to proceed with caution."
+  utter_subscribe_highrise_plus:
+    - text: "Subscribing to Highrise+ is easy! Open the Highrise app and tap on the Highrise+ banner in the Cash Shop. Just follow the prompts, and you're set to enjoy our exclusive perks!"
+  utter_highrise_plus_tiers:
+    - text: "There are three tiers for Highrise+. Tier 1 is $4.99 monthly for 1,050 Gold and one gift per week. Tier 2 is $9.99 monthly for 2,200 Gold and two gifts per week. Tier 3 is $19.99 monthly for 4,600 Gold and three gifts per week."
+  utter_highrise_plus_perks:
+    - text: "Highrise+ offers exclusive perks like a monthly Gold bonus, unique customization options, extra style choices, exclusive content, savings on Gold packs, and weekly gifts depending on your tier."
+  utter_managing_subscription:
+    - text: "You can manage your Highrise+ subscription directly from the app. Use the settings to upgrade, downgrade, or cancel anytime. Changes will take effect after the current billing cycle."
+  utter_highrise_plus_support:
+    - text: "For further details or questions regarding Highrise+, visit our support center or reach out to customer service through the app. We�re here to help!"
+  utter_start_inbox_calls:
+    - text: "To start a voice chat with Inbox Calls, tap on the �Call� button in your private chat. It's easy to initiate calls, whether private, group, or crew. Enjoy seamless communication in Highrise!"
+  utter_user_restriction:
+    - text: "Sorry, but users under 18 cannot join or make calls through Inbox Calls. This restriction helps ensure the safety and comfort of everyone on Highrise."
+  utter_call_notifications:
+    - text: "Yes! You'll receive a notification if someone calls you while you're inactive. To ensure you don't miss any notifications, make sure to enable them in your Settings."
+  utter_manage_during_calls:
+    - text: "During any Inbox Call, you can manage your audio settings by tapping the '���' button. Here, you can adjust sound settings, invite others, or leave the call as needed."
+  utter_switch_call_modes:
+    - text: "While on an Inbox Call, you can listen in on any room's voice chat. However, to speak in the room's chat, you'll need to leave your Inbox Call. Switching between personal and public chat spaces is just a tap away!"
+  utter_pin_message:
+    - text: "Pinning a message allows you to highlight important messages at the top of your chat, making them readily accessible. Simply tap and hold the message you wish to pin, then select 'Pin Message' from the menu."
+  utter_unpin_message:
+    - text: "Unpinning a message will remove it from the pinned messages panel. If there are other pinned messages, the next most recent one will be displayed at the top."
+  utter_delete_message:
+    - text: "To delete a message, tap and hold it, then choose 'Delete Message' from the action menu. Confirm your decision in the popup alert. Deleted messages are replaced with 'deleted a message' to show where they've been modified."
+  utter_edit_message:
+    - text: "You can edit text messages within 15 minutes of sending them by pressing and holding the message and selecting 'Edit'. Once edited, the message will display '(edited)' to indicate changes."
+  utter_send_gif:
+    - text: "Tap the GIF button near the text entry bar to open the drawer. From there, you can search, select, and send GIFs to your chat. Each GIF will automatically send, allowing easy selection of multiple GIFs."
+  utter_view_gif:
+    - text: "Tapping a GIF will open it in a full-screen media viewer, providing a closer look. You can swipe down or tap the screen to exit the full-screen view. GIFs are powered by Tenor, ensuring a vast, safe-for-work library."
+  utter_ask_inbox_media:
+    - text: |
+        Inbox Media is a feature that allows HR+ Subscribers to send photos and videos directly in chats, adding a richer, more visual component to conversations.
+  utter_benefit_of_inbox_media:
+    - text: |
+        With Inbox Media, you can express, impress, and say more in every message! It enhances connection and interaction by adding color and vibrancy through photos and videos.
+  utter_media_sending_process:
+    - text: |
+        To send media, tap the media button, select up to 9 items from your device's gallery, and hit confirm to send them. Videos have a max size of 10MB, and large files will be compressed automatically.
+  utter_media_display_features:
+    - text: |
+        Single images display normally, while multiple images appear in a grid layout. Videos can be played directly in the chat. Tap an image or video to enter full-screen mode, where you can zoom, pan, and swipe through media.
+  utter_subscription_requirements:
+    - text: |
+        Inbox Media is currently available exclusively for HR+ Subscribers. While non-subscribers can receive and view media, they cannot respond with media themselves.
+  utter_safety_and_restrictions:
+    - text: |
+        Users under 18 cannot send media messages. Our Trust & Safety systems scan all media to ensure safety, and any inappropriate content can be reported using the in-app system.
+  utter_ask_about_engagement_earnings:
+    - text: "As a creator in Highrise, you can earn money by making fun and engaging worlds. Your earnings are based on the level of engagement your creations attract."
+  utter_inquire_earned_gold_conversion:
+    - text: "Earned Gold can be converted to cash in the Creator Exchange once you have accumulated a minimum of 35,000 Earned Gold."
+  utter_faq_engagement_based_payouts:
+    - text: "You can check out our full FAQ on Engagement-Based Payouts for more detailed information. This will guide you through all the aspects of earning and converting your efforts in Highrise."
+  utter_ask_display_name_feature:
+    - text: "The Display Name feature allows you to choose a non-unique and recognizable name that can include spaces. It's aimed at enhancing your social experience by making it easier to identify users by their real or preferred names."
+  utter_customize_display_name:
+    - text: "After customizing your avatar, you will be prompted to set your display name. You can always go to your profile settings to update it later."
+  utter_change_display_name:
+    - text: "You can update your display name at any time from your profile settings. There are currently no restrictions on how often you can change it."
+  utter_display_name_guidelines:
+    - text: "Display names must be between 1 and 30 characters, cannot contain special characters or inappropriate words, but spaces are allowed."
+  utter_display_name_visibility:
+    - text: "Your display name will be the primary identifier within the app, visible in places like friends lists and conversation titles. Your username will still be shown alongside for clarity."
+  utter_report_offensive_display_name:
+    - text: "If someone's Display Name is offensive, you can report them to our Trust & Safety team, who will review the report and take appropriate actions."
+  utter_inquire_guidelines_intro:
+    - text: "Our guidelines ensure everyone is following our community standards. Please take a moment to review them!"
+  utter_inquire_positive_community_engagement:
+    - text: "Engage positively by meeting new people, designing unique rooms, joining crews, and participating in events."
+  utter_inquire_age_guidelines:
+    - text: "Players must be 13 or older to play. Those under 13 will have their accounts permanently suspended."
+  utter_inquire_community_safety:
+    - text: |
+        "We prioritize player safety with strict policies. We have zero tolerance for child endangerment and inappropriate behavior."
+  utter_inquire_trade_safety:
+    - text: "Trade safely by using our storefront trade system and always review the trade window before confirming."
+  utter_inquire_account_rules:
+    - text: "Each account must belong to its original creator. Trading, selling, or giving away accounts is not allowed."
+  utter_inquire_suicide_prevention:
+    - text: >
+        "For support with mental health, contact a local crisis center or helpline. It's crucial to seek professional help if needed."
+
+  utter_ask_about_highrise:
+    - text: "Highrise is less of a game and more of a fun-filled, virtual melting pot brimming with folks from every corner of the globe. It's like the United Nations, but with more room decorating and fewer political debates."
+  utter_how_to_socialize:
+    - text: "Discover the thrill of meeting people from places you can't pronounce! Just step into an open room and start chatting. You never know who you might meet - maybe even someone who can teach you how to say 'hello' in Klingon!"
+  utter_fashion_in_highrise:
+    - text: "Got a knack for fashion? Showcase your style with rare items and strut your stuff. You can even moonwalk! Michael Jackson would be proud."
+  utter_building_in_highrise:
+    - text: "If you've ever dreamed of designing a mountain range or a hipster coffee shop, you're in luck. Highrise lets you create rooms that defy reality. Who needs a pesky thing like gravity anyway?"
+  utter_life_reporting_in_highrise:
+    - text: "Share your life stories, snapshots, and cat memes via our Newsfeed. It's like having your own reality show but without the drama (unless you want the drama, of course)."
+  utter_participating_in_contests:
+    - text: "Dive into building contests, player-made games, and epic events. Will you become the next Highrise celebrity?"
+  utter_how_to_play_highrise:
+    - text: "Playing Highrise is as simple as a game of peekaboo � just show up, express yourself, and most importantly, have fun! Welcome to your new virtual playground!"
+  utter_ask_how_chat_filter_works:
+    - text: "Our shiny new system is designed to keep the chat in Highrise as friendly and respectful as the neighborhood dog (minus the slobber). It looks for nasties like harassment, explicit content, and hate speech, while still letting you chat about everyday topics."
+  utter_ask_whats_allowed_in_chat:
+    - text: "If it's in our Community Guidelines' naughty list, it'll tickle our filter's radar. Casual swearing is fine since we're 13+, but targeted abuse or content that would make a sailor blush is not allowed."
+  utter_ask_how_filter_understands_context:
+    - text: "Our filter is smarter than your average bear. It looks at words in context, not just individually, so it understands the difference between soccer balls and, well, other balls."
+  utter_ask_about_reputation_system:
+    - text: "Each player gets a reputation based on their chat history, similar to a social credit score. Good chat behavior grants you more privileges, while being a repeat offender might restrict some features."
+  utter_ask_about_tweaks_and_feedback:
+    - text: "We're still tweaking and tuning the system and appreciate your patience during this phase. If you have feedback or questions, drop us a line at support@example.com. We're all ears!"
+  utter_inquire_bubbles:
+    - text: "Bubbles are the whimsical currency in Highrise! You can use them to spin for rare items or enhance your digital experience."
+  utter_bubble_goal_getter:
+    - text: "Think of Daily Goals as your bubble-infused to-do list. Completing these tasks earns you Bubbles, with a bonus for finishing all of them!"
+  utter_bubble_gift_grabber:
+    - text: "You can grab free Bubbles daily by clicking the Bubbles icon in your homeroom. Watch some ads to earn even more!"
+  utter_bubble_crewmate_charm:
+    - text: "Crewmates are your friends who gift you Bubbles every time they make a purchase. You might even receive gold occasionally!"
+  utter_bubble_spare_seller:
+    - text: "Sell duplicate or unwanted items for Bubbles at the Welcome Plaza. Even untradeable items can be pawned for a profit!"
+  utter_inquire_gold_options:
+    - text: "Looking for more ways to earn gold? Look no further. Here in Highrise, we've got plenty of options to fill your coffers with the shiniest currency. Choose between immediate rewards or leisurely fun!"
+  utter_purchase_gold:
+    - text: "The Highrise shop is the express lane for gold. Tap the shop icon, select 'cash', and choose from a variety of treasure-filled packages."
+  utter_earn_gold_builder:
+    - text: "Engagement is key with The World Builder! Build worlds and experiences to earn gold based on how much others enjoy your creations."
+  utter_earn_gold_offers:
+    - text: "With Offer Hunter, you can embark on a treasure hunt without a pesky map! View sponsor offers or watch videos for a chance to earn free gold and rare items."
+  utter_earn_gold_games:
+    - text: "Become a star in player-created games to earn gold! Participate in fun activities such as pageants and block games to potentially hit the jackpot."
+  utter_receive_gold_tips:
+    - text: "While playing with friends, they might tip you some gold! Just a hint�begging for tips isn't popular, so keep it light-hearted and friendly."
+  utter_earn_gold_crew:
+    - text: "Being part of a crew can shower you with unexpected gold! If your mates make purchases, you might receive surprise gifts on your gifts page."
+  utter_suggest_article:
+    - text: "Having purchase issues? Check this article out for help!"
+  utter_inquire_purchase_issues:
+    - text: "Can't spot your newly purchased gold in your Highrise wallet? Fear not, we've got your back (and your gold)! Here's how to make your gold magically appear:"
+  utter_troubleshoot_purchase_issue:
+    - text: |
+        The Log Out-In Dance: Log out of your Highrise account, close the app, do a little jig (optional), and log back in. More often than not, your gold will be there, waiting to greet you!
+        If that doesn't work, we move to the next level:
+  utter_contact_support:
+    - text: |
+        The Support SOS: Send us a message via the in-game FAQ. Attach your iTunes or Google receipt (which should pop into your email within three days of purchase). It's like showing us a golden ticket! We'll then validate your purchase and pour the missing gold into your wallet.
+  utter_encouragement:
+    - text: "So, keep calm, follow these steps, and remember: all that glitters is not lost, it's just waiting to be found!"
+  utter_inquire_double_charge:
+    - text: "We know mistakes can happen. Follow these steps if you've been double charged:"
+  utter_inquire_accidental_purchase:
+    - text: "If you made an accidental purchase, don't worry. Here's what to do:"
+  utter_resolve_double_charge_ios:
+    - text: "For iOS: Open Settings, tap your name, then 'iTunes & App Store'. Tap your Apple ID, then 'View Apple ID'. Tap 'Purchase History' to check for duplicate charges."
+  utter_resolve_double_charge_android:
+    - text: "For Android: Open the Google Play Store app. Tap the menu in the top left corner. Tap 'Account' then 'Purchase History' to check for duplicate charges."
+  utter_request_refund_ios:
+    - text: "Go to reportaproblem.apple.com, log in with your Apple ID, find the purchase in question, and select 'Report a Problem'. Choose an option and submit."
+  utter_request_refund_android:
+    - text: "Open the Google Play Store app, go to 'Account', then 'Purchase History'. Find the purchase, tap on it, and select 'Request a Refund' or 'Report a Problem'. Fill out the form and submit."
+  utter_direct_support_contact:
+    - text: "If a refund isn't available directly through Apple or Google, reach out to us. Open the app, tap the gear icon for settings, select 'Help Center', then 'Contact Us'."
+  utter_prevent_accidental_purchase:
+    - text: "Double-check purchases before confirming. Enable purchase authentication: For iOS, go to Settings > Screen Time > Content & Privacy Restrictions > iTunes & App Store Purchases > Require Password. For Android, go to Google Play Store > Settings > Require authentication for purchases."
+  utter_inquire_gold_offer_availability:
+    - text: "Watched an Ad and Missing Your Gold? Check Here!"
+  utter_how_to_access_cash_shop:
+    - text: "Craving some free gold? Well, our Cash Shop is the gold mine you're looking for! Just scroll to the bottom, and voila! You can take on sponsor offers for some dazzling free gold. It's like a treasure hunt, but without the need to get your hands dirty!"
+  utter_inquiry_post_offer_completion:
+    - text: "But what if you've completed an offer and your gold is nowhere to be found? Fear not, we've got a map to guide you:"
+  utter_contact_sponsor_support:
+    - text: "See, we at Highrise are great at many things, but handling gold from sponsors isn't our forte. So, you'll need to get in touch with the parent company, like Tapjoy or Fyber. Here's the secret path: Tap 'shop' in the bottom right-hand corner, choose 'cash store', scroll to the bottom where the offers are, hit 'Go' for your provider, click 'in-progress' for IronSource or hit 'Reward Status' for Tapjoy, tap on the offer holding your gold, then use 'missing gold' to report it."
+  utter_follow_up_missing_gold_status:
+    - text: "On the bottom left of this page, there's a 'missing gold' button. Use it to contact support for your offer partner. Just remember, the 'contact support' option appears only after 24 hours on an 'in-progress' offer. Tell them about your gold woes, and they'll help you resolve the issue! Happy gold-digging!"
+  utter_inquire_gold_bar_premium:
+    - text: "Gold Bars come with a 10% premium, similar to how adding truffle oil elevates your french fries. If you purchase a 500G Gold Bar, it will cost you 550 Gold. This premium adds value to the Bars in the market."
+  utter_gold_bar_tradability:
+    - text: "Gold Bars are like social butterflies of our virtual world, enjoying being traded. Unlike Gold, which prefers to remain static, Gold Bars are actively passed around!"
+  utter_gold_bar_inflation_protection:
+    - text: "The extra cost of Gold Bars acts as a superhero battling inflation. Each time a Gold Bar is traded, it transforms Gold, thus removing Gold from the economy, which helps in managing item prices effectively."
+  utter_gold_bar_as_decor:
+    - text: "Gold Bars are not just currency; they double as fashionable decor items. Whether you're flaunting wealth or decorating your space, they add that perfect metallic touch, making them a premium currency."
+  utter_summary_gold_bar_importance:
+    - text: "Gold Bars are central to Highrise's economy, providing numerous benefits from managing inflation to being aesthetic decor. They're indispensable; more than just shiny objects, they drive the economy!"
+  utter_ask_how_sales_work:
+    - text: "Ever scratched your head, wondering how our spectacular sales work? Let's break it down for you, with the allure of a magic trick reveal!"
+  utter_explain_sales_special_features:
+    - text: "Our sales are like personalized fashion accessories, tailor-made just for you! They can pop up anytime, anywhere, and like a shooting star, they're here for a good time, not a long time. So when you see one, grab it! It's like finding a unicorn in a field of horses."
+  utter_inquire_types_of_sales:
+    - text: "Here's the scoop on our various types of sales:\n- Universal Sales: The big blockbusters! These are like all-you-can-eat buffets, available to every player in Highrise.\n- Targeted Sales: These are more like a secret handshake, meant for specific players based on secret-squirrel stuff we can't disclose.\n- Account-Specific Sales: These are the Cinderella's slipper of sales � unique and vanishing once purchased on any linked account."
+  utter_account_specific_sales_info:
+    - text: "Account-Specific Sales are unique to each account and disappear once purchased on any linked account. Think of them as the Cinderella's slipper of sales - a perfect fit for just one!"
+  utter_targeted_sales_criteria:
+    - text: "We keep our criteria for targeted sales under wraps tighter than grandma's secret cookie recipe. But rest assured, our goal is to jazz up your Highrise experience, one sale at a time."
+  utter_inquire_tipping_system:
+    - text: "Our tipping system is a way to share the love with other players using gold bars. Check our article for detailed information!"
+  utter_about_tipping_in_highrise:
+    - text: "Tipping in Highrise works like a high-five with gold bars to appreciate others in your room."
+  utter_guide_to_tipping:
+    - text: "To tip someone, tap them in the same room to access the mini-profile menu and select the tipping option."
+  utter_tipping_options:
+    - text: "You can use the '+' symbol in direct messages or tap the shiny gold coin on the mini-profile menu. Values range from 1G to 10,000G!"
+  utter_gold_conversion:
+    - text: "Convert your regular gold into gold bars directly in the tipping system. A conversion tax applies."
+  utter_indirect_tipping:
+    - text: "Can't tip directly? Use the player's tip jar to show your appreciation."
+  utter_spread_gold_love:
+    - text: "Spread some gold love in Highrise with tipping. It's our way of enriching the community!"
+  utter_ask_tip_jars_intro:
+    - text: "Tip Jars in Highrise are more than just fancy furniture they're your ticket to receiving Gold tips while off adventuring. Think of them as a 'thank you' jar for hosting a fantastic party or creating an impressive room."
+  utter_setup_tip_jar:
+    - text: "To set up your Tip Jar, head to the Shop under Collections > Tip Jars! Choose your preferred style, place it in your room like any other furniture, and start collecting gold!"
+  utter_tipping_tip_jar:
+    - text: "To tip a Tip Jar, tap on it and select the amount of Gold bars to tip, ranging from 1G to 10,000G! If you're low on Gold bars, you can convert regular gold in the system. Note, a 500G tip will cost you 550G due to taxes."
+  utter_add_message_to_tip:
+    - text: "You can attach a message to your tip if it's at least 100 Gold. Messages appear on the Recent Tips screen. Tips of 5,000 Gold or more get a golden background and are announced in the room chat!"
+  utter_report_offensive_message:
+    - text: "If you see an offensive message in a Tip Jar, tap on it and hit the Report button. Our Trust & Safety team will review the message promptly."
+  utter_top_tippers_info:
+    - text: "The 'Top Tippers' section showcases the biggest gold-donators in the room, complete with their total Gold tipped!"
+  utter_collect_gold_from_jar:
+    - text: "When your Tip Jar has tips, it will be filled with shiny gold coins! You can either display them or hit the 'Claim' button to collect your gold. If your jar is removed, don't worry, your gold will be safely transferred to your inventory."
+  utter_ask_about_eligibility_in_ads:
+    - text: "See yourself in one of our ads? Check this out! If your creations have been featured, you could be eligible for a GOLD reward!"
+  utter_reward_for_short_appearances:
+    - text: "If your character's image, feed content, or room appears in an ad for less than 3 seconds, you're eligible for a 990 GOLD reward. It's like a 'blink and you'll miss it' bonus!"
+  utter_reward_for_long_appearances:
+    - text: "If your creation is featured in an ad for over 3 seconds, you're in for a whopping 3000 GOLD! Talk about a superstar salary!"
+  utter_no_reward_for_public_appearances:
+    - text: "Unfortunately, if you were casually hanging out in public rooms when we caught you on camera, there's no GOLD reward for that cameo."
+  utter_policy_exceptions:
+    - text: "Remember, this policy is only for paid advertisements. Social media posts, 'Outfit of the Day', 'Room of the Day', 'HR Live Spotlight', and other unpaid content won't trigger the GOLD cascade."
+  utter_inquire_verified_resellers:
+    - text: "Verified resellers are officially sanctioned platforms to sell Highrise items or currency. They work closely with Highrise to offer Gold Packs, SkyPass, sales, and more to various communities and regions. We won�t penalize or suspend accounts that purchase from them."
+  utter_reseller_offers:
+    - text: "Verified resellers offer Gold Packs, SkyPass, sales, and other services to a wide range of communities and regions."
+  utter_reseller_transactions:
+    - text: "While we support verified resellers, Highrise is not responsible for any transactions or issues on their platforms. We cannot guarantee the delivery of items or currency purchased through them."
+  utter_become_verified_reseller:
+    - text: "If you're interested in becoming a verified reseller and have an established platform or large community, you can contact us at [email protected]"
+  utter_contact_information:
+    - text: "For any inquiries about becoming a verified reseller, please reach out to us at [email protected]"
+  utter_other_resources:
+    - text: "Check out our article titled 'Check This Article Out to Learn More About Our Verified Sellers Program' for more information on verified resellers."
+  utter_telegram_bot:
+    - text: "For more information, you can also connect through our Telegram Bot: @safezonehr_bot."
+  utter_inquire_earned_gold_definition:
+    - text: "Earned Gold is a flexible currency awarded to community creators in Highrise. It's given as compensation to item designers, room builders, and others who enrich the platform with their creations."
+  utter_inquire_earned_gold_usage:
+    - text: "Earned Gold can be used like regular Gold. You can spin grabs, trade, tip, and use it to buy items, Voice Tokens, Room Boost, and more within Highrise."
+  utter_inquire_earned_gold_cashout:
+    - text: "Yes, Earned Gold can be cashed out for real money with the current exchange rate being 750 Earned Gold = $1 USD. Visit the Creator Exchange to submit a Cashout request."
+  utter_inquire_view_earned_gold_balance:
+    - text: "You can view your Earned Gold balance through the Creator Exchange on our Create Portal. It's not visible on the Highrise app or website."
+  utter_inquire_cashout_requirements:
+    - text: "To cash out Earned Gold, you must meet certain criteria: be at least 13 years old, have at least 35,000 Earned Gold, and follow Highrise's TOS. Compliance with Tipalti onboarding is also required."
+  utter_inquire_cashout_processing_time:
+    - text: "Processing your cashout request may take up to 30 days. You can monitor the status on the Creator Exchange in the Payment History section."
+  utter_inquire_earned_gold_support_issues:
+    - text: "For any issues regarding Earned Gold, please contact Highrise Support. They'll assist with any problems or inquiries you have about your Earned Gold."
+  utter_ask_how_to_take_screenshot:
+    - text: "Spot a memorable moment in a room? Tap the camera icon in the upper right corner to freeze time and capture it forever."
+  utter_ask_about_sharing_screenshots:
+    - text: "Once you've got your shot, tap 'post' to share the love on your feed. You'll then hop over to a new page where you can add a snappy caption and some trendy hashtags for your picture to strut its stuff under."
+  utter_create_first_post_help:
+    - text: "Creating your first post is exciting! Let me guide you through the process."
+  utter_share_adventures:
+    - text: "Excited to share your adventures? I'll show you more about how you can collect those likes!"
+  utter_post_options:
+    - text: "To start creating, head to the Newsfeed page. You'll find options for 'Text' and 'Photo/Video' posts right at the top."
+  utter_permission_issues_help:
+    - text: "If you're seeing a blank 'Library' or 'Camera', double-check that Highrise has the necessary permissions to access your photos."
+  utter_device_permission_steps:
+    - text: "To allow permissions on an iPhone, go through Settings > Privacy. On Android, navigate to Settings -> Privacy -> Permission Manager and enable access for Highrise."
+  utter_share_post_action:
+    - text: "Once you're satisfied with your content, press 'Share' in the top right-hand corner to make your brilliance public!"
+  utter_enthusiasm_for_posting:
+    - text: "Go on, snap away and captivate the Highrise community with your amazing posts!"
+  utter_post_removal_inquiry:
+    - text: "If you've had one of your posts removed, please check the article for more information."
+  utter_community_guidelines_violation:
+    - text: "If any of your posts break our Community Guidelines, they might be removed, and you could receive a warning or suspension."
+  utter_report_guideline_violation:
+    - text: "To report a post that violates our Community Guidelines, tap on the ellipses (three dots) at the top-right of the post and report it. Our team will review it and take appropriate action."
+  utter_ask_profile_public:
+    - text: "When you first join Highrise, your profile is set to 'Public'. That means anyone and everyone can see your profile and posts. Don�t fancy sharing your profile with everyone? Not to worry!"
+  utter_change_privacy_settings:
+    - text: "Navigate to your profile page, give the 'Edit Profile' button a click. On this page, you'll see all your privacy settings. Simply set them to the privacy levels you wish, and you're done!"
+  utter_followers_interaction:
+    - text: "Oh, and remember, your followers? They�re your biggest fans! They�ll always see your latest posts popping up in their Newsfeed (and you'll see theirs). After all, it�s only fair, right?"
+  utter_delete_post:
+    - text: "Spot those three naughty dots (ellipsis icon) chilling at the top-right of your post? Give 'em a tap, then tap on the 'delete� option."
+  utter_delete_comment:
+    - text: "Firmly press and hold on to your comment. A screen will pop up offering you a delete option. Tap it, and you're all done, your comment is now deleted."
+  utter_manage_room_subscriptions:
+    - text: "Owned Room Subscriptions allow you to maintain and customize 3D rooms that renew automatically each month. Enjoy uninterrupted space for your events."
+  utter_create_custom_room:
+    - text: "To create your own 3D room, start by visiting the World Profile and tapping the block icon next to the ENTER WORLD button."
+  utter_subscription_payment:
+    - text: "If enabled, you'll be prompted to subscribe by paying a monthly fee to maintain your room within the world."
+  utter_cancel_subscription:
+    - text: "To cancel your room subscription, you can select 'Cancel Subscription' in the settings. Your room will remain active until the end of the current billing period."
+  utter_subscription_notifications:
+    - text: "You'll receive notifications for renewals, insufficient funds, price changes, and if room creation is disabled by the World Creator."
+  utter_additional_benefits:
+    - text: "Customize your room to make it unique and support World Creators, allowing them to provide great content and experiences in Highrise."
+  utter_support_contact:
+    - text: "Feel free to reach out to our support team with any questions or feedback. We're here to help you create the best experience possible!"
+  utter_create_own_room:
+    - text: "To create and customize your own 3D space, first find the World you want to replicate into a room. You can tailor these spaces for events, gatherings, or cozy hangouts."
+  utter_manage_owned_room:
+    - text: "You can manage your Owned Room by adjusting settings like its name, language, moderation options, and visitor controls such as entry permissions and spectator modes."
+  utter_explore_owned_rooms:
+    - text: "To explore Owned Rooms, start by visiting a World Profile and tapping the block icon next to the 'ENTER WORLD' button. This will initiate the room creation process."
+  utter_owned_room_cost:
+    - text: "Creating an Owned Room is generally free, but note that some World Creators may require a subscription fee. This supports them and unlocks additional customization features."
+  utter_create_room_intro:
+    - text: "Welcome to Highrise, where you're not just a resident, but the architect too! Get ready to build your own slice of paradise in a few simple steps."
+  utter_room_creation_step_one:
+    - text: "Start by poking the 'Room' icon at the bottom left-hand corner of your screen to begin your room creation adventure."
+  utter_room_design_process:
+    - text: "Now, don your creative hat. Choose your room's size and style, and write a description that stands out. Tap the fields to make any edits."
+  utter_complete_room_creation:
+    - text: "Once satisfied with your room's setup, hit 'Create' and voil�! You're ready to start decorating and make it uniquely yours. Let's see what magic you bring to Highrise!"
+  utter_inquire_room_design:
+    - text: "To start designing your highrise room, tap the artsy pencil icon in the corner. Make sure you're in a room where you're the boss of design!"
+  utter_inquire_furniture_acquisition:
+    - text: "Check out the fancy menu at the screen's bottom for your glorious furniture collection. Filter through or search by name to find what you need."
+  utter_inquire_furniture_customization:
+    - text: "Rearrange your furniture by dragging and dropping the items, it's like playing virtual dollhouse! You can also grab items and drag them around to rearrange."
+  utter_inquire_special_item_features:
+    - text: "Some items offer special features like setting teleport destinations, adjusting speed, and changing state for customization. Explore the Item Menu for these options."
+  utter_inquire_design_save_and_exit:
+    - text: "Once your room is designed, tap the 'Save' icon in the upper right. If you want to undo changes, use the 'Undo' button or hit 'exit' to cancel."
+  utter_room_change_intro:
+    - text: "Dreaming of more elbow room or a change of scene? It's easy to customize your space in Highrise for exactly that!"
+  utter_navigate_to_rooms:
+    - text: "Click on 'Rooms' in the top left-hand corner of your screen. It's always there, like the north star!"
+  utter_create_a_room:
+    - text: "To create a new room, go to the 'My rooms tab' and tap on 'Create a Room'. It's your virtual canvas for creativity."
+  utter_delete_a_room:
+    - text: "If the room isn't just right, go to your room description page, navigate to Edit > Basic Info, and select Delete Room. Start fresh and create your masterpiece!"
+  utter_ask_room_privacy_settings:
+    - text: "Here's how to control your room's guest list: Tap on 'Room Settings' and adjust the 'Access' options."
+  utter_inquire_locking_gates:
+    - text: "Tired of unwanted visitors? Adjust room access by setting the 'Access' option to limit people entering your room."
+  utter_room_settings_instruction:
+    - text: "To adjust your room settings, go to the rooms directory, choose 'My rooms', look for the '!' icon next to the room, and tap 'Room Settings'."
+  utter_adjust_guest_list:
+    - text: "In the 'Room Settings', tap 'Access' to control who gets to party in your room and who sees the 'Do Not Disturb' sign."
+  utter_inquire_moderate_room:
+    - text: "To moderate your room, enter your room settings by heading to the rooms directory, select 'My rooms', then tap the '!' icon next to the desired room. Next, tap 'Room Settings'. Here, you can manage moderation settings."
+  utter_inquire_delegate_moderation_privileges:
+    - text: "To delegate moderation privileges, go to your room's settings and scroll down to the 'Moderation & Design' section. Click 'Add People' to handpick players as moderators or designers, or both."
+  utter_inquire_moderation_actions:
+    - text: "With moderation rights, you or your deputized moderators can boot disruptive users by tapping on their avatar and selecting 'Kick' from the profile mini-menu popup. This is applicable in any room you own or moderate."
+  utter_teamwork_collaboration_introduction:
+    - text: "Teamwork makes the dream work when collaborating on room design in Highrise."
+  utter_setup_wobbly_bookcases:
+    - text: "Remember the buddy system - it's not just for field trips! Bring a friend to help set up those wobbly bookcases."
+  utter_give_design_rights:
+    - text: "Once you've given Design Rights, your friend can bring their own furniture to your room design."
+  utter_add_user_to_room:
+    - text: "Tap 'Moderation and Access' in Room Settings, hit 'Add User', and search for the friend with design skills."
+  utter_furniture_management:
+    - text: "Your furniture stays until you decide to move it. Your friend's furniture stays put until they move it, keeping everyone's items separate while collaborating."
+  utter_start_adding_music:
+    - text: "Rock the Room: Step-by-Step Guide to Adding Music in Your Highrise Room. Let's add some beats to your room!"
+  utter_navigate_room_settings:
+    - text: "Find your way to 'Room Settings'. Tap on the room name when you're standing in it or click the 'i' icon next to the room name in your rooms list."
+  utter_edit_room_information:
+    - text: "Hit 'Edit' in the upper right corner. It�s like the secret password to your room's control panel."
+  utter_add_radio_station:
+    - text: "In the Basic Information tab, tap on the field labeled 'Radio'. Search for Shoutcast radio stations and tap on your chosen station to start playing music."
+  utter_change_or_clear_music:
+    - text: "Feel like switching up the soundtrack? Return to the 'Radio' in Room Settings to change the station or tap 'Clear Music' for peace and quiet."
+  utter_room_deletion_intro:
+    - text: "Let's tidy up that rooms list of yours!"
+  utter_room_deletion_steps:
+    - text: "Here's the secret recipe to room removal: Navigate to 'Room Settings' by tapping the room name or the 'i' icon in the directory. Then tap 'Edit' in the upper right corner and scroll to the bottom of the Basic Information tab to find 'Delete Room'."
+  utter_room_deletion_warning:
+    - text: "This step is as permanent as a tattoo, so think before you tap. All your furniture will be returned to your inventory, and any items from friends will be returned to theirs."
+  utter_room_deletion_encouragement:
+    - text: "So, get ready, set, declutter!"
+  utter_ask_about_crew_rooms:
+    - text: "Crew Rooms are customizable spaces in Highrise where you and your crew can hang out or work on projects together. They're a great spot for collaboration and creativity!"
+  utter_building_community_with_crew_rooms:
+    - text: "Crew Rooms are fantastic for building community! They serve as a shared hangout spot where your crew can customize and collaborate, perfect for joint projects or just chilling."
+  utter_create_crew_room:
+    - text: "To create a Crew Room, go to the Room Directory, tap on �My Rooms�, and then click �Add Room�. You've just made a new Crew Room!"
+  utter_manage_crew_room:
+    - text: "You can manage a Crew Room by adjusting who can enter and keep peace in the room settings. Remember, you can move furniture, but only the owner can remove it."
+  utter_design_and_customize_crew_room:
+    - text: "In a Crew Room, every member can participate in designing. You can move furniture around, but each piece belongs to its owner. Let your creativity flow!"
+  utter_inquire_room_boost_introduction:
+    - text: "Room Boost is your ticket to getting your room VIP treatment�making it the first thing people see in the directory. With boost tokens, you can elevate your room to stardom for five minutes per token."
+  utter_inquire_room_boost_duration:
+    - text: "Each Room Boost token keeps your room in the spotlight for a complete five minutes."
+  utter_inquire_room_reboost_feature:
+    - text: "The re-boost feature allows you to keep your room shining for as long as you want, as long as you have enough gold to spend. The more you boost, the higher your room will climb in the directory."
+  utter_inquire_room_boost_benefits:
+    - text: "Using Room Boost can significantly increase your room's visibility, ensuring it's the first to be noticed when people access the directory. It's a great way to gain more attention and interaction!"
+  utter_enquire_directory_categories:
+    - text: "Directory Categories allow you to sort rooms into different categories and view them in the room directory. Current categories include Chat, Games, and Trade."
+  utter_enquire_category_effect_on_gameplay:
+    - text: "No, directory categories don't affect gameplay. You can perform any activity in any room, like trading in a game room or hosting pageants in a trade room. They're meant to help you find rooms more easily."
+  utter_enquire_room_subcategory_info:
+    - text: "You cannot currently see what subcategory a room is in. This feature will be added in the future."
+  utter_enquire_category_change_limit:
+    - text: "There are no limits on changing a room's category or subcategory. You can modify them as often as you'd like."
+  utter_enquire_access_directory_categories:
+    - text: "You can access directory categories when creating a new room or editing an existing one. Buttons in the directory allow you to browse different categories."
+  utter_problem_finding_room_in_directory:
+    - text: "Don't worry. It can take up to 1 minute for your changes to reflect in the directory. Please wait for a minute and try refreshing your directory again."
+  utter_start_voice_chat:
+    - text: "To start a voice chat, room owners and moderators can navigate to the 'People in Room' menu. Initiating voice chat costs 200 gold for an hour, with an option to extend."
+  utter_microphone_access:
+    - text: "Microphone access is essential for using voice chat. If you deny access accidentally, you'll need to adjust your device's settings to grant permission again."
+  utter_manage_voice_chat:
+    - text: "Once voice chat is active, you can mute your mic as needed. Room owners and moderators can invite others to join, and the Visitors Bar indicates who has voice chat privileges."
+  utter_voice_chat_costs:
+    - text: "Voice chat costs gold to help cover the expenses from our provider and maintain a positive, troll-free environment."
+  utter_age_restriction_voice_chat:
+    - text: "An age restriction is in place for safety. Players under 18 can't start or see rooms with voice chat, safeguarding our younger community members."
+  utter_welcome_to_spectating:
+    - text: "Welcome to the Spectator's Lounge! Enjoy the Highrise Room Experience from the Sidelines."
+  utter_how_to_enable_spectating:
+    - text: "Turning on Spectating is as simple as strolling over to your Room Settings. Remember, only the Room Owner can enable or disable the Spectating spotlight."
+  utter_benefits_of_spectating:
+    - text: "Spectators can enjoy watching avatars and text chats in action, tune into a live Voice Chat, send Tips to players, and shoot off emoji reactions."
+  utter_limitations_of_spectating:
+    - text: "Spectators can't stroll around or be seen in the room, and they can't join in the text or Voice Chat. They remain invisible observers."
+  utter_managing_spectators:
+    - text: "To see who's watching, visit the 'People in Room' tab. If a spot opens up, spectators will get an invite, and the quickest to 'Join' gets in."
+  utter_spectating_rules:
+    - text: "In the world of spectating, rules are the same for everyone. Spectators can be kicked, banned, or reported by moderators, ensuring a fun and safe environment."
+  utter_ask_what_is_skypass:
+    - text: "SkyPass is a free feature available to all users, offering tasks to earn Stars and unlocking various Tiers with rewards."
+  utter_ask_how_to_access_skypass:
+    - text: "Simply log in and tap the blue icon at the upper left corner of your screen to access SkyPass."
+  utter_ask_about_stars_and_tiers:
+    - text: "Stars are exclusive tokens for SkyPass, allowing you to level up through Tiers with increasing task difficulty and rewards."
+  utter_ask_about_rewards:
+    - text: "SkyPass offers a wide variety of rewards upon unlocking Tiers, including bubbles, clothing items, Free Spin Tokens, and more."
+  utter_ask_about_skypass_plus:
+    - text: "SkyPass+ provides additional rewards for $9.99 per season, including bonus gold and special clothing items, available as an in-app purchase."
+  utter_ask_about_season_end:
+    - text: "At season's end, any unclaimed SkyPass rewards are automatically sent to your inventory. Check Inbox > Gifts if you don't see them."
+  utter_ask_troubleshooting_skypass:
+    - text: "Ensure your device runs iOS 3.16.0 / Android 1.22.0 or later to access SkyPass. Complete initial challenges if you're new to Highrise."
+  utter_provide_feedback:
+    - text: "We welcome your feedback! Visit highrise.canny.io to share suggestions or report issues with the SkyPass feature."
+  utter_ask_about_free_gift_boxes:
+    - text: "Guess what? We've got a surprise for you! Highrise sometimes likes to spread joy by sending out fantastic free gifts."
+  utter_find_gift_boxes:
+    - text: "To find these marvelous presents, just head over to the Gifts section of your Inbox."
+  utter_open_gift_boxes:
+    - text: "Can't wait to see what's inside? Simply tap on the Open button in the Gifts section, and voila! The contents are all yours to claim."
+  utter_encourage_open_gift_boxes:
+    - text: "Go ahead, open those gift boxes and let the excitement unfold!"
+  utter_ask_about_crew_gifts:
+    - text: "Crew gifts are special treats sent to you when any crew member makes a purchase. These gifts automatically appear in the Gifts section of your Inbox, so you don't need to do anything!"
+  utter_crew_gifts_benefits:
+    - text: "Being part of a crew means you're in an incredible squad, and you get to enjoy extra goodies like crew gifts. It's a great way to feel more connected and pampered!"
+  utter_receiving_crew_gifts:
+    - text: "Crew gifts will appear in the Gifts section of your Inbox. Keep an eye out for them as delightful surprises await you!"
+  utter_acknowledge_crew_love:
+    - text: "It's crew love at its finest! Enjoy the gifts and the wonderful feeling of being in a supportive crew."
+  utter_ask_about_lucky_wheel:
+    - text: "The Lucky Wheel is your ticket to spinning a wheel of fortune and grabbing some epic rewards, like bubbles, gold, and even free spins in Highrise."
+  utter_lucky_wheel_spinning_frequency:
+    - text: "You can spin the magical Lucky Wheel once a day. Plus, if you watch a quick ad, you get an extra spin on the same day!"
+  utter_lucky_wheel_multiple_accounts:
+    - text: "Sorry, the once-per-day rule applies to all your accounts. So, you can't spin the wheel with multiple accounts."
+  utter_lucky_wheel_timer_reset:
+    - text: "The Lucky Wheel timer resets at noon UTC for everyone, no matter the time zone!"
+  utter_finding_lucky_wheel:
+    - text: "You can find the Lucky Wheel by tapping the 'Spin!' button in the upper-right corner of your screen while in a room."
+  utter_ask_how_to_redeem_promo_code:
+    - text: "The process is simple! Just follow the steps provided and you'll have your goodies."
+  utter_log_into_website:
+    - text: "Log into our website here [link] to start using your promo code."
+  utter_choose_redeem_option:
+    - text: "Tap on your profile icon in the top-right-hand corner and choose 'Redeem a Promo Code' from the drop-down menu."
+  utter_enter_promo_code:
+    - text: "Enter your Promo Code and hit the 'Redeem Promo Code' button."
+  utter_check_redeemed_items:
+    - text: "You can find the items from your promo code in the gifts section of your Highrise account. Enjoy!"
+  utter_ask_about_grabs:
+    - text: "In Highrise, 'Grabs' are sets of items that you can win by spinning in the game. They appear in the Shop several times a week, offering unique items to enhance your gameplay."
+  utter_ask_how_to_find_grabs:
+    - text: "You can find Grabs by tapping the Shop icon in your bottom menu. Under 'Featured Grabs', you'll discover all available sets to spin for exciting rewards."
+  utter_ask_about_event_room:
+    - text: "During live events, new Grabs can be found in the Event Room. Tap the event icon in the lower right of your home room screen, go to the event menu's top, and click 'Go to Event Room' to discover these special Grabs."
+  utter_ask_about_rarities:
+    - text: "Grabs contain items classified under different Rarities such as Uncommon, Common, Rare, Epic, and Legendary. Most grab bags contain Rare items, while the rarest are the Epics and the ultimate Legendaries."
+  utter_ask_about_legendary_items:
+    - text: "Legendary items are special prizes in Grabs and can be won by acquiring all items in a grab. They can be re-won after a grab is reset. Limited-Time Legendaries are fleeting, so act quickly to secure them!"
+  utter_ask_item_rarity_value:
+    - text: |
+        Every item in Highrise has its own unique value. Some items are rarer and hold more value in the marketplace due to their limited availability.
+  utter_inquire_item_rarity_categories:
+    - text: |
+        Items in Highrise fall into four categories: Common, Rare, Epic, and Legendary. These categories indicate their rarity and value, with Legendary being the most scarce and precious.
+  utter_ask_spin_chances:
+    - text: |
+        When you spin for gold grabs in Highrise, you can get either a rare or an epic item. Rare items appear more frequently, and once you collect all items, a Legendary item is rewarded.
+  utter_inquire_grab_types:
+    - text: |
+        Gold grabs often expire sooner and are linked with rarer items, whereas bubble grabs are more likely to produce common items, eventually leading to an Epic item upon collecting all items.
+  utter_ask_item_availability_and_trade:
+    - text: |
+        Some items might not be available in the shop because gold grabs expire faster. These items can often be purchased from other players in the trade section or acquired with gold.
+  utter_inquire_shopping_experience:
+    - text: "You're right, shopping in Highrise is a delight! You can choose from the latest fashions to luxurious furniture without leaving your virtual home."
+  utter_navigate_to_store:
+    - text: "Getting to our store is simple. Just tap the \"Store\" tab on your screen's bottom bar, you can't miss it!"
+  utter_explore_shop_sections:
+    - text: "Once inside, explore the shop's many sections including Clothing, Interior, Face&Body, Grabs, and Cash. It�s a fun journey at the top of your screen."
+  utter_understand_trade_options:
+    - text: "You can trade using bubbles or gold, whichever you prefer, for a versatile shopping experience."
+  utter_enter_design_mode:
+    - text: "To enter design mode, click the pencil and ruler icon in the top right-hand corner of your screen if you have design rights to a room."
+  utter_shop_for_furniture:
+    - text: "Select the 'shop' option in the bottom right-hand corner to start shopping for furniture."
+  utter_browse_storefront:
+    - text: "The storefront window will pop up to show recent snags and highlight collections. Scroll through them at the top to explore."
+  utter_pay_for_items:
+    - text: "Our furniture library is organized by type. Pay with bubbles for most items, but for high-end pieces, you'll need gold."
+  utter_find_grab_item:
+    - text: "If you can't find a particular piece of furniture, it might be an old grab item. Check the Marketplace as some players may have it for sale."
+  utter_ask_about_grab_expiry:
+    - text: "Yes, indeed! Gold grabs bid you adieu after approximately a month, while bubble grabs stick around a bit longer."
+  utter_grab_expiry_difference:
+    - text: "Gold grabs last for about a month, while bubble grabs have a longer duration. That�s just the nature of grab life."
+  utter_missed_grab_options:
+    - text: "Missed a grab? No need for panic! You can explore Storefronts or Second-hand Grabs to find items from expired grabs. Check tags like #sfexplore, #selling, #buying, #trading for a vibrant trading scene."
+  utter_check_grab_info:
+    - text: "On a Grab screen, click the little info icon underneath the Grab's name. This will bring up the Spin Rates for that grab and any Swap Rates (if that grab has swapping enabled)."
+  utter_spin_rates_variability:
+    - text: "No, Spin Rates are not the same for all Grabs and change very often. We recommend checking the Spin Rates before you begin spinning any Grab."
+  utter_grab_rigging_misconception:
+    - text: "While it might be some bad luck, it's most definitely not rigged. The common misconception here is not realizing each spin is an independent variable."
+  utter_grab_probability_explanation:
+    - text: "Imagine our game's spins like reaching into a bag of 100 marbles, where 10 are red (winning marbles) and 90 are blue. Each spin is like pulling out a marble, checking its color, and then putting it back. No matter how many times you reach in, your chance of pulling out a red marble is always 10%. Just like pulling marbles from the bag, each game spin is an independent event. This means that spinning 100 times doesn't guarantee you'll pull out 10 red marbles. It's completely possible to have a streak of blue ones because every spin is a fresh chance, not affected by the previous or future spins."
+  utter_introduce_second_hand_grabs:
+    - text: "Second-hand grabs are like your personal vending machines for grabs! Place them in your room, stuff them with your items, and let other players try their luck. The best part? You keep 70% of all the gold your machine rakes in."
+  utter_setup_second_hand_grabs:
+    - text: "Think of it as your own mini lottery. You can add or remove items whenever you want and set the draw price anywhere from 1 to 99,999 gold. You also get to set the odds for different rarity levels (Common, Uncommon, Rare, Epic, and Legendary)."
+  utter_manage_second_hand_grabs:
+    - text: "Here's the scoop: when all items of a specific rarity are drawn, that rarity's odds get added to the lowest remaining one. So, if your Rare items run out, their odds get passed on to the Common ones. You can see who drew from your grab, what they got, and how much gold they spent, all through the handy history button on the Second-hand Grab interface."
+  utter_visitor_interactions:
+    - text: "Visitors can view your username, check out the odds, draw from the grab, and keep track of updates and wins. They'll also get notified if you disable the grab or if all items are drawn. It's as transparent as a freshly cleaned window!"
+  utter_explain_progress_rewards:
+    - text: "Progress Rewards are delightful bonuses you receive as you spin grabs and collect new items. They provide a boost on your journey to obtaining that coveted Legendary item."
+  utter_progress_rewards_earning:
+    - text: "You earn Progress Rewards by spinning and collecting unique items from a grab. Remember, only Rare and Epic items count towards your Progress Meter, and duplicates don't add any progress."
+  utter_progress_reward_meters:
+    - text: "The Progress Reward Meter is an additional meter beneath the standard Completion Reward Meter. It keeps track of your unique items collected and indicates how many more you need to earn the Progress Reward."
+  utter_claiming_progress_rewards:
+    - text: "Once your Progress Meter is full, the Progress Reward is automatically claimed. A special animation will appear when you spin that final item, and you'll find your reward in your closet inventory."
+  utter_progress_rewards_variability:
+    - text: "Indeed, different grabs require different numbers of items to complete. Hence, the item count needed to unlock Progress Rewards can vary between grabs."
+  utter_post_legendary_rewards_reset:
+    - text: "After you claim the Legendary item and finish the grab, all progress resets. Both the Progress and Completion Meters return to zero, allowing you to start again and unlock all rewards anew."
+  utter_inquire_grab_tokens:
+    - text: "Grab Tokens are your fun pass to the world of Grabs! You've got two kinds of tokens: the gold Grab Token and the silver Promo Token."
+  utter_usage_of_grab_tokens:
+    - text: "Use the gold Grab Tokens to spin, and the items you win can be traded freely. The items you spin with the silver Promo Tokens are bound to your account, meaning no trading or transferring."
+  utter_run_out_of_tokens:
+    - text: "Don't worry if your Grab Token stash hits zero. You can keep the good times rolling by using some gold for your spins. Easy-peasy!"
+  utter_special_grab_rules:
+    - text: "Heads up! Some grabs only accept gold or bubbles, and do not allow Grab Tokens. These grabs march to the beat of their own drum!"
+  utter_greet_highrise_community:
+    - text: "We're all about creating an uplifting and positive space where everyone can hang out, make friends, and have fun."
+  utter_report_violation_intro:
+    - text: "Your safety is super important to us, and we've got a Trust and Safety Team that's always making sure Highrise stays a cozy and respectful environment for all."
+  utter_using_in_app_reporting:
+    - text: "Our in-app reporting tool is your go-to for flagging anything sketchy. It's super efficient and sends us all the deets we need to look into the situation ASAP."
+  utter_step_by_step_reporting:
+    - text: "Follow these steps: Tap and hold the message you want to report, then tap 'Report'. Choose the reason, and finally tap 'Submit Report'."
+  utter_importance_of_detailed_reports:
+    - text: "When you're reporting, be sure to flag the exact message or post. Specific reports help us take action swiftly."
+  utter_request_appeal_process:
+    - text: |
+        Mistakes can happen - we're all human, after all! If you feel your account was wrongly penalized, you can send an appeal by contacting our support team via the HelpCenter. A member of our Trust & Safety team will review and respond to your appeal as soon as they can.
+  utter_appeal_wait_time:
+    - text: |
+        Please be patient with us while we review your appeal! It may take a few days for us to get back to you, depending on how complicated your case is and our current ticket volume.
+  utter_appeal_eligibility:
+    - text: |
+        Only the owner of an account can send an appeal. Some accounts are not eligible for appeal, especially in cases where there are extreme safety concerns.
+  utter_appeal_guidelines:
+    - text: |
+        Be kind and honest during your appeal. Even if you were wrongly banned, it's important to be respectful. We will make it right if a mistake was made! Any profanity or threats sent to staff will be ignored. Remember, you are responsible for what happens on your account.
+  utter_appeal_final_decision:
+    - text: |
+        All appeal decisions are final and at the discretion of our Trust and Safety team.
+  utter_ban_unruly_players:
+    - text: "If someone's being unruly in one of your rooms, you have the option to ban them from the room."
+  utter_ban_with_moderation_rights:
+    - text: "Ban a player from any room to which you have moderation privileges by tapping on their avatar and then tapping �Kick from room� in the small black popup menu right above your chatbox."
+  utter_permanence_of_ban:
+    - text: "Be careful who you kick from your rooms! Once players have been banned from a room, it�s permanent. While you can always unblock, you cannot unban players from rooms."
+  utter_block_someone_general:
+    - text: "When someone's bothering you, block them and you won't hear from them again! You can always unblock if you're feeling magnanimous at a later point."
+  utter_block_someone_instructions:
+    - text: "Block by visiting the player's profile page, tapping the ellipses in the upper right corner, and then selecting block. This will prevent all their personal messages and posts from reaching you."
+  utter_unblock_someone_instructions:
+    - text: "If you�ve blocked someone and would like to renew communications, visit their profile page and follow the same steps you use to block in order to unblock. Just tap the ellipses icon in the upper right."
+  utter_block_advantage:
+    - text: "Blocking is underutilized! It�s an easy way to cut off contact with anyone who may be irritating you."
+  utter_ask_how_crew_gifts_work:
+    - text: "If you�re part of a crew, you�ll receive a new gift with every purchase made by a member of your crew!"
+  utter_ask_when_crew_gifts_are_received:
+    - text: "Crew Gifts appear in the Gifts section of your Inbox as soon as someone in your Crew makes a purchase."
+  utter_inquire_about_crew_purchases:
+    - text: "Whenever a crew member makes a purchase, it triggers the distribution of a Crew Gift to all crew members."
+  utter_ask_multiple_crews:
+    - text: "Now, what kind of crewmate would you be if you had a foot in other ponds, a finger in other pies?"
+  utter_express_concern_betrayal:
+    - text: "We won't tell your crew that you even THOUGHT of such betrayal. Scoot along, now."
+  utter_inquire_admin_rights:
+    - text: "When someone has admin rights to your crew, they can add and remove Highrisers from the crew, dissolve the crew, and also edit the description."
+  utter_add_admin_instructions:
+    - text: "In order to make a member an admin, you must have admin rights yourself."
+  utter_crew_member_list_usage:
+    - text: "Head to the crew member list. Here you can choose to give crew members different titles and privileges."
+  utter_ask_about_kicking_member:
+    - text: "Yes, anyone with admin rights can kick an unruly player from the crew. Just open the Member List, tap on the offender�s name, and choose 'remove from crew'. Note, players cannot be kicked during events."
+  utter_ask_about_kicking_during_event:
+    - text: "Keep in mind that players cannot be kicked during events, so plan your crew management accordingly."
+  utter_ask_about_adding_member_back:
+    - text: "You can always re-add anyone you remove from your crew if needed."
+  utter_ask_about_reporting_member:
+    - text: "If someone�s breaking Highrise Community Guidelines, you can report them for review by a moderator."
+  utter_ask_about_blocking_member:
+    - text: "To block someone, head to their profile, tap the ellipses in the upper right corner, then tap 'Block' to cut off all communication."
+  utter_inquire_how_to_leave_crew:
+    - text: "If you want to leave your crew, navigate to your crew page, click the three dots in the upper right corner. You'll then see the option to leave your crew."
+  utter_confirm_leave_crew_action:
+    - text: "Yes, these are the steps to leave your crew. Ensure that you truly want to leave as your crew membership will be cancelled."
+  utter_create_crew_instructions:
+    - text: "You can create your own crew by tapping on the option 'Create or Join a Crew' that will appear under your username when looking at your profile."
+  utter_crew_creation_cost:
+    - text: "Creating a crew has a one-time fee of 200 gold, so keep this in mind when rallying your posse to make a new crew!"
+  utter_invite_friends_to_crew:
+    - text: "Invite your friends to join your crew by visiting their profile page and tapping on their crew logo! You can only invite players who are not already part of a crew."
+  utter_request_join_crew:
+    - text: "To join a crew, tap on the crew icon of the member whose crew you want to join. This icon is found on the left of the 'Message' icon on a person�s profile page."
+  utter_crew_request_invite:
+    - text: "At the end of the crew description, you'll find the 'Request Invite' button. Tap it to alert the crew's admins of your interest in joining."
+  utter_crew_after_approval:
+    - text: "After approval, you'll see all your crewmates' activities and can access crew rooms by tapping the Crew Icon next to 'Edit Avatar' on your profile."
+  utter_crew_membership_rule:
+    - text: "Ensure you're not already in a crew or have left your current crew before requesting to join a new one. You can only be a member of one crew at a time."
+  utter_define_crew:
+    - text: "A crew is a way to make your friend group official! Create a crew to give your squad some recognition and exclusive perks in Highrise."
+  utter_crew_benefits:
+    - text: "Forming a crew gives you and your friends legal recognition in Highrise and offers exclusive perks like the ability to create crew-owned rooms and a crew-only chat thread."
+  utter_crew_activity_features:
+    - text: "Crewmates can view each other's activity, create crew-owned rooms, and communicate through a crew-only chat thread, simplifying collaboration."
+  utter_crew_gifts:
+    - text: "Crew gifts expire after a time, so check in frequently. Depending on your purchase, you might receive varying amounts of gold or bubbles."
+  utter_check_crew_gifts:
+    - text: "You can view your gifts by tapping the 'Gifts' icon on the right side of your home room screen, or by navigating to Gifts when viewing your crew page."
+  utter_inquire_how_to_trade:
+    - text: "To trade items and gold, send a message to the player you wish to trade with. Once in the chat, click the trade option and select 'start a trade' to begin."
+  utter_add_items_to_trade:
+    - text: "Tap on any of the nine blank squares to add an item from your inventory. You�ll be able to see the items your trading partner enters on their side of the trade window."
+  utter_confirm_trade:
+    - text: "After entering your items/gold into the trade box, press 'Lock.' Both you and your partner need to lock and confirm the trade to complete the transaction."
+  utter_ensure_trade_safety:
+    - text: "Ensure a safe trade by keeping an eye on the items in your partner's box. If they unlock the trade after you've confirmed, the sequence will restart."
+  utter_collect_traded_items:
+    - text: "Hit 'Collect' to claim your new item! This closes the trade sequence, and both parties must collect the trade before entering new items. The new item will be added to your inventory."
+  utter_warn_about_scammers:
+    - text: "Scammers can approach you in many forms. Always be alert and cautious to protect yourself."
+  utter_advice_on_borrowing_items:
+    - text: "It's best not to lend items to others as you may not get them back. All trades are final."
+  utter_caution_against_free_offers:
+    - text: "Don't be fooled by offers of free gold or items. They might be attempts to access your account."
+  utter_rules_on_currency:
+    - text: "Highrise transactions should only involve the virtual currency, gold. Selling for cash could lead to an account ban."
+  utter_reporting_scam_activity:
+    - text: "If you see suspicious activity, like offering free gold or selling for cash, report it via the profile page or inform a moderator."
+  utter_ask_items_disappeared_after_trade_canceled:
+    - text: "If your items suddenly disappear from your inventory after the trade was canceled, don't worry! The items are still there in your account."
+  utter_how_to_restore_items_after_trade_cancel:
+    - text: "When this happens, you'll have to log out of your account and log back in and they'll be right there in your inventory, as shiny as ever!"
+  utter_navigate_to_market:
+    - text: "Go to Shop, and click Market on the top left-hand corner. This is where you can begin shopping or start listing your own inventory extras."
+  utter_list_items_in_market:
+    - text: "To list your items, open the Market, tap on the top right to list your items, select an item, set a price, and consider the rarity: Common, Uncommon, Rare need 150G, Epic 500G, and Legendary 2,000G."
+  utter_check_my_listings:
+    - text: "Check your listings by tapping on the My Listings tab at the top of the main Market Menu. Toggle filters to see Active or Sold listings."
+  utter_sell_items_on_market:
+    - text: "Items must be tradeable, a clothing item, and not available in a secondhand grab or active trade. You can't edit active listings, but you can remove and relist them. If sold at an incorrect price, it can't be reversed."
+  utter_market_fees_explanation:
+    - text: "Market fees are set to reduce Gold inflation, ensuring your Gold and items maintain value over time by applying a small transaction fee."
+  utter_market_expiration_policy:
+    - text: "Listings expire in 30 days to manage high volume efficiently. Expired listings will be removed and returned to your account."
+  utter_report_buggy_item:
+    - text: "If you notice a buggy or glitched item, first try deleting and reinstalling your app to ensure you have the most up-to-date version."
+  utter_contact_concierge:
+    - text: 'To report a buggy item, tap "Contact Us" at the top right of this page to be connected with our Concierge Desk.'
+  utter_concierge_instructions:
+    - text: "Please tell the concierge you want to report a buggy item. They will ask a few more questions to filter your requests."
+  utter_provide_details_for_bug:
+    - text: "When you are ready to make your report, be as descriptive as possible about the issue and list any affected items, including photos or videos."
+  utter_understand_bug_evaluation:
+    - text: "We determine whether it is an objective bug vs subjective feedback, considering potential impacts on item value and community preferences."
+  utter_report_subjective_feedback:
+    - text: "Subjective feedback is a request based on personal preference, and we often assess these requests on a case-by-case basis."
+  utter_report_unfixable_bug:
+    - text: "Unfortunately, some bugs can't be fixed with our current system, but your reports help prioritize future improvements."
+  utter_edit_suggestion:
+    - text: "If you have a suggestion for an item edit, post it in our Canny under Art and Item Suggestions for community feedback."
+  utter_ask_about_spin_crash_outcome:
+    - text: "Don't worry! If you were in the middle of a spin when your game crashed, check your inventory. Grabs are paid for and will enter your account even if you close out in the middle of the spin and don�t actually see a complete animation."
+  utter_ask_for_item_received_after_spin_crash:
+    - text: "Feel free to contact us in-game and we can tell you which items you received from the spin!"
+  utter_inquire_item_missing_info:
+    - text: "Don't worry if you can't seem to find your favorite plushie! When you imbue virtual items with a life of their own, they might occasionally go rogue and disappear for occult plushie rituals. Still not there? We can help track it down! In your support ticket, be sure to include such information as the acquisition details, trade status, and any peculiar circumstances around the item."
+  utter_action_restart_app:
+    - text: "A simple restart will bring any missing item home again! Double tap on the home button on your device. Swipe up on the preview for Highrise, and then reload the app. Any missing items should reappear in their respective clothing, furniture or gold bar inventory."
+  utter_inquire_support_ticket_info:
+    - text: "To assist in tracking down your missing item, include in your support ticket: when you first acquired the item, when you noticed it missing, was it ever in trade, with whom, was it in your Storefront, its favorite bedtime snack, and any other relevant information."
+  utter_ask_account_frozen_appeal_steps:
+    - text: "Has your account been frozen? You can check here for the appeal steps to recover your account."
+  utter_inquire_age_verification_process:
+    - text: "Here's how to verify your age: \n1) Log into your Highrise account. \n2) Tap 'Verify My Age'. \n3) Select your language at the bottom left, then tap 'Begin Verifying'. \n4) Enter your Highrise username. \n5) Select your country and identification type. \n6) Follow the instructions to capture or upload your ID. You will receive a message letting you know if it was accepted."
+  utter_ask_verification_outcome:
+    - text: "If your verification is accepted, you will be able to log back into your Highrise account right away. Your date of birth will be automatically updated if it does not match the one you originally registered with."
+  utter_ask_delete_account:
+    - text: "Do you want to delete your account? We hate to see you go, but click here to find out how!"
+  utter_verify_delete_account_steps:
+    - text: "To permanently delete your Highrise account, follow these steps:\n1. Have the latest app version installed.\n2. Open your profile and tap the gear icon.\n3. Select 'Account Management'.\n4. Select 'Delete Your Account'.\n5. Tap the 'Enter Credentials To Begin' button.\n6. Enter your Safety Lock (if enabled) and password.\n7. Tap the 'Begin Account Deletion' button.\nYou'll have 24 hours to cancel the request if you change your mind. After that, your account will be deactivated and all data will be permanently deleted after 30 days.​"
+  utter_cancel_account_deletion:
+    - text: "If your account has been deactivated and you would like to cancel the deletion, please contact our support team before the 30 days of your deletion request."
+  utter_warn_irreversible_deletion:
+    - text: "Warning: Once your Highrise account is deleted, this cannot be undone! Your account and all of its data will be removed."
+  utter_ask_about_safety_lock:
+    - text: "Safety Lock is a feature that provides an additional layer of security beyond your username and password."
+  utter_enable_safety_lock:
+    - text: "You can access the safety lock and set up your 6-digit PIN via your account�s settings page. Simply tap on the safety lock and enable it."
+  utter_safety_lock_requirements:
+    - text: "Nope! It�s an optional feature, but more security never hurts, right? A registered email address is required. Please make sure you use a secure email that you have access to."
+  utter_reset_safety_lock_pin:
+    - text: "In your settings, on the Safety Lock page, just choose the �forgot pin� option. We will send you a pin reset link to your registered email address."
+  utter_security_of_safety_lock:
+    - text: "Nope, your 6-digit PIN is encrypted. Our support team can�t see, hear, touch, or smell it. Bummer!"
+  utter_consequences_without_safety_lock:
+    - text: "If you choose not to activate our Safety Lock feature and your account is compromised, we can assist you in recovering your account, but any items lost cannot be returned."
+  utter_ask_about_safety_tools:
+    - text: "Highrise has various tools to ensure player safety, including tools to prevent phishing, account compromise, and reporting features to handle bad actors."
+  utter_inquire_age_restriction:
+    - text: "The suggested age to play Highrise is 17+, with the minimum being 13. For players under 18, there are more guidelines for safety and moderation."
+  utter_caution_sharing_personal_info:
+    - text: "It's crucial not to share personal information such as your home address, phone number, or social media links on Highrise."
+  utter_risk_of_sharing_account_details:
+    - text: "Never share your account details with others. Sharing details like your password can allow someone to access and steal your in-game items."
+  utter_report_and_block_guide:
+    - text: "You can block or report players via their profile. Use the ellipses in the top right corner to access blocking or reporting options."
+  utter_account_security_tips:
+    - text: "To secure your account, use a unique password, set up 2FA if possible, and ensure your email hasn�t been breached according to haveibeenpwned.com."
+  utter_guidelines_and_moderation:
+    - text: "Highrise uses a combination of human moderation and AI to ensure compliance with community guidelines and to handle inappropriate content effectively."
+  utter_ask_about_account_sales:
+    - text: |
+        We do not allow account sales in any way, shape, or form. You may not advertise account sales on Highrise. If reported and confirmed, action may be taken against your account. Please, don't do it!
+  utter_ask_about_account_purchases:
+    - text: |
+        Account purchases are not allowed. You may not advertise them on Highrise. If this is reported and confirmed, we may take action against your account. Please refrain from buying accounts!
+  utter_ask_about_giving_away_account:
+    - text: |
+        Account giveaways are prohibited. Advertising giveaways on Highrise is not allowed. If reported and confirmed, your account may face action. Please do not engage in account giveaways!
+  utter_account_transaction_risk:
+    - text: |
+        If you decide to sell, buy, or receive an account, despite our guidelines, our staff cannot offer support if the buyer does not honor the agreement or if the account is reclaimed by the original creator.
+  utter_change_username_instructions:
+    - text: "Players can change their username by visiting their account's settings page and selecting the 'Username' option under account management. Please see the image below if you are having trouble locating this option."
+  utter_change_username_effects:
+    - text: "When a player changes their username, this changes their username everywhere on the application. The username that you use to log in is also changed to your newly set username."
+  utter_username_change_cost:
+    - text: "All players receive one name change for free but all name changes after that will cost 10,000 gold."
+  utter_revert_username:
+    - text: "After any name change, players receive a 14-day period where they can revert to their original username for free. During that 14-day window, their original username is reserved which will prevent other players from taking it."
+  utter_username_availability:
+    - text: "Players can only change their username to a username that is available. So if the username you are seeking is already taken by another user you will not be able to choose it. On top of this, the standard username rules apply."
+  utter_inactive_usernames:
+    - text: "Players cannot take over inactive usernames, sorry. If a player has a username set then that username cannot be used by anyone else even if that player has not been active for a while."
+  utter_account_security:
+    - text: "Make sure you never get locked out of your account again!"
+  utter_navigate_to_settings:
+    - text: "Navigate to the settings page on your Highrise account by tapping on the Cogwheel icon in the upper right corner while viewing your profile page."
+  utter_account_management:
+    - text: "On your settings page choose �Account Management�."
+  utter_add_email:
+    - text: "Then click on the �Email� option. Input the email you want to be attached to your account. Please also make sure this is an email address that you have access to."
+  utter_email_purpose:
+    - text: "This is the email address we'll email if you ever forget your password and click on the 'Forgot Password' button on the login page."
+  utter_email_privacy:
+    - text: "And no, we won't send you any fun daily newsletters or offers. No spam, we promise."
+  utter_link_account_instructions:
+    - text: "To link your accounts, go to your profile by tapping the profile icon at the bottom right of your screen. Then access Settings by tapping the cogwheel icon at the top right. On the settings page, select 'Connected Accounts', choose the accounts you want to link, and follow the on-screen instructions to complete the process."
+  utter_disconnect_account_instructions:
+    - text: "To disconnect an account, follow the same steps as linking. Go to the 'Connected Accounts' section in Settings, select the connected account you want to unlink, and choose the option to 'disconnect' it."
+  utter_social_visibility_details:
+    - text: "When you link your Facebook account to Highrise, you�ll be able to see the Facebook names of friends who also have a Highrise account. Only the names of your Facebook friends who are on Highrise will be displayed."
+  utter_warn_about_scammers:
+    - text: "Be wary of scammers! They come in all shapes and sizes."
+  utter_advise_on_borrowing:
+    - text: "We don�t have any way of verifying that an item was meant to be returned, or recovering borrowed items. All trades are final. If you want to keep your item� Hold on to it!"
+  utter_avoid_phishing_scams:
+    - text: "If someone is offering free items or gold, don�t fall for it! Often this leads to your account being compromised."
+  utter_password_protection_advice:
+    - text: "Never give out your password! Keep your account safe by using a long, complex, and unique password for your Highrise account."
+  utter_warn_about_real_money_trades:
+    - text: "Transactions should be limited to virtual currency in Highrise. Selling for real cash or advertising such is subject to account suspension."
+  utter_report_scam_activity:
+    - text: "If you encounter someone advertising free gold or selling for real cash, report them via their profile using the reporting options."
+  utter_warn_against_hacking:
+    - text: "Remember that logging into someone's account through deceit or hacking is subject to a ban. Always be respectful and honest."
+  utter_password_reset_intro:
+    - text: "No worries! Resetting is easy."
+  utter_update_registered_email:
+    - text: "First, register a proper email address to your account. Head to Settings (by clicking the three dots in the upper right-hand corner on your profile page) and confirm that the email registered to your account is one that you have access to."
+  utter_initiate_password_reset:
+    - text: "Log out of your account. I know, this part is scary! Hit the 'Forgot Password' button on the login page to receive an email with a link to a full password reset page."
+  utter_complete_password_reset:
+    - text: "Just follow the link, and type in your new password! You should then be able to log back in using your newly set password."
+  utter_email_link_issue:
+    - text: "Forgot your password, but not receiving a link? This may mean that you've never registered an email or you have lost access to your registered email account."
+  utter_contact_support_for_password:
+    - text: "No worries though, our concierge team can help! Just send us an email to [email protected] with your recovery request. Please keep in mind that only the original creator of an account can recover it. When you write in you'll be asked to answer a few security questions, and once we confirm them we'll send you a new password."
+  utter_ask_about_udc_feature:
+    - text: "User Design Contest (UDC) is a feature that allows players to submit their own item designs for various art competitions here at Highrise. Winning designs will be turned into real items by the art team."
+  utter_inquire_contest_types:
+    - text: "Grab Design Contests: Players create a full set of 12-15 unique items for major events. Mini Design Contests: Design single items or accessories for collections. Art Design Contests: Cards, items, or decorations directly added to the game."
+  utter_ask_submitting_entry:
+    - text: "During the SUBMISSION stage, you can submit your entry. Visit the 'My Submissions' tab to view and manage your entries. A long press on an entry opens the Action Menu."
+  utter_inquire_voting_process:
+    - text: "During the VOTING stage, browse and vote for your favorite designs anonymously. You have a limited number of votes, so choose wisely as votes cannot be retracted."
+  utter_ask_name_on_submission:
+    - text: "You may watermark your design with your name or logo. Sharing your design on your profile is allowed, but offering incentives for votes is prohibited and will result in disqualification."
+  utter_how_to_delete_entry:
+    - text: "To delete your entry, go to 'My Submissions' in the UDC web tool. Long press the entry you want to delete to open the action menu and proceed."
+  utter_ask_vote_retraction:
+    - text: "Once a vote is cast in UDC, it cannot be retracted. Please ensure your choice before voting."
+  utter_ask_submission_error:
+    - text: "If you're facing a submission error, check that your image dimensions don't exceed 1080x1080. Resize if necessary to complete your submission successfully."
+  utter_ask_about_inspired_items:
+    - text: "Highrise attributes player-inspired items to their respective designers through design contests or random discoveries. The attribution is made by noting �Inspired by� and linking to the designer's username on the item preview."
+  utter_design_contest_winners:
+    - text: "Players can participate in official design competitions available in the 'Highrise Competitions and Rules' FAQ section. Winners' designs are introduced in-game with an attribution note. If you notice an absent attribution, contact our Concierge team."
+  utter_other_player_inspired_items:
+    - text: "If Highrise discovers an outstanding player-designed item outside of a competition, the player is notified and compensated when the item is released. These items also receive an attribution note at the item preview bottom."
+  utter_check_for_missing_attribution:
+    - text: "If you suspect a missing attribution for a player-inspired item, please contact our Concierge team with details, including contest and release information. Our staff reviews these to ensure proper credit is given."
+  utter_understand_parallel_thinking:
+    - text: "Parallel thinking occurs when similar designs are created independently by coincidence. Highrise respects creative communities but only attributes items inspired directly by players. Spontaneous resemblance due to trends doesn�t qualify for compensation."
+  utter_ask_about_rot_d:
+    - text: "#ROTD, short for 'room of the day,' is a community event where a room is picked to host daily goals and showcase creative work to the entire community. The winner gets a special shoutout and a custom room thumbnail image."
+  utter_enter_rot_d:
+    - text: "To enter #ROTD, simply add #ROTD to the captions of your room posts."
+  utter_rules_rot_d:
+    - text: "For #ROTD, the room's capacity boosts to 30 players, so ensure your room is large enough to accommodate this."
+  utter_ask_about_rot_w:
+    - text: "#ROTW, or 'room of the week,' is a weekly event where rooms of each day are voted on by the community. Winners can earn exclusive items. Rooms winning the vote get fantastic rewards!"
+  utter_enter_rot_w:
+    - text: "Rooms chosen for #ROTD automatically enter into #ROTW without any extra effort."
+  utter_rules_rot_w:
+    - text: "In #ROTW, while you can encourage people to vote for your room, any form of bribery will disqualify you. Prizes include items like #ROTW Hoodie and Gold."
+  utter_ask_about_oot_d:
+    - text: "#OOTD, standing for 'outfit of the day,' is a hashtag for showing off stylish looks and potentially getting a shoutout by the community. To participate in #OOTD, simply add #OOTD to your outfit post captions and let your creativity shine!"
+  utter_ask_avatar_layering_guide:
+    - text: "Sure! The avatar layering guide helps you understand how to customize your avatar by selecting and layering different components. You can start by choosing your base, then add accessories, and finally make adjustments for a perfect look."
+  utter_query_avatar_layering_updates:
+    - text: "Currently, there are no new updates to the avatar layering guide. Make sure to follow our channels for any future announcements."
+  utter_seeking_avatar_layering_tips:
+    - text: "Here are some tips for avatar layering: Start with a base that matches your style, add layers gradually to avoid overcrowding, and choose complementary colors to enhance the overall look. Keep experimenting to find your unique style!"
+  utter_about_mini_design_contests:
+    - text: "Mini Design Contests are competitions where your creative ideas are brought to life. They are separate from Grab Design Contests, and you can find more information in the FAQ."
+  utter_entry_guidelines:
+    - text: "To enter the contest, ensure your design is original. You can incorporate assets from Highrise if you modify them significantly. Follow our community guidelines, and submit your designs through the User Design Contest feature."
+  utter_contest_judging_criteria:
+    - text: "Contest entries are judged based on visual appeal, uniqueness, theme interpretation, feasibility, and community interest. The popularity of an entry within the community also plays a role."
+  utter_post_winning_process:
+    - text: "Once you win, email us HD images of your design. Winners receive a gold prize and their items in their inbox. Make sure to contact us with any additional notes for the staff artists."
+  utter_designing_tips:
+    - text: "For a cohesive design, use a consistent color palette and ensure items fit the theme. Be innovative with masculine, feminine, and gender-neutral items, and present your design clearly and neatly."
+  utter_contest_overview:
+    - text: "Highrise Grab Design Contests give the community a chance to showcase their creative talents by designing items for the game. Winning designs inspire official Highrise grabs, with winners receiving their designed items for free."
+  utter_contest_rules:
+    - text: "To participate in a Grab Design Contest, follow the rules: all entries must be original, include at least 1 masculine and 1 feminine outfit, contain 12-15 items, and adhere to community guidelines. Avoid using copyrighted characters or resubmitting past designs."
+  utter_contest_submission:
+    - text: "Submit your Grab Design Contest entries through the User Design Contest feature in the Welcome Plaza. You can submit up to 2 entries, but only one might become a finalist. Make sure your design follows Highrise's code of conduct."
+  utter_finalist_selection:
+    - text: "Finalists are chosen based on visual appeal, uniqueness, theme interpretation, feasibility, and community interest. Popularity metrics, like likes and comments, also influence selection. Consecutive wins are not allowed in the contest."
+  utter_prize_distribution:
+    - text: "Winners receive a gold prize and full item set inspired by their design. Runners-up get a gold prize and select items from their entry. Honorable mentions also receive gold. Collaborators should discuss how to divide their prizes."
+  utter_currency_types:
+    - text: "Highrise features various currencies such as Bubbles, Gold, Grab Tokens, Lucky Tokens, Creature Coins, and Heart Tokens. These are used for spinning or buying items in collections and grabs."
+  utter_daily_gift_tokens:
+    - text: "You can snag up to 60 tokens daily by tapping on the 'FREE!' icon at the screen's upper right corner and unlocking the rewards by watching a few ad videos."
+  utter_how_to_access_heart_mart:
+    - text: "To access the Heart Mart, head to the Mall Lobby and find the NPC with the 'Shop' icon in the middle of the lobby."
+  utter_heart_mart_usage:
+    - text: "Currently, the Heart Mart is the only place to spend special coins, where you can spin the grab for limited-time items. While we might add other options or new currencies later, it's best to check the SkyRise Mall regularly for updates."
+  utter_ask_about_highrise_brands:
+    - text: "Highrise-made brands are curated collections of items and accessories centered around a unifying aesthetic. These brands feature limited-time grabs, furniture collections, and shop collections purchasable with both Gold and Bubbles."
+  utter_inquire_about_deerly:
+    - text: "Deerly is born out of a love for all things sweet and innocent. Our Deerly collections bring you colorful item sets inspired by dessert cakes and frostings, and our furniture design is based in the belief that your home should transport you as much as it comforts you."
+  utter_inquire_about_elixir:
+    - text: "Elixir takes the dark aesthetics of classic goth and elevates it with simple, elegant modern staples. Elixir is the antidote to overprocessed, oversaturated, and cliche styles, revealing the foundations of the alternative fit: tasteful silhouettes, dark moods, and the eclipse of rules."
+  utter_ask_about_skyrise_mall:
+    - text: |
+        SkyRise Mall is the hub for your virtual shopping experiences, capturing the quintessential mall hangout vibe where you can chill, hangout, and browse available wares.
+  utter_accessing_skyrise_mall:
+    - text: |
+        You can access SkyRise Mall in the virtual world by tapping on the Rooms icon in the upper left corner of your screen to pull up the Rooms Directory. It's pinned to the top of the Active Rooms list.
+  utter_exploring_skyrise_mall:
+    - text: |
+        Once in the SkyRise Mall lobby, you're free to explore, accessing special grabs and item collections from the local NPCs or teleporting to Highrise-Brand storefronts.
+  utter_items_in_skyrise_mall:
+    - text: |
+        SkyRise Mall offers a range of items including RISE Apparel, Brand Grabs by Highrise users, Highrise-Brand Grabs like Deerly & Elixir, and unique-token grabs like Heart Mart and Flash Bots.
+  utter_teleportation_in_skyrise_mall:
+    - text: |
+        Teleports in the SkyRise Mall Lobby let you access other rooms. Use the Silver Teleports to visit store rooms, and the Blue Teleports in the center to access upper floors of the Lobby room.
+  utter_verify_account_error_check_verification_role:
+    - text: "To check if you're verified, ensure you have the 'Highrise Verified' role. If you can see the #verification channel, you are not verified."
+  utter_verify_account_error_mismatched_username:
+    - text: "If the Discord username in the pop-up differs, click 'Not you?' and log back in with the correct credentials."
+  utter_verify_account_error_relink:
+    - text: "To relink, visit https://highrise.game/settings, login, check linked accounts, and click 'Unlink'. Attempt verification again."
+  utter_verify_account_error_multiple_accounts:
+    - text: "Error 114 may occur if the Discord account you're linking is already connected. Unlink and relink as necessary."
+  utter_verify_account_error_too_new:
+    - text: "Error 116 indicates your account is too new. Please wait 24 hours then attempt to verify again."
+  utter_verify_account_error_wrong_discord_account:
+    - text: "Ensure you're using the correct Discord account as per the pop-up prompt. Log in with the correct credentials if needed."
+  utter_verify_account_error_suspended_banned:
+    - text: "Error 119 suggests your account might be suspended or banned. Contact support at [email protected] for assistance."
+  utter_verify_account_error_inactive_account:
+    - text: "Error 120 means your account isn't active. Log in to the Highrise mobile app, interact for a bit, and try verifying again."
+  utter_verify_account_error_authorization_cancelled:
+    - text: "Error 401 occurs if authorization was cancelled. Ensure permissions are granted and retry the verification process."
+  utter_ask_how_to_verify_account:
+    - text: "To verify your account, join our official Discord server and follow the steps below:\n- Press 'Accept Invite'.\n- Navigate to the #verification channel.\n- Press the button that says 'I want to verify my account'.\n- Confirm by pressing 'Yes' on the prompt.\n- You'll be directed to the Highrise website, log in using your Highrise account.\n- Finally, login with your Discord account and press 'Authorize'."
+  utter_ask_join_server:
+    - text: "You can join our official Discord server by using the link: [https://discord.gg/highrise](https://discord.gg/highrise). Once there, follow the verification steps provided."
+  utter_ask_navigate_verification_channel:
+    - text: "After joining the Discord server and accepting the invite, navigate to the #verification channel to proceed with verifying your account."
+  utter_ask_press_buttons_verify:
+    - text: "In the #verification channel, press the button labeled 'I want to verify my account'. Confirm your choice by pressing 'Yes' when prompted to continue."
+  utter_ask_login_with_accounts:
+    - text: "Once you initiate verification and reach the Highrise website, choose 'Login with Highrise account' and use your Highrise credentials. You will also need to authorize your Discord account by logging in and pressing 'Authorize'."
+  utter_ask_join_discord:
+    - text: "To join the official Discord server, navigate to https://discord.gg/highrise"
+  utter_ask_verification_process:
+    - text: "Users in the official Discord server have to go through a new verification process to be able to see the content of the server, claim rewards, and interact with other members."
+  utter_ask_account_eligibility:
+    - text: "Only ONE Highrise account per user is eligible to complete the verification process. More than one Discord account is not allowed."
+  utter_explain_creator_partner_program:
+    - text: |
+        The Creator Partner Program is an exclusive opportunity within Highrise for talented social media content creators to collaborate, innovate, and amplify their impact. As a Creator Partner, you�ll have the chance to produce engaging videos that showcase Highrise�s exciting features, events, and items. These videos may be promoted on platforms like TikTok, increasing their visibility and reach.
+  utter_join_creator_partner_program:
+    - text: |
+        If you're a passionate social media content creator interested in joining the Creator Partner Program, reach out to us at [email protected] to learn more about how you can become a part of this exciting initiative and make your mark within Highrise.
+  utter_ask_about_highrise_assets:
+    - text: "You can find Highrise assets including banners, promos, and collages at this link: [Highrise Public-Facing Assets](https://pocketworlds.notion.site/Public-Facing-Assets-ef86c04f79ba4db49aed66ef43ae0c81)."
+  utter_ask_about_highrise_style_guides:
+    - text: "Documentation for Highrise style guides and branding is available in our asset resource. Check it out here: [Highrise Assets and Style Guides](https://pocketworlds.notion.site/Public-Facing-Assets-ef86c04f79ba4db49aed66ef43ae0c81)."
+  utter_ask_about_highrise_assets_contents:
+    - text: "The Highrise assets include documentation for style guides, branding resources, and various assets such as Gold, Collectibles, and Grab icons. Explore them here: [Explore Highrise Assets](https://pocketworlds.notion.site/Public-Facing-Assets-ef86c04f79ba4db49aed66ef43ae0c81)."
+  utter_explain_hrlive:
+    - text: "The Highrise community creates countless experiences that enrich and unite our metaverse. The HRLive program supports hosts and players alike by promoting player-hosted events that inspire, entertain, and build deep connections in our vibrant virtual world. Follow the official @HRLive account and browse the #HRLive hashtag to stay updated on upcoming events!"
+  utter_event_types_hrlive:
+    - text: "We sponsor a wide variety of events - from fierce pageants and round-table discussions to sing-along nights and maze-building competitions. What�s most important is that hosts know how to engage and entertain their audience. We encourage hosts to be as creative as possible, so submit your wildest ideas!"
+  utter_hr_live_eligibility:
+    - text: "For an event to be considered for sponsorship by HRLive, the host must have a clean moderation history, strive to be a positive influence, and have hosted events with significant engagement. Simple giveaways or tipping rooms do not qualify."
+  utter_apply_hrlive:
+    - text: "To apply for HRLive sponsorship, submit a detailed proposal of your creative event at least 3 weeks from the submission day. If possible, summarize your prior events, including content, attendance, and engagement. Begin promoting your event by tagging #HRLive."
+  utter_hr_live_support:
+    - text: "With HRLive sponsorship, you can receive a free room boost, room capacity expansion, free use of microphone, and distribution on the HRLive calendar. Announcements and shoutouts on HRLive accounts may also be possible to help promote your event."
+  utter_explain_highrise_bot:
+    - text: |
+        The Highrise bot API is a powerful toolkit enabling you to add amazing features to your rooms. You can create bots to host trivia, store leaderboards, read emotes, collect tips, teleport guests, and more. It makes your rooms more engaging and interactive.
+  utter_create_highrise_bot:
+    - text: |
+        To create a Highrise bot, you need to visit the Settings section on our website where you�ll find the option to create a bot at the bottom. This process allows you to make your rooms unique and engaging.
+  utter_highrise_bot_sdk:
+    - text: |
+        Highrise offers BETA versions of SDKs, including the Highrise Bot Python SDK, to simplify the process of building bots. These tools will help you unleash your creativity and build bots more easily.
+  utter_highrise_bot_additional_info:
+    - text: |
+        You can read the bot's endpoint documentation in the FAQ section on our website. For more questions, join our Discord and request to join the BETA API discussion channel. To retrieve a room ID, copy the room link shared from the app.
+  utter_concept_empowerment:
+    - text: "Concepts empower both artists and the community by allowing everyone to influence the design direction through an updated scoring system. Sharing staff designs before release helps bridge the gap between official and community designs."
+  utter_design_contest_prizes:
+    - text: "Winning Concept artists typically receive 5 copies of each item they produce and 5k gold per item. Special Concepts sometimes offer cash payouts, and you'll be informed of any specific info needed for compensation."
+  utter_fairness_in_design:
+    - text: "Concepts is designed to ensure fairness through the Elo scoring system, which levels the playing field by giving each design a fair chance at success, regardless of the designer's popularity."
+  utter_design_restrictions:
+    - text: "You can use any medium for your Concept. Designs must be original, not copied from other sources. Re-designs of existing staff items are allowed, and any rule violations can lead to disqualification."
+  utter_collaboration_in_concepts:
+    - text: "Collaborations in Concepts are allowed for pairs. Only one person should submit the Concept, and communication with the team is the responsibility of the submitter. Prize division is shared, based on contribution."
+  utter_concept_guidelines:
+    - text: "For more info, check out our Avatar Item Layering Guide in the FAQ. Communicate respectfully in the Concepts messenger, and remember exploring new ideas is encouraged, as the best designs will naturally be recognized."
+  utter_contact_art_team:
+    - text: "Once your concept is selected, a direct line of contact with our Art Team will be established through the integrated messenger. You can communicate directly without leaving the app�s webpage."
+  utter_submission_notifications:
+    - text: "When the concept ends, you'll receive a message with a groovy new SELECTED banner on your winning submission. Access these messages from your Highrise Inbox in the Concepts web view."
+  utter_send_design_notes:
+    - text: "Send your design notes, special requests, and reference artwork via the Concepts Messenger. Use the paperclip icon to attach additional images."
+  utter_concept_progress_updates:
+    - text: "Our team will update you on your concept's progress and ask questions as needed. A sneak peek will be shared once the concept is ready for preview."
+  utter_multi_way_chat:
+    - text: "Currently, only the submission's winning artist can use the Messenger. We are working on adding support for collaborators, so coordinate with your partner for feedback."
+  utter_edit_request_timeline:
+    - text: "Please share any edit requests within 48 hours of receiving previews. While we speedily handle production, not all changes can be guaranteed due to potential blockers like technical issues."
+  utter_post_live_feedback:
+    - text: "The Concepts messenger closes about a week after your items go live. For further feedback or concerns, please contact our Support Team."
+  utter_item_delivery:
+    - text: "You will receive your completed items as an Inbox Gift approximately 48 hours before they go live."
+  utter_start_submission:
+    - text: "Navigate to the Concept theme of your choice, and tap the Upload Submission button to begin."
+  utter_upload_images:
+    - text: "You�ll be prompted to Upload Photos from your library, camera, or files. You can upload up to 5 images per Submission."
+  utter_edit_submission_images:
+    - text: "Once you�ve chosen the photos for your Submission, you can either add more or delete from your current selection. To reorder images, you'll have to delete and reupload in the proper order."
+  utter_concept_submission_strategy:
+    - text: "Consider each Submission a separate entity. Use one submission for each item to ensure the Concepts process is fair and clear."
+  utter_view_delete_submission:
+    - text: "You can view your submissions any time from within the Concept card page. To delete a submission, navigate to My Submissions, tap on the entry you'd like to delete, and tap Delete Submission."
+  utter_troubleshoot_submission_issues:
+    - text: "First, check your internet connection. Exit and re-enter the My Submissions portal to confirm your entry isn�t there. Ensure that your image size does not exceed 5MB."
+  utter_update_submission_images:
+    - text: "You won�t be able to update images in a submission after you create it. Create a new Submission if you need to change the artwork or order."
+  utter_voting_instructions:
+    - text: "When you vote, you�ll be presented with two random designs. If a design has more than one image, view additional slides by swiping right-to-left. Pick your favorite by tapping on an entry to select it, and tap again to confirm your choice. After confirming, you�ll get a new pair of concepts. Votes are infinite, so keep going as long as you wish!"
+  utter_elo_scoring_explanation:
+    - text: "This tool uses ELO rating! This scoring style gives each entry a score that changes based on its total wins over matchups. Each vote carries different weight depending on the ranks of the competitors. The system also allows voting during open submission periods, as votes are based on total score rather than quantity."
+  utter_voting_mechanics:
+    - text: "All pairs are random. None of the following affect pairing or order of appearance: Time of entry, Current score, Whether you've seen an entry before, Whether you approved or disapproved an entry, or Who submitted the design."
+  utter_vote_tracking:
+    - text: "Currently, there's no system to retain an index of your votes. There's also no navigation to go back and rescind a vote or bookmarks to revisit an entry later. Go with the flow and let your feelings guide you!"
+  utter_fair_chance_voting:
+    - text: "The idea behind Concepts is to give every design an equal chance of being seen. The A or B voting mechanic should surface the best designs over time. You're not picking the absolute best, but evaluating two concepts relative to each other, helping to assess community resonance."
+  utter_report_violation:
+    - text: "Report an entry for violating our Community Guidelines by tapping the red flag in the upper left corner. Share a comment on why you're reporting it in the text box, and submit it to our Trust & Safety team."
+  utter_navigate_to_highrise:
+    - text: "First, head on over to highrise.game."
+  utter_locate_concepts:
+    - text: "Next, navigate to Concepts in the side panel."
+  utter_vote_or_submit:
+    - text: "On the main landing page, you�ll see two options: VOTE and SUBMIT."
+  utter_view_concept_details:
+    - text: "In both Vote and Submit views, tap on the Concept Card to view more details about that particular Concept. This information will include timelines, rules, special prompts, and more."
+  utter_search_concept:
+    - text: "Underneath the tabs for both Vote and Submit, you�ll see some cards displaying active Concepts in chronological order. Use the Search bar to look for a particular Concept to get involved in a particular Concept theme."
+  utter_explain_highrise_concepts:
+    - text: "Highrise Concepts is an evolved version of our UDC (User Design Contest) tool. It lives on our website highrise.game, where community members can view and submit item ideas for designated themes."
+  utter_voting_in_concepts:
+    - text: "In Concepts, voting uses an A or B system. When you want to vote on submitted artwork, you'll be presented with two entries and will choose your favorite. The system is similar to our Style Challenge voting."
+  utter_benefits_of_elo_rating:
+    - text: "Scoring in Concepts is through ELO rating, which better reflects community preferences. It opens submissions and voting concurrently and reduces popularity bias, giving all creators a better chance to be noticed."
+  utter_community_involvement_concepts:
+    - text: "Concepts allows the community to take an active role in content selection. By voting and submitting ideas, you influence what designs gain popularity and potentially get produced."
+  utter_future_plans_for_concepts:
+    - text: "Our vision for Concepts is to create a transparent pipeline for content creation, where the community helps guide content from sketches to final items. Art Team sketches will also be part of this collaborative process."
+  utter_general_information_events:
+    - text: "Highrise events are designed for participants to compete in various activities to earn limited-edition prizes. Engage in unique play styles to earn tickets and win great rewards!"
+  utter_event_styles_info:
+    - text: "Highrise features three main event styles: Style Challenge where you compete as a Model or Judge, Prank where you engage in playful pranking, and Donate where you collect and donate items to NPCs."
+  utter_earning_tickets:
+    - text: "Tickets can be earned by participating in Highrise event activities. The activities vary depending on the event type, and accumulating more tickets increases your rank and potential rewards."
+  utter_party_time_bonus:
+    - text: "Party Time is a special ticket bonus buff occurring every 6 hours, providing a 30% bonus on tickets during a 30-minute window. In Prank and Donate events, use Rocket Fuel to activate Party Time anytime."
+  utter_buying_event_items:
+    - text: "In the event shop, you can purchase batteries for energy refills, Rocket Fuel for Party Time, Magic Glasses for Style Challenge, and Helper Items for Prank and Donate events."
+  utter_lucky_wheel_info:
+    - text: "The Lucky Wheel offers a chance to win event items, similar to those found in the event shop. Spin during an event to try your luck at obtaining these prizes."
+  utter_token_info:
+    - text: "Yes, lucky tokens will expire when an event ends and will not carry over to the next event. Make sure to use them before the event concludes."
+  utter_crew_tickets_info:
+    - text: "If you leave your crew and join a new one, your ticket contribution will start at zero in the new crew, as tickets do not carry over between crews."
+  utter_crew_kick_policy:
+    - text: "During an active event, you cannot kick crew members. This measure is in place to prevent abuse and ensure fair participation during the event."
+  utter_event_introduction:
+    - text: "The Style Challenge event in Highrise is all about fashion and creativity. Players can participate as Models or Judges, with different strategies for each role."
+  utter_model_strategy:
+    - text: "Dress to Impress: Choose outfits that align with the event's theme. Once dressed, submit your avatar for voting to earn Model tickets each time another player votes for your outfit."
+  utter_judge_strategy:
+    - text: "As a judge, you choose between two players, picking the one that best fits the theme. Judge tickets are earned for each successful vote, where you pick the same model as the majority."
+  utter_boosts_and_items:
+    - text: "Use items like Lucky Tokens to increase your ticket earnings. Magic Glasses can help you see the more popular model, guaranteeing a correct vote and keeping combos going."
+  utter_event_tips:
+    - text: "Take advantage of Party Time, a period every 6 hours for a 30% ticket boost. Save your Magic Glasses for these times or crucial votes to maximize ticket gain."
+  utter_guide_intro:
+    - text: "The prank event is a playful way to compete and earn rewards by executing successful pranks on other users."
+  utter_initiating_prank:
+    - text: "To initiate a prank, simply tap the bubble over another user's avatar."
+  utter_choosing_prank_item:
+    - text: "Select from various prank items, each with different success rates and ticket rewards. Keep in mind that as you prank more and more people in a row, your odds of success decrease."
+  utter_earning_tickets:
+    - text: "You earn tickets for each successful prank, and you can earn a bonus by achieving multiple successful pranks in a row."
+  utter_bonus_strategy:
+    - text: "Strategically save 100% success rate items for bonus rounds to maximize your ticket boosts. After 5 successful pranks in a row, enjoy a streak bonus of 30%. Additionally, use Party Time and Rocket fuel for extra ticket bonuses."
+  utter_general_event_details:
+    - text: "For a comprehensive overview of the event, along with useful tips and tricks, click the link below to explore our detailed Event Guide!"
+  utter_event_overview:
+    - text: "In Donate events, players collect items and donate those specific items to NPCs looking for them."
+  utter_collect_items:
+    - text: "To collect items, tap bubbles above other players to gather various items."
+  utter_donate_to_npcs:
+    - text: "Find NPCs requesting specific items from the items you collected and donate to them. Some NPCs, like Banana Bo, may appear after successful donating, providing bonus tickets."
+  utter_earn_tickets:
+    - text: "Each donation earns individual tickets which can increase depending on your donation and success rate."
+  utter_filling_meter:
+    - text: "Every donation also increases your friendship meter; a full meter yields more tickets per donation."
+  utter_participation_milestones:
+    - text: "You can earn rewards by reaching ticket milestones during your participation in the event."
+  utter_crew_score:
+    - text: "Crew score is the cumulative total of tickets earned by all crew members during the event."
+  utter_gather_in_bulk:
+    - text: "Collecting items in bulk before donating can save you time and make the process more efficient."
+  utter_use_party_time:
+    - text: "Maximize your ticket earnings during party time with a 30% boost multiplier to make the most of your efforts."
+  utter_explain_creature_coins:
+    - text: "Creature Coins are special tokens awarded daily to members of the Highrise Creature Club. They are used to spin exclusive grabs within the Highrise app."
+  utter_earning_creature_coins:
+    - text: "To earn Creature Coins, you must own at least one Highrise Creature Club NFT. Coins are delivered daily to the gift section of your inbox within the app."
+  utter_epic_creature_earnings:
+    - text: "Each Epic Creature you hold awards you 25 Creature Coins daily. For example, owning 10 Epic Creatures will earn you 250 coins daily."
+  utter_legendary_creature_earnings:
+    - text: "Each Legendary Creature you own awards 75 Creature Coins daily, so holding 10 Legendary Creatures gives you 750 Creature Coins per day."
+  utter_claiming_coins:
+    - text: "Creature Coins are delivered to the gift section of your inbox within the Highrise app daily. You need to claim them within 24 hours, or they will vanish."
+  utter_using_creature_coins:
+    - text: "You can use Creature Coins to spin exclusive grabs in the 'Featured Grabs' section of the Highrise app's 'Shop' tab. The cost may vary, and all items obtained can be traded in-game."
+  utter_purchasing_risks_warning:
+    - text: "Warning: Purchasing Highrise Creatures is done at your own risk. Blockchain technology is still new and evolving, and there is a risk of scams and other malicious activities. Please stay informed about basic security measures, such as using strong passwords and two-factor authentication, and only use services from trusted sources."
+  utter_purchase_requirements:
+    - text: "To purchase a Highrise Creature Club NFT, you will need a Metamask wallet, cryptocurrency, and to be informed about the basic security measures of the blockchain technology."
+  utter_setup_metamask:
+    - text: "Install the MetaMask browser extension from the official website or from the Chrome Web Store. Click the MetaMask icon in your browser to open the extension, and create a wallet by entering a strong password. Remember to secure your seed phrase."
+  utter_connect_wallet_to_immutable_X:
+    - text: "Visit Immutable X and press the 'Connect Wallet' button. Choose the Metamask option and follow the prompts in the Metamask popup. Once connected, you can start using Immutable X for your purchases."
+  utter_add_funds:
+    - text: "To add funds to Immutable X, you can use a credit card or transfer ETH via your Metamask wallet. Go to the Balance section on Immutable X and follow the instructions to add ETH."
+  utter_purchase_creature:
+    - text: "Choose your desired Creature from the TokenTrove marketplace. Press 'Buy now' or 'Make an offer', then follow the on-screen steps to complete your purchase. Remember, never withdraw your Creature NFT."
+  utter_view_and_use_creature:
+    - text: "Connect your Metamask wallet to your Highrise account through the Settings page. Once connected, you can view and equip your Creature NFTs in the Highrise clothing inventory tab."
+  utter_ask_alternative_ways_to_get_creature:
+    - text: "We host contests, events, and giveaways from time to time with the possibility of winning a Highrise Creature on our official Discord server! [Join here](https://discord.gg/highrise)."
+  utter_ask_price_highrise_creatures:
+    - text: "The cost of Highrise Creatures varies, as they are bought and sold by other players. Prices range from as low as $240 USD to several thousand dollars, depending on the creature's rarity and features."
+  utter_highrise_creature_price_low:
+    - text: "The cheapest Highrise Creatures can be bought for around $240 USD, but prices may vary based on the seller and creature characteristics."
+  utter_highrise_creature_price_high:
+    - text: "For the rare and highly desirable Highrise Creatures, prices can reach several thousand dollars, reflecting their rarity and unique traits."
+  utter_benefits_wear_items_metaverse:
+    - text: "Owning a Highrise Creature allows you to wear each item in your Creature outfit inside the Highrise Metaverse."
+  utter_access_club_room:
+    - text: "As a Highrise Creature owner, you gain access to the exclusive Creature Club Room in Highrise."
+  utter_access_discord_channel:
+    - text: "Gain access to our exclusive Creature-Club channel on our Discord server at https://discord.gg/highrise."
+  utter_daily_creature_coins:
+    - text: "Receive a daily allowance of Creature Coins based on the number of Highrise Creatures you own."
+  utter_unlock_skypass_plus:
+    - text: "Unlock Skypass+ each month at no additional cost as part of your Highrise Creature ownership."
+  utter_exclusive_creature_content:
+    - text: "Expect exclusive Creature-themed content to be airdropped to your inventory's gift section at surprise intervals."
+  utter_ask_about_becoming_member:
+    - text: |
+        By owning one of the unique Creature Club NFTs, you will become a Creature Club member, giving you access to all the items worn by the character and many other perks and benefits. It's a unique opportunity to get exclusive digital items!
+  utter_inquire_benefits_membership:
+    - text: |
+        As a Creature Club member, you'll enjoy access to exclusive items, daily Creature Coins to spin exclusive grabs, and periodic free items airdrops. Joining our club gives you the chance to be part of an exciting and unique community!
+  utter_ask_about_creature_coins:
+    - text: |
+        Creature Coins are awarded daily to Creature Club members and can be used to spin exclusive grabs. They provide an excellent way for members to enjoy fresh and unique digital experiences within the club.
+  utter_ask_about_nfts:
+    - text: "You can think of NFTs as special pieces of digital art that are like digital stickers."
+  utter_buy_sell_nfts:
+    - text: "NFTs are like a collector's item and can be bought and sold."
+  utter_uniqueness_of_nfts:
+    - text: "They are unique and can't be copied, so they are like owning a special piece of art."
+  utter_about_highrise_creature_club:
+    - text: "Highrise Creature Club is a collection of 11,111 digital art pieces (NFTs) featuring Highrise characters in various outfits. Owning one gives you access to all the items worn by that character."
+  utter_perks_highrise_creature_club:
+    - text: "Owning a Highrise Creature Club NFT makes you a Creature Club member, granting you perks like daily Creature Coins for exclusive grabs and periodic free items airdrops."
+  utter_join_highrise_discord:
+    - text: "You can visit the Highrise Discord Server to learn more about it at this link: [https://discord.gg/highrise](https://discord.gg/highrise)."
+  utter_detect_scam_accounts:
+    - text: "Scammers often mimic profile photos, banners, and usernames of official staff or well-known members. Always verify the person�s identity, such as Discord usernames, join dates, and mutual servers, especially within the Highrise Game."
+  utter_verify_secure_links:
+    - text: "Avoid clicking on links sent via private messages. Use only the Official links provided through the Highrise Discord Server or via Highrise Creature Club and Land Helpshift guides in-app."
+  utter_avoid_false_collections:
+    - text: "The original Highrise Creature NFT collections are on Immutable X and TokenTrove. Any Highrise Creature Club listing on Opensea is fake and will result in a loss of funds."
+  utter_warning_trust_trades:
+    - text: "Trust trades involve risking funds or NFTs based on verbal promises. Always make sure any middleman is legitimate through the Highrise platform. Preferably use official marketplaces for transactions."
+  utter_protect_wallet_security:
+    - text: "NEVER share your private key or seed phrase�it grants full access to your wallet. If compromised, immediately create a new Metamask wallet and transfer funds and NFTs. Do not allow anyone to create a wallet for you!"
+  utter_ask_other_ways_to_own_land:
+    - text: |
+        Unfortunately at this time the only way to receive a plot of LAND is by purchasing one through the Official Highrise LAND OpenSea Collection.
+  utter_inquire_about_land_updates:
+    - text: |
+        It's important to keep an eye on the Official Highrise Discord Server for any new updates!
+  utter_inquire_land_purchase:
+    - text: "By purchasing a single plot of LAND from the Official Highrise LAND OpenSea Collection, you can become a Highrise LAND owner! Soon you'll be able to create, customize and govern your own tower and manage your very own vibrant virtual community."
+  utter_inquire_land_benefits:
+    - text: "As a LAND owner, you'll receive daily LAND tokens to spin upcoming exclusive in-game grabs, receive access to exclusive channels within the Discord server to enter unique contests and giveaways, as well as earn free in-game items during periodic airdrops."
+  utter_create_customizable_rooms:
+    - text: "LAND owners can create customizable rooms within their towers, host richer experiences, earn their own income, and manage their economy."
+  utter_link_room_to_land:
+    - text: "LAND owners can link their Highrise Rooms to their LAND Plots, allowing users to access deep-links to their room on the map and receive exclusive boosts on room capacity."
+  utter_land_tokens_usage:
+    - text: "LAND Tokens are a custom currency for LAND owners, earned daily per plot and can be used to purchase exclusive furniture. Estate owners receive additional benefits."
+  utter_exclusive_land_shop:
+    - text: "The upcoming LAND Shop offers exclusive furniture items, Boost Tokens, Voice Tokens, and periodic exclusive grabs for LAND owners."
+  utter_increase_room_capacity:
+    - text: "LAND owners can boost room capacities: Standard plots support up to 75 users, while Premium plots allow up to 120 users, depending on the plot type."
+  utter_surprise_airdrops:
+    - text: "LAND owners receive surprise airdrops containing a variety of miscellaneous furniture items to enhance their rooms."
+  utter_exclusive_discord_channel:
+    - text: "LAND owners have access to an exclusive LAND channel on the Highrise Discord server, featuring periodical giveaways and contests with exclusive rewards."
+  utter_ask_land_cost_range:
+    - text: |
+        The cost of LAND plots in Highrise varies greatly. Prices can range from as low as $300 USD to several thousand dollars depending on the plot.
+  utter_inquire_land_price_factors:
+    - text: |
+        The price of Highrise LAND is affected by factors such as the plot's rarity (Premium vs Standard), its location, and the appearance of the attached Slime-blob pet.
+  utter_ask_land_rarity_difference:
+    - text: |
+        Premium LAND typically costs more due to its rarity compared to Standard LAND. These differences can be based on the location and unique attributes associated with the plot.
+  utter_warn_purchase_risk:
+    - text: "Purchasing Highrise LAND carries risk. Blockchain technology is evolving, and scams could occur. Always use strong passwords, enable two-factor authentication, and engage only with trusted services."
+  utter_create_metamask_wallet:
+    - text: "To create a MetaMask wallet, install the browser extension from the official website or Chrome Web Store. Click the MetaMask icon, create a wallet, set a strong password, and note your seed phrase."
+  utter_connect_wallet_opensea:
+    - text: "Visit OpenSea and click the wallet icon in the top right corner. Select 'Connect Wallet,' choose Metamask, and follow the popup instructions to connect."
+  utter_purchase_highrise_land:
+    - text: "To purchase Highrise LAND, connect your Metamask wallet to OpenSea, buy or transfer ETH to your wallet, and then select and purchase a LAND plot through the marketplace."
+  utter_connect_wallet_highrise:
+    - text: "Go to highrise.game, log in, access settings via your profile, and click 'Connect Metamask Wallet.' Sign in the Metamask popup to link your Highrise account."
+  utter_understand_crypto_purchase:
+    - text: "Purchase ETH via credit card, directly in MetaMask, or through exchange platforms like Coinbase. Ensure to transfer ETH into your Metamask wallet for LAND purchases on OpenSea."
+  utter_create_estate_intro:
+    - text: "Creating an Estate gives you extra creative & promotional perks, like larger rooms, custom thumbnails, and personalized URL links. Ready to start?"
+  utter_connect_wallet:
+    - text: "First, connect a wallet to your Highrise Account. Find more details on connecting ImmutableX to Highrise in the related FAQ titled 'How do I create and link a wallet to my Highrise account?'"
+  utter_estate_land_requirements:
+    - text: "Only L1 LAND is available for Estate creation, meaning it must be on the blockchain. LAND acquired with Highrise LAND Deeds won't be eligible."
+  utter_create_estate_steps:
+    - text: "To create an Estate, login to highrise.game, navigate to your LAND Info, and select 'Create Estate'. Then choose parcels in the Map view to use for your Estate and approve the creation."
+  utter_dissolve_estate:
+    - text: "To dissolve your Estate, go to Inventory or Map, select your Estate, and hit the Dissolve button. Sign into MetaMask to confirm the dissolution."
+  utter_customize_estate_thumbnail:
+    - text: "For customizing your Estate's thumbnail, select your Estate from the Map or Inventory, choose 'Edit Estate', then 'Upload Photo', and select an image no larger than 90KB."
+  utter_withdraw_land:
+    - text: "To withdraw and mint your LAND onto the L1 blockchain, head to [https://highrise.game/land](https://highrise.game/land) and log into your Highrise account. Click on your plot, then select the \"���\" and \"Withdraw LAND\" option."
+  utter_locate_land:
+    - text: "If you're unable to locate your LAND, press the arrow in the top left corner to open up the filters menu, select \"Owned By Me,\" and it should highlight your LAND."
+  utter_transaction_process:
+    - text: "Your MetaMask browser should pop up asking you to Confirm and Sign the transaction. Make sure you have a small amount of ETH in your MetaMask wallet to cover gas fees."
+  utter_check_gas_prices:
+    - text: "To check current gas prices, visit [https://etherscan.io/gastracker](https://etherscan.io/gastracker). The lower the number, the cheaper the cost will be. It's best to wait for lower prices."
+  utter_promotional_sale_notice:
+    - text: "Please note that the temporary promotional sale for LAND Deeds occurred from May 12th-17th, 2022, and LAND can no longer be purchased with deeds at this time."
+  utter_what_is_highrise_land:
+    - text: "Highrise LAND is an upcoming virtual world built on blockchain technology, where each digital token represents a unique land space. As an owner, you can explore and develop your land, unlocking numerous possibilities for self-expression."
+  utter_explore_creature_island:
+    - text: "Creature Island is Highrise's initial project in virtual real estate, consisting of 6,666 virtual parcels. It includes 666 premium plots and 6,000 regular plots where owners can creatively develop and manage their land."
+  utter_parcel_types:
+    - text: "In Highrise LAND, parcels are categorized as an individual parcel (LAND), larger domains with one owner (Estate), and larger domains with multiple owners (District). Each has distinct features and opportunities for development."
+  utter_purchasing_land:
+    - text: "You can purchase Highrise LAND by following the steps outlined in the 'How to Purchase LAND' guide available at [highrise.helpshift.com](https://highrise.helpshift.com/hc/faq/172-how-to-purchase-highrise-land/)."
+  utter_secondary_market:
+    - text: "The secondary market for buying, selling, or transferring Highrise LAND is available on platforms like [OpenSea](https://opensea.io/collection/highrise-land), providing a venue for trading digital tokens representing LAND parcels."

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rasa Bot</title>
+</head>
+<body>
+    <h1>Chat with Rasa Bot</h1>
+    <div id="webchat"></div>
+
+    <script>
+        !(function () {
+            let e = document.createElement("script"),
+                t = document.head || document.getElementsByTagName("head")[0];
+            (e.src = "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"), // Replace with the version you want
+            (e.async = !0),
+            (e.onload = () => {
+                window.WebChat.default(
+                    {
+                        selector: "#webchat", // Where to render the webchat widget
+                        initPayload: "/greet", // Initial message to send to the bot
+                        customData: { language: "en" }, // Custom data passed to the bot
+                        socketUrl: "http://localhost:5005/", // Replace with your Rasa server URL
+                        socketPath: "/socket.io/", // Path for Rasa socket connection
+                        title: "Live Demo Chatbot", // Title of the widget
+                        subtitle: "Ask me anything!", // Subtitle of the widget
+                        params: {
+                            images: {
+                                width: 300, // Width for images in messages
+                                height: 300, // Height for images in messages
+                            },
+                        },
+                    },
+                    null
+                );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+    </script>
+</body>
+</html>
