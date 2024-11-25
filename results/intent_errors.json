@@ -1,0 +1,3058 @@
+[
+  {
+    "text": "yes",
+    "intent": "feedback_helpful",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.1206720769405365
+    }
+  },
+  {
+    "text": "helpful",
+    "intent": "feedback_helpful",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14286580681800842
+    }
+  },
+  {
+    "text": "absolutely",
+    "intent": "feedback_helpful",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.12704262137413025
+    }
+  },
+  {
+    "text": "no",
+    "intent": "feedback_unhelpful",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.15223203599452972
+    }
+  },
+  {
+    "text": "unhelpful",
+    "intent": "feedback_unhelpful",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1428687870502472
+    }
+  },
+  {
+    "text": "not helpful",
+    "intent": "feedback_unhelpful",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.11568549275398254
+    }
+  },
+  {
+    "text": "How do I pin a post?",
+    "intent": "how_to_pin",
+    "intent_prediction": {
+      "name": "pinning_posts",
+      "confidence": 0.07888320088386536
+    }
+  },
+  {
+    "text": "How many items can I pin?",
+    "intent": "pin_limit",
+    "intent_prediction": {
+      "name": "pinning_limit_and_organization",
+      "confidence": 0.09819725900888443
+    }
+  },
+  {
+    "text": "Is there a limit to the number of pins?",
+    "intent": "pin_limit",
+    "intent_prediction": {
+      "name": "pinning_limit_and_organization",
+      "confidence": 0.09941524267196655
+    }
+  },
+  {
+    "text": "What's the maximum number of pinned items allowed?",
+    "intent": "pin_limit",
+    "intent_prediction": {
+      "name": "pinning_limit_and_organization",
+      "confidence": 0.09999243170022964
+    }
+  },
+  {
+    "text": "How many posts can be pinned?",
+    "intent": "pin_limit",
+    "intent_prediction": {
+      "name": "pin_content_types",
+      "confidence": 0.0709899291396141
+    }
+  },
+  {
+    "text": "Tell me about the pin limit.",
+    "intent": "pin_limit",
+    "intent_prediction": {
+      "name": "pin_content_types",
+      "confidence": 0.0786106064915657
+    }
+  },
+  {
+    "text": "What's the process to pin my work?",
+    "intent": "pinning_assets",
+    "intent_prediction": {
+      "name": "how_to_pin",
+      "confidence": 0.07273290306329727
+    }
+  },
+  {
+    "text": "What happens when I delete an item?",
+    "intent": "delete_items_earn_bubbles",
+    "intent_prediction": {
+      "name": "use_delete_feature",
+      "confidence": 0.07574769109487534
+    }
+  },
+  {
+    "text": "Can I connect my profile to social media?",
+    "intent": "social_media_links",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.10570390522480011
+    }
+  },
+  {
+    "text": "How do I add social media links to my profile?",
+    "intent": "social_media_links",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.10818719118833542
+    }
+  },
+  {
+    "text": "How can I access my social media from the profile?",
+    "intent": "social_media_links",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.09170547872781754
+    }
+  },
+  {
+    "text": "Is it easy to link social media to my profile?",
+    "intent": "social_media_links",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.09302312135696411
+    }
+  },
+  {
+    "text": "How does pinning work?",
+    "intent": "pinning_feature",
+    "intent_prediction": {
+      "name": "pin_feature_overview",
+      "confidence": 0.08905409276485443
+    }
+  },
+  {
+    "text": "How can I highlight posts on my profile?",
+    "intent": "pinning_feature",
+    "intent_prediction": {
+      "name": "pinning_posts",
+      "confidence": 0.08318136632442474
+    }
+  },
+  {
+    "text": "Tell me how to set a new background.",
+    "intent": "changing_background_overview",
+    "intent_prediction": {
+      "name": "select_new_background",
+      "confidence": 0.11538682132959366
+    }
+  },
+  {
+    "text": "Where can I set the pose and background?",
+    "intent": "access_pose_and_background",
+    "intent_prediction": {
+      "name": "select_new_background",
+      "confidence": 0.11477671563625336
+    }
+  },
+  {
+    "text": "How do I adjust my background settings?",
+    "intent": "access_pose_and_background",
+    "intent_prediction": {
+      "name": "changing_background_overview",
+      "confidence": 0.10171018540859222
+    }
+  },
+  {
+    "text": "I want to set a new background, how?",
+    "intent": "select_new_background",
+    "intent_prediction": {
+      "name": "changing_background_overview",
+      "confidence": 0.11304013431072235
+    }
+  },
+  {
+    "text": "How can I use the new OOTD feature?",
+    "intent": "ask_about_ootd_feature",
+    "intent_prediction": {
+      "name": "ask_where_to_find_ootd",
+      "confidence": 0.07407483458518982
+    }
+  },
+  {
+    "text": "Is OOTD a daily activity?",
+    "intent": "ask_about_ootd_frequency",
+    "intent_prediction": {
+      "name": "ask_about_ootd_feature",
+      "confidence": 0.0719321146607399
+    }
+  },
+  {
+    "text": "Can the OOTD feature add more themes?",
+    "intent": "suggest_ootd_improvements",
+    "intent_prediction": {
+      "name": "ask_about_ootd_frequency",
+      "confidence": 0.0734168142080307
+    }
+  },
+  {
+    "text": "Where do I find Worlds and Rooms?",
+    "intent": "access_worlds_rooms",
+    "intent_prediction": {
+      "name": "search_worlds",
+      "confidence": 0.11275666952133179
+    }
+  },
+  {
+    "text": "Can I see who follows a World?",
+    "intent": "followers_screen",
+    "intent_prediction": {
+      "name": "follow_worlds",
+      "confidence": 0.08620364964008331
+    }
+  },
+  {
+    "text": "How do I share my social media links?",
+    "intent": "ask_about_sharing_socials",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.09970881044864655
+    }
+  },
+  {
+    "text": "Is there a way to add my social media to my profile?",
+    "intent": "ask_about_sharing_socials",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.09791348874568939
+    }
+  },
+  {
+    "text": "I'd like to link my social media accounts. How do I do that?",
+    "intent": "ask_about_sharing_socials",
+    "intent_prediction": {
+      "name": "how_to_add_social_media_links",
+      "confidence": 0.10473499447107315
+    }
+  },
+  {
+    "text": "How many gift tiers does Highrise+ offer?",
+    "intent": "highrise_plus_tiers",
+    "intent_prediction": {
+      "name": "currency_types",
+      "confidence": 0.1010361984372139
+    }
+  },
+  {
+    "text": "What do I need to do to start a voice chat in Highrise?",
+    "intent": "start_inbox_calls",
+    "intent_prediction": {
+      "name": "start_voice_chat",
+      "confidence": 0.09543173760175705
+    }
+  },
+  {
+    "text": "How can I transition between different voice chats?",
+    "intent": "switch_call_modes",
+    "intent_prediction": {
+      "name": "manage_voice_chat",
+      "confidence": 0.10165667533874512
+    }
+  },
+  {
+    "text": "How do I pin a message?",
+    "intent": "pin_message",
+    "intent_prediction": {
+      "name": "unpin_message",
+      "confidence": 0.07343589514493942
+    }
+  },
+  {
+    "text": "How do I convert Earned Gold to cash?",
+    "intent": "inquire_earned_gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06144426390528679
+    }
+  },
+  {
+    "text": "What is the process to exchange Earned Gold?",
+    "intent": "inquire_earned_gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.05769908055663109
+    }
+  },
+  {
+    "text": "Can Earned Gold be turned into real money?",
+    "intent": "inquire_earned_gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06365600228309631
+    }
+  },
+  {
+    "text": "How much Earned Gold do I need to convert to cash?",
+    "intent": "inquire_earned_gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06261739134788513
+    }
+  },
+  {
+    "text": "Explain the conversion of Earned Gold to cash.",
+    "intent": "inquire_earned_gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.0548328198492527
+    }
+  },
+  {
+    "text": "Can you explain how display names work?",
+    "intent": "ask_display_name_feature",
+    "intent_prediction": {
+      "name": "display_name_visibility",
+      "confidence": 0.08546403795480728
+    }
+  },
+  {
+    "text": "How can I set my display name?",
+    "intent": "customize_display_name",
+    "intent_prediction": {
+      "name": "display_name_guidelines",
+      "confidence": 0.08513955771923065
+    }
+  },
+  {
+    "text": "What is the process to choose a display name?",
+    "intent": "customize_display_name",
+    "intent_prediction": {
+      "name": "change_display_name",
+      "confidence": 0.08896143734455109
+    }
+  },
+  {
+    "text": "When will I be prompted to set my display name?",
+    "intent": "customize_display_name",
+    "intent_prediction": {
+      "name": "change_display_name",
+      "confidence": 0.09808973222970963
+    }
+  },
+  {
+    "text": "How long can my display name be?",
+    "intent": "display_name_guidelines",
+    "intent_prediction": {
+      "name": "change_display_name",
+      "confidence": 0.089109867811203
+    }
+  },
+  {
+    "text": "Are spaces allowed in my display name?",
+    "intent": "display_name_guidelines",
+    "intent_prediction": {
+      "name": "change_display_name",
+      "confidence": 0.09021733701229095
+    }
+  },
+  {
+    "text": "What should I do to make friends and have fun in Highrise?",
+    "intent": "inquire_positive_community_engagement",
+    "intent_prediction": {
+      "name": "how_to_socialize",
+      "confidence": 0.12403605133295059
+    }
+  },
+  {
+    "text": "How do I report my life events in Highrise?",
+    "intent": "life_reporting_in_highrise",
+    "intent_prediction": {
+      "name": "general_information_events",
+      "confidence": 0.08564410358667374
+    }
+  },
+  {
+    "text": "Can I join events in Highrise?",
+    "intent": "participating_in_contests",
+    "intent_prediction": {
+      "name": "general_information_events",
+      "confidence": 0.08245443552732468
+    }
+  },
+  {
+    "text": "Is the Highrise chat filter still being improved?",
+    "intent": "ask_about_tweaks_and_feedback",
+    "intent_prediction": {
+      "name": "ask_how_chat_filter_works",
+      "confidence": 0.10542764514684677
+    }
+  },
+  {
+    "text": "How do I access the express lane for gold?",
+    "intent": "purchase_gold",
+    "intent_prediction": {
+      "name": "inquire_gold_options",
+      "confidence": 0.06528770923614502
+    }
+  },
+  {
+    "text": "How can I earn gold playing games?",
+    "intent": "earn_gold_games",
+    "intent_prediction": {
+      "name": "earn_gold_offers",
+      "confidence": 0.05720539391040802
+    }
+  },
+  {
+    "text": "Can I get gold by participating in pageants?",
+    "intent": "earn_gold_games",
+    "intent_prediction": {
+      "name": "earn_gold_offers",
+      "confidence": 0.06969790160655975
+    }
+  },
+  {
+    "text": "How do crewmates' purchases benefit me?",
+    "intent": "earn_gold_crew",
+    "intent_prediction": {
+      "name": "inquire_about_crew_purchases",
+      "confidence": 0.07101896405220032
+    }
+  },
+  {
+    "text": "Can crew activity lead to receiving gifts?",
+    "intent": "earn_gold_crew",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.08397841453552246
+    }
+  },
+  {
+    "text": "I can't find the gold I bought. Can you help?",
+    "intent": "inquire_purchase_issues",
+    "intent_prediction": {
+      "name": "troubleshoot_purchase_issue",
+      "confidence": 0.08126866072416306
+    }
+  },
+  {
+    "text": "How do I make my gold appear in the wallet?",
+    "intent": "troubleshoot_purchase_issue",
+    "intent_prediction": {
+      "name": "gold_conversion",
+      "confidence": 0.06965979188680649
+    }
+  },
+  {
+    "text": "Why didn't I get gold from the sponsor offer?",
+    "intent": "inquire_gold_offer_availability",
+    "intent_prediction": {
+      "name": "earn_gold_offers",
+      "confidence": 0.06265395879745483
+    }
+  },
+  {
+    "text": "I completed an offer, why isn't my gold showing?",
+    "intent": "inquire_gold_offer_availability",
+    "intent_prediction": {
+      "name": "inquiry_post_offer_completion",
+      "confidence": 0.05410262569785118
+    }
+  },
+  {
+    "text": "How do I follow up on missing gold after completing an offer?",
+    "intent": "follow_up_missing_gold_status",
+    "intent_prediction": {
+      "name": "inquiry_post_offer_completion",
+      "confidence": 0.08223363012075424
+    }
+  },
+  {
+    "text": "Why are Gold Bars more expensive?",
+    "intent": "inquire_gold_bar_premium",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09116467833518982
+    }
+  },
+  {
+    "text": "How come Gold Bars cost 550 Gold for 500G?",
+    "intent": "inquire_gold_bar_premium",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.0679628998041153
+    }
+  },
+  {
+    "text": "What's the reason behind the Gold Bar premium?",
+    "intent": "inquire_gold_bar_premium",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.07774348556995392
+    }
+  },
+  {
+    "text": "Are Gold Bars traded more frequently than Gold?",
+    "intent": "gold_bar_tradability",
+    "intent_prediction": {
+      "name": "gold_bar_inflation_protection",
+      "confidence": 0.07112511247396469
+    }
+  },
+  {
+    "text": "Why are Gold Bars traded more often?",
+    "intent": "gold_bar_tradability",
+    "intent_prediction": {
+      "name": "gold_bar_inflation_protection",
+      "confidence": 0.08871340751647949
+    }
+  },
+  {
+    "text": "Tell me about the tradability of Gold Bars.",
+    "intent": "gold_bar_tradability",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.0887429267168045
+    }
+  },
+  {
+    "text": "How do Gold Bars compare to Gold in trading?",
+    "intent": "gold_bar_tradability",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.08181900531053543
+    }
+  },
+  {
+    "text": "Do Gold Bars enjoy being traded?",
+    "intent": "gold_bar_tradability",
+    "intent_prediction": {
+      "name": "gold_bar_inflation_protection",
+      "confidence": 0.09318844228982925
+    }
+  },
+  {
+    "text": "How do Gold Bars affect Gold in the economy?",
+    "intent": "gold_bar_inflation_protection",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09330606460571289
+    }
+  },
+  {
+    "text": "Can Gold Bars reduce the number of Gold?",
+    "intent": "gold_bar_inflation_protection",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09536372870206833
+    }
+  },
+  {
+    "text": "Why are Gold Bars important to Highrise?",
+    "intent": "summary_gold_bar_importance",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09888005256652832
+    }
+  },
+  {
+    "text": "What makes Gold Bars the life of the economy?",
+    "intent": "summary_gold_bar_importance",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09402255713939667
+    }
+  },
+  {
+    "text": "Can you summarize the benefits of Gold Bars?",
+    "intent": "summary_gold_bar_importance",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.10205070674419403
+    }
+  },
+  {
+    "text": "How do Gold Bars contribute to the economy?",
+    "intent": "summary_gold_bar_importance",
+    "intent_prediction": {
+      "name": "gold_bar_as_decor",
+      "confidence": 0.09392842650413513
+    }
+  },
+  {
+    "text": "What's so special about your sales?",
+    "intent": "explain_sales_special_features",
+    "intent_prediction": {
+      "name": "ask_how_sales_work",
+      "confidence": 0.08905915170907974
+    }
+  },
+  {
+    "text": "How are your sales like magic tricks?",
+    "intent": "explain_sales_special_features",
+    "intent_prediction": {
+      "name": "ask_how_sales_work",
+      "confidence": 0.0817108079791069
+    }
+  },
+  {
+    "text": "In what way are sales like fashion accessories?",
+    "intent": "explain_sales_special_features",
+    "intent_prediction": {
+      "name": "inquire_types_of_sales",
+      "confidence": 0.08007257431745529
+    }
+  },
+  {
+    "text": "Can you describe your sales?",
+    "intent": "explain_sales_special_features",
+    "intent_prediction": {
+      "name": "ask_how_sales_work",
+      "confidence": 0.09073787927627563
+    }
+  },
+  {
+    "text": "Tell me about gold conversion in tipping.",
+    "intent": "gold_conversion",
+    "intent_prediction": {
+      "name": "inquire_gold_options",
+      "confidence": 0.06423961371183395
+    }
+  },
+  {
+    "text": "How do I tip a tip jar?",
+    "intent": "tipping_tip_jar",
+    "intent_prediction": {
+      "name": "indirect_tipping",
+      "confidence": 0.12289951741695404
+    }
+  },
+  {
+    "text": "What do verified resellers offer?",
+    "intent": "reseller_offers",
+    "intent_prediction": {
+      "name": "inquire_verified_resellers",
+      "confidence": 0.08761691302061081
+    }
+  },
+  {
+    "text": "Are there any benefits to buying from a verified reseller?",
+    "intent": "reseller_offers",
+    "intent_prediction": {
+      "name": "inquire_verified_resellers",
+      "confidence": 0.08434517681598663
+    }
+  },
+  {
+    "text": "Where can I learn more about verified reselling?",
+    "intent": "other_resources",
+    "intent_prediction": {
+      "name": "inquire_verified_resellers",
+      "confidence": 0.08396518975496292
+    }
+  },
+  {
+    "text": "Can you explain Earned Gold?",
+    "intent": "inquire_earned_gold_definition",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06008239462971687
+    }
+  },
+  {
+    "text": "Tell me about the Earned Gold in Highrise.",
+    "intent": "inquire_earned_gold_definition",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06031082943081856
+    }
+  },
+  {
+    "text": "How can I use Earned Gold?",
+    "intent": "inquire_earned_gold_usage",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.0637912005186081
+    }
+  },
+  {
+    "text": "What can I do with Earned Gold?",
+    "intent": "inquire_earned_gold_usage",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06122701242566109
+    }
+  },
+  {
+    "text": "Is Earned Gold usable like regular Gold?",
+    "intent": "inquire_earned_gold_usage",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_definition",
+      "confidence": 0.058233704417943954
+    }
+  },
+  {
+    "text": "What purchases can I make with Earned Gold?",
+    "intent": "inquire_earned_gold_usage",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06078246235847473
+    }
+  },
+  {
+    "text": "Can Earned Gold be used for tips and trades?",
+    "intent": "inquire_earned_gold_usage",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.05622243136167526
+    }
+  },
+  {
+    "text": "Is Earned Gold visible in the Highrise app?",
+    "intent": "inquire_view_earned_gold_balance",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.05836549773812294
+    }
+  },
+  {
+    "text": "How can I see my Earned Gold amount?",
+    "intent": "inquire_view_earned_gold_balance",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.061266060918569565
+    }
+  },
+  {
+    "text": "Tell me how to find my Earned Gold balance.",
+    "intent": "inquire_view_earned_gold_balance",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.060280315577983856
+    }
+  },
+  {
+    "text": "What are the requirements for cashing out Earned Gold?",
+    "intent": "inquire_cashout_requirements",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06652266532182693
+    }
+  },
+  {
+    "text": "What conditions must be met to cash out Earned Gold?",
+    "intent": "inquire_cashout_requirements",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.06697605550289154
+    }
+  },
+  {
+    "text": "Can anyone cash out Earned Gold?",
+    "intent": "inquire_cashout_requirements",
+    "intent_prediction": {
+      "name": "inquire_earned_gold_cashout",
+      "confidence": 0.0630534365773201
+    }
+  },
+  {
+    "text": "Help me set up permissions for Highrise.",
+    "intent": "permission_issues_help",
+    "intent_prediction": {
+      "name": "device_permission_steps",
+      "confidence": 0.10019796341657639
+    }
+  },
+  {
+    "text": "See a post that violates our Community Guidelines?",
+    "intent": "report_guideline_violation",
+    "intent_prediction": {
+      "name": "community_guidelines_violation",
+      "confidence": 0.10995524376630783
+    }
+  },
+  {
+    "text": "How can I report a post that violates Community Guidelines?",
+    "intent": "report_guideline_violation",
+    "intent_prediction": {
+      "name": "community_guidelines_violation",
+      "confidence": 0.098578542470932
+    }
+  },
+  {
+    "text": "Can I make a customized room in the virtual world?",
+    "intent": "create_custom_room",
+    "intent_prediction": {
+      "name": "create_own_room",
+      "confidence": 0.08481771498918533
+    }
+  },
+  {
+    "text": "How can I begin the room creation process?",
+    "intent": "create_custom_room",
+    "intent_prediction": {
+      "name": "room_creation_step_one",
+      "confidence": 0.08806200325489044
+    }
+  },
+  {
+    "text": "Show me how to start creating my room.",
+    "intent": "create_custom_room",
+    "intent_prediction": {
+      "name": "room_creation_step_one",
+      "confidence": 0.0838095098733902
+    }
+  },
+  {
+    "text": "How do I subscribe to a room?",
+    "intent": "subscription_payment",
+    "intent_prediction": {
+      "name": "manage_room_subscriptions",
+      "confidence": 0.08113979548215866
+    }
+  },
+  {
+    "text": "How can I create a new room in Highrise?",
+    "intent": "create_room_intro",
+    "intent_prediction": {
+      "name": "create_a_room",
+      "confidence": 0.08219770342111588
+    }
+  },
+  {
+    "text": "What's the process for building a custom room?",
+    "intent": "create_room_intro",
+    "intent_prediction": {
+      "name": "create_a_room",
+      "confidence": 0.08059219270944595
+    }
+  },
+  {
+    "text": "Can you guide me on making my own room?",
+    "intent": "create_room_intro",
+    "intent_prediction": {
+      "name": "room_creation_step_one",
+      "confidence": 0.08454793691635132
+    }
+  },
+  {
+    "text": "What are the steps to design a room?",
+    "intent": "create_room_intro",
+    "intent_prediction": {
+      "name": "create_a_room",
+      "confidence": 0.07527793198823929
+    }
+  },
+  {
+    "text": "How do I start creating my dream room?",
+    "intent": "create_room_intro",
+    "intent_prediction": {
+      "name": "create_custom_room",
+      "confidence": 0.07682927697896957
+    }
+  },
+  {
+    "text": "What's the process to design my room?",
+    "intent": "room_design_process",
+    "intent_prediction": {
+      "name": "inquire_room_design",
+      "confidence": 0.0712299719452858
+    }
+  },
+  {
+    "text": "How do I edit the details of my room?",
+    "intent": "room_design_process",
+    "intent_prediction": {
+      "name": "edit_room_information",
+      "confidence": 0.07180049270391464
+    }
+  },
+  {
+    "text": "How do I get started with designing my room?",
+    "intent": "inquire_room_design",
+    "intent_prediction": {
+      "name": "create_custom_room",
+      "confidence": 0.07318949699401855
+    }
+  },
+  {
+    "text": "How do I find the room editing options?",
+    "intent": "navigate_to_rooms",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.08166315406560898
+    }
+  },
+  {
+    "text": "Show me how to go to my room settings.",
+    "intent": "navigate_to_rooms",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.09538029134273529
+    }
+  },
+  {
+    "text": "Where is the 'Rooms' option located?",
+    "intent": "navigate_to_rooms",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.08163393288850784
+    }
+  },
+  {
+    "text": "Can you help me set up a new room?",
+    "intent": "create_a_room",
+    "intent_prediction": {
+      "name": "room_creation_step_one",
+      "confidence": 0.09033895283937454
+    }
+  },
+  {
+    "text": "How do I manage my room's guest list?",
+    "intent": "ask_room_privacy_settings",
+    "intent_prediction": {
+      "name": "manage_owned_room",
+      "confidence": 0.0766468495130539
+    }
+  },
+  {
+    "text": "How do I find my room settings?",
+    "intent": "room_settings_instruction",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.09520191699266434
+    }
+  },
+  {
+    "text": "Tell me where the room settings are located.",
+    "intent": "room_settings_instruction",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.08642222732305527
+    }
+  },
+  {
+    "text": "Where is the room settings option?",
+    "intent": "room_settings_instruction",
+    "intent_prediction": {
+      "name": "navigate_room_settings",
+      "confidence": 0.08713619410991669
+    }
+  },
+  {
+    "text": "How can I tweak the room settings?",
+    "intent": "room_settings_instruction",
+    "intent_prediction": {
+      "name": "ask_room_privacy_settings",
+      "confidence": 0.08083727210760117
+    }
+  },
+  {
+    "text": "How do I modify my room's guest list?",
+    "intent": "adjust_guest_list",
+    "intent_prediction": {
+      "name": "manage_owned_room",
+      "confidence": 0.07315920293331146
+    }
+  },
+  {
+    "text": "Where can I choose who gets access to my room?",
+    "intent": "adjust_guest_list",
+    "intent_prediction": {
+      "name": "ask_room_privacy_settings",
+      "confidence": 0.08296242356300354
+    }
+  },
+  {
+    "text": "How do moderation rights help in managing the room?",
+    "intent": "inquire_moderation_actions",
+    "intent_prediction": {
+      "name": "inquire_delegate_moderation_privileges",
+      "confidence": 0.10100085288286209
+    }
+  },
+  {
+    "text": "How can I collaborate on room designing with others?",
+    "intent": "teamwork_collaboration_introduction",
+    "intent_prediction": {
+      "name": "add_user_to_room",
+      "confidence": 0.11186308413743973
+    }
+  },
+  {
+    "text": "Guide me on collaborative room designing.",
+    "intent": "teamwork_collaboration_introduction",
+    "intent_prediction": {
+      "name": "add_user_to_room",
+      "confidence": 0.10122787207365036
+    }
+  },
+  {
+    "text": "What is the best way to design a room with friends?",
+    "intent": "teamwork_collaboration_introduction",
+    "intent_prediction": {
+      "name": "add_user_to_room",
+      "confidence": 0.1178111881017685
+    }
+  },
+  {
+    "text": "Explain the buddy system in room design.",
+    "intent": "setup_wobbly_bookcases",
+    "intent_prediction": {
+      "name": "add_user_to_room",
+      "confidence": 0.10715197771787643
+    }
+  },
+  {
+    "text": "How can I let my friend bring their own furniture for room design?",
+    "intent": "give_design_rights",
+    "intent_prediction": {
+      "name": "add_user_to_room",
+      "confidence": 0.11412202566862106
+    }
+  },
+  {
+    "text": "How do I access the edit feature in room settings?",
+    "intent": "edit_room_information",
+    "intent_prediction": {
+      "name": "manage_owned_room",
+      "confidence": 0.07588423043489456
+    }
+  },
+  {
+    "text": "How do I change the music in my room?",
+    "intent": "change_or_clear_music",
+    "intent_prediction": {
+      "name": "start_adding_music",
+      "confidence": 0.11707749217748642
+    }
+  },
+  {
+    "text": "What's the process to switch radio stations?",
+    "intent": "change_or_clear_music",
+    "intent_prediction": {
+      "name": "add_radio_station",
+      "confidence": 0.09814843535423279
+    }
+  },
+  {
+    "text": "How do I delete a room from my list?",
+    "intent": "room_deletion_steps",
+    "intent_prediction": {
+      "name": "delete_a_room",
+      "confidence": 0.0821041539311409
+    }
+  },
+  {
+    "text": "What is the process to remove a room?",
+    "intent": "room_deletion_steps",
+    "intent_prediction": {
+      "name": "delete_a_room",
+      "confidence": 0.08689449727535248
+    }
+  },
+  {
+    "text": "Can you give me steps to delete a room?",
+    "intent": "room_deletion_steps",
+    "intent_prediction": {
+      "name": "delete_a_room",
+      "confidence": 0.08233234286308289
+    }
+  },
+  {
+    "text": "Can I extend my Room Boost?",
+    "intent": "inquire_room_reboost_feature",
+    "intent_prediction": {
+      "name": "inquire_room_boost_benefits",
+      "confidence": 0.11613637208938599
+    }
+  },
+  {
+    "text": "What are the benefits of a Room Boost?",
+    "intent": "inquire_room_boost_benefits",
+    "intent_prediction": {
+      "name": "inquire_room_boost_introduction",
+      "confidence": 0.174290731549263
+    }
+  },
+  {
+    "text": "How will boosting my room help me?",
+    "intent": "inquire_room_boost_benefits",
+    "intent_prediction": {
+      "name": "inquire_room_boost_introduction",
+      "confidence": 0.1412685364484787
+    }
+  },
+  {
+    "text": "Why should I use Room Boost?",
+    "intent": "inquire_room_boost_benefits",
+    "intent_prediction": {
+      "name": "inquire_room_boost_introduction",
+      "confidence": 0.16767257452011108
+    }
+  },
+  {
+    "text": "Advantages of using Room Boost?",
+    "intent": "inquire_room_boost_benefits",
+    "intent_prediction": {
+      "name": "inquire_room_boost_introduction",
+      "confidence": 0.1679295152425766
+    }
+  },
+  {
+    "text": "What are the perks of boosting my room?",
+    "intent": "inquire_room_boost_benefits",
+    "intent_prediction": {
+      "name": "inquire_room_boost_introduction",
+      "confidence": 0.1373593807220459
+    }
+  },
+  {
+    "text": "What can spectators do?",
+    "intent": "benefits_of_spectating",
+    "intent_prediction": {
+      "name": "spectating_rules",
+      "confidence": 0.10869510471820831
+    }
+  },
+  {
+    "text": "What actions can a spectator take?",
+    "intent": "benefits_of_spectating",
+    "intent_prediction": {
+      "name": "spectating_rules",
+      "confidence": 0.1181468665599823
+    }
+  },
+  {
+    "text": "How is spectating like a podcast?",
+    "intent": "benefits_of_spectating",
+    "intent_prediction": {
+      "name": "spectating_rules",
+      "confidence": 0.10065606236457825
+    }
+  },
+  {
+    "text": "Can you explain what SkyPass is?",
+    "intent": "ask_what_is_skypass",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08573353290557861
+    }
+  },
+  {
+    "text": "Tell me about SkyPass.",
+    "intent": "ask_what_is_skypass",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.07985128462314606
+    }
+  },
+  {
+    "text": "How do I start using SkyPass?",
+    "intent": "ask_how_to_access_skypass",
+    "intent_prediction": {
+      "name": "ask_what_is_skypass",
+      "confidence": 0.07526178658008575
+    }
+  },
+  {
+    "text": "What do I need to do to use SkyPass?",
+    "intent": "ask_how_to_access_skypass",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08050239831209183
+    }
+  },
+  {
+    "text": "How can I log into SkyPass?",
+    "intent": "ask_how_to_access_skypass",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08076266199350357
+    }
+  },
+  {
+    "text": "How do Stars work in SkyPass?",
+    "intent": "ask_about_stars_and_tiers",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08405771106481552
+    }
+  },
+  {
+    "text": "Can you explain the Tiers in SkyPass?",
+    "intent": "ask_about_stars_and_tiers",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08028875291347504
+    }
+  },
+  {
+    "text": "How can I unlock rewards in SkyPass?",
+    "intent": "ask_about_rewards",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.0763406977057457
+    }
+  },
+  {
+    "text": "What is SkyPass+?",
+    "intent": "ask_about_skypass_plus",
+    "intent_prediction": {
+      "name": "ask_what_is_skypass",
+      "confidence": 0.07820367813110352
+    }
+  },
+  {
+    "text": "Where can I find free gift boxes?",
+    "intent": "ask_about_free_gift_boxes",
+    "intent_prediction": {
+      "name": "find_gift_boxes",
+      "confidence": 0.1233055368065834
+    }
+  },
+  {
+    "text": "What are crew gifts?",
+    "intent": "ask_about_crew_gifts",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08503585308790207
+    }
+  },
+  {
+    "text": "Can you explain crew gifts?",
+    "intent": "ask_about_crew_gifts",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08654732257127762
+    }
+  },
+  {
+    "text": "Tell me about crew gifts.",
+    "intent": "ask_about_crew_gifts",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08719593286514282
+    }
+  },
+  {
+    "text": "What special treats come with crew membership?",
+    "intent": "ask_about_crew_gifts",
+    "intent_prediction": {
+      "name": "crew_gifts_benefits",
+      "confidence": 0.062106989324092865
+    }
+  },
+  {
+    "text": "How do crew gifts work?",
+    "intent": "ask_about_crew_gifts",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08636043220758438
+    }
+  },
+  {
+    "text": "What's the benefit of crew membership?",
+    "intent": "crew_gifts_benefits",
+    "intent_prediction": {
+      "name": "define_crew",
+      "confidence": 0.05856765806674957
+    }
+  },
+  {
+    "text": "How do crew gifts make crew membership cool?",
+    "intent": "crew_gifts_benefits",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.07154136896133423
+    }
+  },
+  {
+    "text": "What's so great about crew gifts?",
+    "intent": "crew_gifts_benefits",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08148950338363647
+    }
+  },
+  {
+    "text": "Are there any perks for being in a crew?",
+    "intent": "crew_gifts_benefits",
+    "intent_prediction": {
+      "name": "crew_benefits",
+      "confidence": 0.05955703184008598
+    }
+  },
+  {
+    "text": "What is the Lucky Wheel?",
+    "intent": "ask_about_lucky_wheel",
+    "intent_prediction": {
+      "name": "lucky_wheel_info",
+      "confidence": 0.0972215011715889
+    }
+  },
+  {
+    "text": "Can you tell me about the Lucky Wheel?",
+    "intent": "ask_about_lucky_wheel",
+    "intent_prediction": {
+      "name": "lucky_wheel_info",
+      "confidence": 0.09698218107223511
+    }
+  },
+  {
+    "text": "What's the purpose of the Lucky Wheel?",
+    "intent": "ask_about_lucky_wheel",
+    "intent_prediction": {
+      "name": "lucky_wheel_info",
+      "confidence": 0.09620234370231628
+    }
+  },
+  {
+    "text": "How does the Lucky Wheel work?",
+    "intent": "ask_about_lucky_wheel",
+    "intent_prediction": {
+      "name": "lucky_wheel_info",
+      "confidence": 0.0995175689458847
+    }
+  },
+  {
+    "text": "When can I spin the Lucky Wheel again?",
+    "intent": "lucky_wheel_spinning_frequency",
+    "intent_prediction": {
+      "name": "lucky_wheel_timer_reset",
+      "confidence": 0.09684460610151291
+    }
+  },
+  {
+    "text": "Show me where to choose the redeem option.",
+    "intent": "choose_redeem_option",
+    "intent_prediction": {
+      "name": "check_redeemed_items",
+      "confidence": 0.1099034771323204
+    }
+  },
+  {
+    "text": "How is the shop organized?",
+    "intent": "explore_shop_sections",
+    "intent_prediction": {
+      "name": "navigate_to_store",
+      "confidence": 0.08934707194566727
+    }
+  },
+  {
+    "text": "Where do I find the shop option?",
+    "intent": "shop_for_furniture",
+    "intent_prediction": {
+      "name": "navigate_to_store",
+      "confidence": 0.10837831348180771
+    }
+  },
+  {
+    "text": "What are progress rewards?",
+    "intent": "explain_progress_rewards",
+    "intent_prediction": {
+      "name": "progress_rewards_earning",
+      "confidence": 0.11724817752838135
+    }
+  },
+  {
+    "text": "Can you explain what progress rewards are?",
+    "intent": "explain_progress_rewards",
+    "intent_prediction": {
+      "name": "progress_rewards_earning",
+      "confidence": 0.12980112433433533
+    }
+  },
+  {
+    "text": "Tell me more about progress rewards.",
+    "intent": "explain_progress_rewards",
+    "intent_prediction": {
+      "name": "progress_rewards_earning",
+      "confidence": 0.1283928006887436
+    }
+  },
+  {
+    "text": "How do progress rewards work?",
+    "intent": "explain_progress_rewards",
+    "intent_prediction": {
+      "name": "progress_rewards_earning",
+      "confidence": 0.1210971549153328
+    }
+  },
+  {
+    "text": "What is the purpose of progress rewards?",
+    "intent": "explain_progress_rewards",
+    "intent_prediction": {
+      "name": "progress_rewards_earning",
+      "confidence": 0.12331708520650864
+    }
+  },
+  {
+    "text": "How can I get more Grab Tokens?",
+    "intent": "run_out_of_tokens",
+    "intent_prediction": {
+      "name": "inquire_grab_tokens",
+      "confidence": 0.08249308913946152
+    }
+  },
+  {
+    "text": "Are there cases where I cannot appeal a ban?",
+    "intent": "appeal_eligibility",
+    "intent_prediction": {
+      "name": "request_appeal_process",
+      "confidence": 0.1135304868221283
+    }
+  },
+  {
+    "text": "How do I ban players from any room if I have moderation privileges?",
+    "intent": "ban_with_moderation_rights",
+    "intent_prediction": {
+      "name": "ban_unruly_players",
+      "confidence": 0.10104148834943771
+    }
+  },
+  {
+    "text": "Can I ban players from rooms where I have moderation rights?",
+    "intent": "ban_with_moderation_rights",
+    "intent_prediction": {
+      "name": "ban_unruly_players",
+      "confidence": 0.10381163656711578
+    }
+  },
+  {
+    "text": "Explain how to ban a player using moderation rights.",
+    "intent": "ban_with_moderation_rights",
+    "intent_prediction": {
+      "name": "ban_unruly_players",
+      "confidence": 0.09375893324613571
+    }
+  },
+  {
+    "text": "What are the steps to ban someone from rooms I moderate?",
+    "intent": "ban_with_moderation_rights",
+    "intent_prediction": {
+      "name": "ban_unruly_players",
+      "confidence": 0.09866423904895782
+    }
+  },
+  {
+    "text": "How to use moderation rights to kick players?",
+    "intent": "ban_with_moderation_rights",
+    "intent_prediction": {
+      "name": "inquire_moderation_actions",
+      "confidence": 0.07584521174430847
+    }
+  },
+  {
+    "text": "How do I block someone?",
+    "intent": "block_someone_general",
+    "intent_prediction": {
+      "name": "unblock_someone_instructions",
+      "confidence": 0.07419545203447342
+    }
+  },
+  {
+    "text": "Is blocking an effective way to handle annoying people?",
+    "intent": "block_advantage",
+    "intent_prediction": {
+      "name": "permanence_of_ban",
+      "confidence": 0.06839518249034882
+    }
+  },
+  {
+    "text": "When will I receive a Crew Gift?",
+    "intent": "ask_when_crew_gifts_are_received",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.08503150194883347
+    }
+  },
+  {
+    "text": "When are Crew Gifts awarded?",
+    "intent": "ask_when_crew_gifts_are_received",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08613752573728561
+    }
+  },
+  {
+    "text": "How do I know if I got a Crew Gift?",
+    "intent": "ask_when_crew_gifts_are_received",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.09376004338264465
+    }
+  },
+  {
+    "text": "When do Crew Gifts show up?",
+    "intent": "ask_when_crew_gifts_are_received",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.0854126587510109
+    }
+  },
+  {
+    "text": "Timing of Crew Gift arrivals",
+    "intent": "ask_when_crew_gifts_are_received",
+    "intent_prediction": {
+      "name": "crew_gifts",
+      "confidence": 0.08278743922710419
+    }
+  },
+  {
+    "text": "What happens when a crew member makes a purchase?",
+    "intent": "inquire_about_crew_purchases",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.08770779520273209
+    }
+  },
+  {
+    "text": "Am I allowed to have more than one crew?",
+    "intent": "ask_multiple_crews",
+    "intent_prediction": {
+      "name": "crew_membership_rule",
+      "confidence": 0.07972540706396103
+    }
+  },
+  {
+    "text": "Can an admin remove someone from the crew?",
+    "intent": "ask_about_kicking_member",
+    "intent_prediction": {
+      "name": "inquire_admin_rights",
+      "confidence": 0.08131122589111328
+    }
+  },
+  {
+    "text": "Can removed members be added again to the crew?",
+    "intent": "ask_about_adding_member_back",
+    "intent_prediction": {
+      "name": "ask_about_kicking_member",
+      "confidence": 0.09664864838123322
+    }
+  },
+  {
+    "text": "How do I block someone?",
+    "intent": "ask_about_blocking_member",
+    "intent_prediction": {
+      "name": "unblock_someone_instructions",
+      "confidence": 0.07419545203447342
+    }
+  },
+  {
+    "text": "What steps do I take to block someone?",
+    "intent": "ask_about_blocking_member",
+    "intent_prediction": {
+      "name": "unblock_someone_instructions",
+      "confidence": 0.06530860811471939
+    }
+  },
+  {
+    "text": "How can I block a player from contacting me?",
+    "intent": "ask_about_blocking_member",
+    "intent_prediction": {
+      "name": "ban_unruly_players",
+      "confidence": 0.06943578273057938
+    }
+  },
+  {
+    "text": "Are you sure you want me to leave my crew?",
+    "intent": "confirm_leave_crew_action",
+    "intent_prediction": {
+      "name": "inquire_how_to_leave_crew",
+      "confidence": 0.09338779002428055
+    }
+  },
+  {
+    "text": "Is leaving my crew reversible?",
+    "intent": "confirm_leave_crew_action",
+    "intent_prediction": {
+      "name": "inquire_how_to_leave_crew",
+      "confidence": 0.08101101219654083
+    }
+  },
+  {
+    "text": "How to view my crew gifts?",
+    "intent": "crew_gifts",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.0976443663239479
+    }
+  },
+  {
+    "text": "Where can I see my crew gifts?",
+    "intent": "check_crew_gifts",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.10062242299318314
+    }
+  },
+  {
+    "text": "Give me the steps to access crew gifts.",
+    "intent": "check_crew_gifts",
+    "intent_prediction": {
+      "name": "receiving_crew_gifts",
+      "confidence": 0.10111360251903534
+    }
+  },
+  {
+    "text": "How does confirmation work in trading?",
+    "intent": "confirm_trade",
+    "intent_prediction": {
+      "name": "ensure_trade_safety",
+      "confidence": 0.07609447091817856
+    }
+  },
+  {
+    "text": "How do I collect my traded item?",
+    "intent": "collect_traded_items",
+    "intent_prediction": {
+      "name": "add_items_to_trade",
+      "confidence": 0.08145061135292053
+    }
+  },
+  {
+    "text": "What should I do after the trade is completed?",
+    "intent": "collect_traded_items",
+    "intent_prediction": {
+      "name": "confirm_trade",
+      "confidence": 0.0872994065284729
+    }
+  },
+  {
+    "text": "If you see someone advertising free gold, report them!",
+    "intent": "reporting_scam_activity",
+    "intent_prediction": {
+      "name": "report_scam_activity",
+      "confidence": 0.08631779998540878
+    }
+  },
+  {
+    "text": "Use the report feature to handle scammers.",
+    "intent": "reporting_scam_activity",
+    "intent_prediction": {
+      "name": "report_scam_activity",
+      "confidence": 0.12039954215288162
+    }
+  },
+  {
+    "text": "How do I get my items back after canceling a trade?",
+    "intent": "how_to_restore_items_after_trade_cancel",
+    "intent_prediction": {
+      "name": "ask_items_disappeared_after_trade_canceled",
+      "confidence": 0.11745674908161163
+    }
+  },
+  {
+    "text": "What should I do to restore missing items after a trade was canceled?",
+    "intent": "how_to_restore_items_after_trade_cancel",
+    "intent_prediction": {
+      "name": "ask_items_disappeared_after_trade_canceled",
+      "confidence": 0.09896980971097946
+    }
+  },
+  {
+    "text": "Steps to recover my inventory after a trade cancellation",
+    "intent": "how_to_restore_items_after_trade_cancel",
+    "intent_prediction": {
+      "name": "ask_items_disappeared_after_trade_canceled",
+      "confidence": 0.12801767885684967
+    }
+  },
+  {
+    "text": "How can I see my items again if the trade was canceled?",
+    "intent": "how_to_restore_items_after_trade_cancel",
+    "intent_prediction": {
+      "name": "ask_items_disappeared_after_trade_canceled",
+      "confidence": 0.11789137870073318
+    }
+  },
+  {
+    "text": "What are the rules for listing items?",
+    "intent": "list_items_in_market",
+    "intent_prediction": {
+      "name": "sell_items_on_market",
+      "confidence": 0.09366407245397568
+    }
+  },
+  {
+    "text": "How can I delete my account?",
+    "intent": "ask_delete_account",
+    "intent_prediction": {
+      "name": "verify_delete_account_steps",
+      "confidence": 0.09341809898614883
+    }
+  },
+  {
+    "text": "What are the steps to delete my account?",
+    "intent": "ask_delete_account",
+    "intent_prediction": {
+      "name": "verify_delete_account_steps",
+      "confidence": 0.09562966227531433
+    }
+  },
+  {
+    "text": "How can I cancel my account deletion?",
+    "intent": "cancel_account_deletion",
+    "intent_prediction": {
+      "name": "verify_delete_account_steps",
+      "confidence": 0.08950693160295486
+    }
+  },
+  {
+    "text": "I want to stop my account from being deleted.",
+    "intent": "cancel_account_deletion",
+    "intent_prediction": {
+      "name": "ask_delete_account",
+      "confidence": 0.0832693949341774
+    }
+  },
+  {
+    "text": "Where do I set the Safety Lock PIN?",
+    "intent": "enable_safety_lock",
+    "intent_prediction": {
+      "name": "security_of_safety_lock",
+      "confidence": 0.09693574160337448
+    }
+  },
+  {
+    "text": "What happens if I don't use Safety Lock?",
+    "intent": "consequences_without_safety_lock",
+    "intent_prediction": {
+      "name": "safety_lock_requirements",
+      "confidence": 0.09464962780475616
+    }
+  },
+  {
+    "text": "Is my account at risk without Safety Lock?",
+    "intent": "consequences_without_safety_lock",
+    "intent_prediction": {
+      "name": "safety_lock_requirements",
+      "confidence": 0.09552227705717087
+    }
+  },
+  {
+    "text": "Consequences of not enabling Safety Lock?",
+    "intent": "consequences_without_safety_lock",
+    "intent_prediction": {
+      "name": "ask_about_safety_lock",
+      "confidence": 0.09029924869537354
+    }
+  },
+  {
+    "text": "Is there an age restriction for Highrise players?",
+    "intent": "inquire_age_restriction",
+    "intent_prediction": {
+      "name": "inquire_age_guidelines",
+      "confidence": 0.09835992008447647
+    }
+  },
+  {
+    "text": "What should I do if someone violates guidelines?",
+    "intent": "report_and_block_guide",
+    "intent_prediction": {
+      "name": "ask_about_reporting_member",
+      "confidence": 0.1317337453365326
+    }
+  },
+  {
+    "text": "What are the community guidelines on Highrise?",
+    "intent": "guidelines_and_moderation",
+    "intent_prediction": {
+      "name": "inquire_guidelines_intro",
+      "confidence": 0.0943705216050148
+    }
+  },
+  {
+    "text": "What guidelines do I need to follow in Highrise?",
+    "intent": "guidelines_and_moderation",
+    "intent_prediction": {
+      "name": "inquire_guidelines_intro",
+      "confidence": 0.09552557021379471
+    }
+  },
+  {
+    "text": "What is the purpose of adding my email to the account?",
+    "intent": "email_purpose",
+    "intent_prediction": {
+      "name": "add_email",
+      "confidence": 0.100037582218647
+    }
+  },
+  {
+    "text": "Don�t let anyone borrow your items; oftentimes they won�t give it back.",
+    "intent": "advise_on_borrowing",
+    "intent_prediction": {
+      "name": "advice_on_borrowing_items",
+      "confidence": 0.15089966356754303
+    }
+  },
+  {
+    "text": "We can�t verify borrowed items, so hold onto your stuff!",
+    "intent": "advise_on_borrowing",
+    "intent_prediction": {
+      "name": "advice_on_borrowing_items",
+      "confidence": 0.14755164086818695
+    }
+  },
+  {
+    "text": "Be careful with lending items, it might not return.",
+    "intent": "advise_on_borrowing",
+    "intent_prediction": {
+      "name": "advice_on_borrowing_items",
+      "confidence": 0.1278218924999237
+    }
+  },
+  {
+    "text": "It's risky to lend out items; keep them safe!",
+    "intent": "advise_on_borrowing",
+    "intent_prediction": {
+      "name": "advice_on_borrowing_items",
+      "confidence": 0.11128684133291245
+    }
+  },
+  {
+    "text": "Avoid lending items as all trades are final.",
+    "intent": "advise_on_borrowing",
+    "intent_prediction": {
+      "name": "advice_on_borrowing_items",
+      "confidence": 0.11271987855434418
+    }
+  },
+  {
+    "text": "If someone offers free gold, don't fall for it!",
+    "intent": "avoid_phishing_scams",
+    "intent_prediction": {
+      "name": "caution_against_free_offers",
+      "confidence": 0.11726455390453339
+    }
+  },
+  {
+    "text": "Selling for real money can get your account suspended.",
+    "intent": "warn_about_real_money_trades",
+    "intent_prediction": {
+      "name": "rules_on_currency",
+      "confidence": 0.11729501187801361
+    }
+  },
+  {
+    "text": "Avoid advertising PayPal or Kik for item sales.",
+    "intent": "warn_about_real_money_trades",
+    "intent_prediction": {
+      "name": "rules_on_currency",
+      "confidence": 0.11144524812698364
+    }
+  },
+  {
+    "text": "Report individuals breaking the transaction rules.",
+    "intent": "report_scam_activity",
+    "intent_prediction": {
+      "name": "reporting_scam_activity",
+      "confidence": 0.12219598889350891
+    }
+  },
+  {
+    "text": "Why haven't I gotten a password reset link?",
+    "intent": "email_link_issue",
+    "intent_prediction": {
+      "name": "initiate_password_reset",
+      "confidence": 0.08847643435001373
+    }
+  },
+  {
+    "text": "What should I do if I lost email access for password recovery?",
+    "intent": "contact_support_for_password",
+    "intent_prediction": {
+      "name": "initiate_password_reset",
+      "confidence": 0.08175352960824966
+    }
+  },
+  {
+    "text": "When can I start voting for entries?",
+    "intent": "inquire_voting_process",
+    "intent_prediction": {
+      "name": "voting_instructions",
+      "confidence": 0.11477488279342651
+    }
+  },
+  {
+    "text": "How can I vote on design submissions?",
+    "intent": "inquire_voting_process",
+    "intent_prediction": {
+      "name": "voting_instructions",
+      "confidence": 0.11272910982370377
+    }
+  },
+  {
+    "text": "What happens during the voting stage?",
+    "intent": "inquire_voting_process",
+    "intent_prediction": {
+      "name": "voting_instructions",
+      "confidence": 0.1043420061469078
+    }
+  },
+  {
+    "text": "Tell me about casting votes in UDC.",
+    "intent": "inquire_voting_process",
+    "intent_prediction": {
+      "name": "voting_instructions",
+      "confidence": 0.09349003434181213
+    }
+  },
+  {
+    "text": "Is it possible to change my vote?",
+    "intent": "ask_vote_retraction",
+    "intent_prediction": {
+      "name": "vote_tracking",
+      "confidence": 0.09368215501308441
+    }
+  },
+  {
+    "text": "What should I do if my entry doesn't submit?",
+    "intent": "ask_submission_error",
+    "intent_prediction": {
+      "name": "troubleshoot_submission_issues",
+      "confidence": 0.1057269498705864
+    }
+  },
+  {
+    "text": "What is #ROTD?",
+    "intent": "ask_about_rot_d",
+    "intent_prediction": {
+      "name": "enter_rot_d",
+      "confidence": 0.08583102375268936
+    }
+  },
+  {
+    "text": "Can you explain #ROTD?",
+    "intent": "ask_about_rot_d",
+    "intent_prediction": {
+      "name": "enter_rot_d",
+      "confidence": 0.08687347173690796
+    }
+  },
+  {
+    "text": "What happens in the room of the day event?",
+    "intent": "ask_about_rot_d",
+    "intent_prediction": {
+      "name": "ask_about_rot_w",
+      "confidence": 0.07965487241744995
+    }
+  },
+  {
+    "text": "How does #ROTD work?",
+    "intent": "ask_about_rot_d",
+    "intent_prediction": {
+      "name": "enter_rot_d",
+      "confidence": 0.08830564469099045
+    }
+  },
+  {
+    "text": "What are the rules for #ROTD?",
+    "intent": "rules_rot_d",
+    "intent_prediction": {
+      "name": "enter_rot_d",
+      "confidence": 0.08966006338596344
+    }
+  },
+  {
+    "text": "What is #ROTW about?",
+    "intent": "ask_about_rot_w",
+    "intent_prediction": {
+      "name": "enter_rot_w",
+      "confidence": 0.0830235704779625
+    }
+  },
+  {
+    "text": "Are entries to #ROTW automatic with #ROTD?",
+    "intent": "enter_rot_w",
+    "intent_prediction": {
+      "name": "rules_rot_d",
+      "confidence": 0.07878224551677704
+    }
+  },
+  {
+    "text": "How do rooms qualify for #ROTW?",
+    "intent": "enter_rot_w",
+    "intent_prediction": {
+      "name": "rules_rot_d",
+      "confidence": 0.09750398248434067
+    }
+  },
+  {
+    "text": "What are the rules for #ROTW?",
+    "intent": "rules_rot_w",
+    "intent_prediction": {
+      "name": "rules_rot_d",
+      "confidence": 0.09293831139802933
+    }
+  },
+  {
+    "text": "Is there a new version of the avatar layering guide?",
+    "intent": "query_avatar_layering_updates",
+    "intent_prediction": {
+      "name": "ask_avatar_layering_guide",
+      "confidence": 0.12260112166404724
+    }
+  },
+  {
+    "text": "Help me with some avatar layering tips.",
+    "intent": "seeking_avatar_layering_tips",
+    "intent_prediction": {
+      "name": "ask_avatar_layering_guide",
+      "confidence": 0.1332661509513855
+    }
+  },
+  {
+    "text": "How can I make my contest entry stand out?",
+    "intent": "designing_tips",
+    "intent_prediction": {
+      "name": "entry_guidelines",
+      "confidence": 0.10047638416290283
+    }
+  },
+  {
+    "text": "What are the do and do nots of Grab Design Contests?",
+    "intent": "contest_rules",
+    "intent_prediction": {
+      "name": "contest_overview",
+      "confidence": 0.08407270163297653
+    }
+  },
+  {
+    "text": "What factors are considered for finalist selection?",
+    "intent": "finalist_selection",
+    "intent_prediction": {
+      "name": "contest_judging_criteria",
+      "confidence": 0.11073611676692963
+    }
+  },
+  {
+    "text": "What do I need to do to go to Heart Mart?",
+    "intent": "how_to_access_heart_mart",
+    "intent_prediction": {
+      "name": "heart_mart_usage",
+      "confidence": 0.12917545437812805
+    }
+  },
+  {
+    "text": "What is SkyRise Mall?",
+    "intent": "ask_about_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.0968332439661026
+    }
+  },
+  {
+    "text": "Can you tell me about SkyRise Mall?",
+    "intent": "ask_about_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09883137047290802
+    }
+  },
+  {
+    "text": "Describe the SkyRise Mall for me.",
+    "intent": "ask_about_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09358954429626465
+    }
+  },
+  {
+    "text": "What's the purpose of SkyRise Mall?",
+    "intent": "ask_about_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09662763774394989
+    }
+  },
+  {
+    "text": "How is SkyRise Mall described?",
+    "intent": "ask_about_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09769637882709503
+    }
+  },
+  {
+    "text": "What can I do in the SkyRise Mall?",
+    "intent": "exploring_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09796798974275589
+    }
+  },
+  {
+    "text": "How can I explore SkyRise Mall?",
+    "intent": "exploring_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09626523405313492
+    }
+  },
+  {
+    "text": "Tell me about the activities in SkyRise Mall.",
+    "intent": "exploring_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09826875478029251
+    }
+  },
+  {
+    "text": "What is there to do inside SkyRise Mall?",
+    "intent": "exploring_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09892337769269943
+    }
+  },
+  {
+    "text": "How do I navigate within SkyRise Mall?",
+    "intent": "exploring_skyrise_mall",
+    "intent_prediction": {
+      "name": "items_in_skyrise_mall",
+      "confidence": 0.09262765198945999
+    }
+  },
+  {
+    "text": "What to do if my account is less than 24 hours old for verification?",
+    "intent": "verify_account_error_too_new",
+    "intent_prediction": {
+      "name": "verify_account_error_inactive_account",
+      "confidence": 0.08003970235586166
+    }
+  },
+  {
+    "text": "Why is my Highrise account generating Error 119?",
+    "intent": "verify_account_error_suspended_banned",
+    "intent_prediction": {
+      "name": "verify_account_error_too_new",
+      "confidence": 0.0854877308011055
+    }
+  },
+  {
+    "text": "Help with Error 119 regarding suspended account.",
+    "intent": "verify_account_error_suspended_banned",
+    "intent_prediction": {
+      "name": "verify_account_error_too_new",
+      "confidence": 0.0862898975610733
+    }
+  },
+  {
+    "text": "Can Highrise Support help with a banned account verification?",
+    "intent": "verify_account_error_suspended_banned",
+    "intent_prediction": {
+      "name": "verify_account_error_too_new",
+      "confidence": 0.06474258005619049
+    }
+  },
+  {
+    "text": "What steps do I need to verify my account?",
+    "intent": "ask_how_to_verify_account",
+    "intent_prediction": {
+      "name": "ask_login_with_accounts",
+      "confidence": 0.08911091834306717
+    }
+  },
+  {
+    "text": "Do I need my Discord account to verify?",
+    "intent": "ask_login_with_accounts",
+    "intent_prediction": {
+      "name": "ask_how_to_verify_account",
+      "confidence": 0.08585137128829956
+    }
+  },
+  {
+    "text": "How do I authorize using Discord account for verification?",
+    "intent": "ask_login_with_accounts",
+    "intent_prediction": {
+      "name": "ask_how_to_verify_account",
+      "confidence": 0.08713547885417938
+    }
+  },
+  {
+    "text": "Where can I access Highrise branding documentation?",
+    "intent": "ask_about_highrise_style_guides",
+    "intent_prediction": {
+      "name": "ask_about_highrise_assets",
+      "confidence": 0.11496477574110031
+    }
+  },
+  {
+    "text": "What kinds of events does HRLive sponsor?",
+    "intent": "event_types_hrlive",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.11603276431560516
+    }
+  },
+  {
+    "text": "What events can be hosted with HRLive?",
+    "intent": "event_types_hrlive",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.11311390995979309
+    }
+  },
+  {
+    "text": "Tell me which events HRLive supports.",
+    "intent": "event_types_hrlive",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.11635548621416092
+    }
+  },
+  {
+    "text": "I want to know about HRLive event types.",
+    "intent": "event_types_hrlive",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.11409468203783035
+    }
+  },
+  {
+    "text": "How can an event qualify for HRLive sponsorship?",
+    "intent": "hr_live_eligibility",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.11034680157899857
+    }
+  },
+  {
+    "text": "What are the requirements for HRLive event sponsorship?",
+    "intent": "hr_live_eligibility",
+    "intent_prediction": {
+      "name": "hr_live_support",
+      "confidence": 0.1099105253815651
+    }
+  },
+  {
+    "text": "What do I need to host an HRLive event?",
+    "intent": "hr_live_eligibility",
+    "intent_prediction": {
+      "name": "apply_hrlive",
+      "confidence": 0.11487691104412079
+    }
+  },
+  {
+    "text": "Criteria to apply for HRLive sponsorship.",
+    "intent": "hr_live_eligibility",
+    "intent_prediction": {
+      "name": "apply_hrlive",
+      "confidence": 0.12119731307029724
+    }
+  },
+  {
+    "text": "What support does HRLive offer?",
+    "intent": "hr_live_support",
+    "intent_prediction": {
+      "name": "explain_hrlive",
+      "confidence": 0.12715362012386322
+    }
+  },
+  {
+    "text": "How can HRLive help with my event?",
+    "intent": "hr_live_support",
+    "intent_prediction": {
+      "name": "explain_hrlive",
+      "confidence": 0.11544165015220642
+    }
+  },
+  {
+    "text": "Tell me about the benefits of HRLive sponsorship.",
+    "intent": "hr_live_support",
+    "intent_prediction": {
+      "name": "explain_hrlive",
+      "confidence": 0.11897248029708862
+    }
+  },
+  {
+    "text": "What do I need to use the Highrise Bot API?",
+    "intent": "create_highrise_bot",
+    "intent_prediction": {
+      "name": "highrise_bot_additional_info",
+      "confidence": 0.10322120040655136
+    }
+  },
+  {
+    "text": "How is the prize distribution structured for a Design Contest?",
+    "intent": "design_contest_prizes",
+    "intent_prediction": {
+      "name": "prize_distribution",
+      "confidence": 0.06920088082551956
+    }
+  },
+  {
+    "text": "What happens when the concept ends?",
+    "intent": "submission_notifications",
+    "intent_prediction": {
+      "name": "concept_progress_updates",
+      "confidence": 0.10554613173007965
+    }
+  },
+  {
+    "text": "How do I view my submissions?",
+    "intent": "view_delete_submission",
+    "intent_prediction": {
+      "name": "troubleshoot_submission_issues",
+      "confidence": 0.09088493138551712
+    }
+  },
+  {
+    "text": "Can I update the images in my submission?",
+    "intent": "update_submission_images",
+    "intent_prediction": {
+      "name": "edit_submission_images",
+      "confidence": 0.11508307605981827
+    }
+  },
+  {
+    "text": "Is it possible to modify my submission's images?",
+    "intent": "update_submission_images",
+    "intent_prediction": {
+      "name": "edit_submission_images",
+      "confidence": 0.11907289177179337
+    }
+  },
+  {
+    "text": "What if I accidentally submitted the wrong images?",
+    "intent": "update_submission_images",
+    "intent_prediction": {
+      "name": "upload_images",
+      "confidence": 0.08552293479442596
+    }
+  },
+  {
+    "text": "Are previous votes affecting new pairings?",
+    "intent": "voting_mechanics",
+    "intent_prediction": {
+      "name": "fair_chance_voting",
+      "confidence": 0.09842570871114731
+    }
+  },
+  {
+    "text": "Is there a way to see my past votes?",
+    "intent": "vote_tracking",
+    "intent_prediction": {
+      "name": "voting_instructions",
+      "confidence": 0.09989116340875626
+    }
+  },
+  {
+    "text": "How does ELO rating improve the voting process?",
+    "intent": "benefits_of_elo_rating",
+    "intent_prediction": {
+      "name": "elo_scoring_explanation",
+      "confidence": 0.11232215166091919
+    }
+  },
+  {
+    "text": "What styles of events does Highrise feature?",
+    "intent": "event_styles_info",
+    "intent_prediction": {
+      "name": "general_information_events",
+      "confidence": 0.11424275487661362
+    }
+  },
+  {
+    "text": "Describe the types of events in Highrise.",
+    "intent": "event_styles_info",
+    "intent_prediction": {
+      "name": "general_information_events",
+      "confidence": 0.11171113699674606
+    }
+  },
+  {
+    "text": "Tell me about earning judge tickets.",
+    "intent": "judge_strategy",
+    "intent_prediction": {
+      "name": "earning_tickets",
+      "confidence": 0.07178644835948944
+    }
+  },
+  {
+    "text": "Any tricks for getting more tickets?",
+    "intent": "event_tips",
+    "intent_prediction": {
+      "name": "earning_tickets",
+      "confidence": 0.12183550000190735
+    }
+  },
+  {
+    "text": "How to make the most out of party time?",
+    "intent": "event_tips",
+    "intent_prediction": {
+      "name": "use_party_time",
+      "confidence": 0.0972863957285881
+    }
+  },
+  {
+    "text": "Tell me strategies for maximizing event rewards.",
+    "intent": "event_tips",
+    "intent_prediction": {
+      "name": "earning_tickets",
+      "confidence": 0.09664937108755112
+    }
+  },
+  {
+    "text": "I need tips and tricks for the prank event.",
+    "intent": "general_event_details",
+    "intent_prediction": {
+      "name": "guide_intro",
+      "confidence": 0.08896222710609436
+    }
+  },
+  {
+    "text": "Can you explain collecting items?",
+    "intent": "collect_items",
+    "intent_prediction": {
+      "name": "gather_in_bulk",
+      "confidence": 0.12997837364673615
+    }
+  },
+  {
+    "text": "How are tickets earned?",
+    "intent": "earn_tickets",
+    "intent_prediction": {
+      "name": "earning_tickets",
+      "confidence": 0.09389369189739227
+    }
+  },
+  {
+    "text": "What's the party time multiplier?",
+    "intent": "use_party_time",
+    "intent_prediction": {
+      "name": "party_time_bonus",
+      "confidence": 0.12505215406417847
+    }
+  },
+  {
+    "text": "What are Creature Coins?",
+    "intent": "explain_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.07643161714076996
+    }
+  },
+  {
+    "text": "Tell me about Creature Coins.",
+    "intent": "explain_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.07968105375766754
+    }
+  },
+  {
+    "text": "Explain Creature Coins.",
+    "intent": "explain_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.07637382298707962
+    }
+  },
+  {
+    "text": "What can I do with Creature Coins?",
+    "intent": "explain_creature_coins",
+    "intent_prediction": {
+      "name": "earning_creature_coins",
+      "confidence": 0.07942375540733337
+    }
+  },
+  {
+    "text": "Why are Creature Coins important?",
+    "intent": "explain_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.07156942784786224
+    }
+  },
+  {
+    "text": "What do I need to get Creature Coins?",
+    "intent": "earning_creature_coins",
+    "intent_prediction": {
+      "name": "claiming_coins",
+      "confidence": 0.08878530561923981
+    }
+  },
+  {
+    "text": "What are the daily coins for an Epic Creature?",
+    "intent": "epic_creature_earnings",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.08608860522508621
+    }
+  },
+  {
+    "text": "How many coins for a Legendary Creature?",
+    "intent": "legendary_creature_earnings",
+    "intent_prediction": {
+      "name": "epic_creature_earnings",
+      "confidence": 0.07909845560789108
+    }
+  },
+  {
+    "text": "Daily Creature Coins for Legendary Creatures?",
+    "intent": "legendary_creature_earnings",
+    "intent_prediction": {
+      "name": "epic_creature_earnings",
+      "confidence": 0.08074475079774857
+    }
+  },
+  {
+    "text": "Creature Coins per Legendary Creature?",
+    "intent": "legendary_creature_earnings",
+    "intent_prediction": {
+      "name": "epic_creature_earnings",
+      "confidence": 0.0790746882557869
+    }
+  },
+  {
+    "text": "Legendary Creature daily coins",
+    "intent": "legendary_creature_earnings",
+    "intent_prediction": {
+      "name": "epic_creature_earnings",
+      "confidence": 0.07960096746683121
+    }
+  },
+  {
+    "text": "How can I use Creature Coins?",
+    "intent": "using_creature_coins",
+    "intent_prediction": {
+      "name": "earning_creature_coins",
+      "confidence": 0.08299088478088379
+    }
+  },
+  {
+    "text": "Where to spend Creature Coins?",
+    "intent": "using_creature_coins",
+    "intent_prediction": {
+      "name": "earning_creature_coins",
+      "confidence": 0.0806654542684555
+    }
+  },
+  {
+    "text": "Using Creature Coins in the app",
+    "intent": "using_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.08296787738800049
+    }
+  },
+  {
+    "text": "What are the grabs for Creature Coins?",
+    "intent": "using_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.08186902105808258
+    }
+  },
+  {
+    "text": "Do I need a Metamask wallet to buy a Creature NFT?",
+    "intent": "purchase_requirements",
+    "intent_prediction": {
+      "name": "purchase_creature",
+      "confidence": 0.0872122198343277
+    }
+  },
+  {
+    "text": "How do I make an offer for a Highrise Creature?",
+    "intent": "purchase_creature",
+    "intent_prediction": {
+      "name": "purchase_requirements",
+      "confidence": 0.09088856726884842
+    }
+  },
+  {
+    "text": "Can I equip my Creature NFT in Highrise?",
+    "intent": "view_and_use_creature",
+    "intent_prediction": {
+      "name": "purchase_requirements",
+      "confidence": 0.09152085334062576
+    }
+  },
+  {
+    "text": "What perks do I get with my Highrise Creature?",
+    "intent": "view_and_use_creature",
+    "intent_prediction": {
+      "name": "ask_alternative_ways_to_get_creature",
+      "confidence": 0.07866068929433823
+    }
+  },
+  {
+    "text": "How do I connect Metamask to my Highrise account?",
+    "intent": "view_and_use_creature",
+    "intent_prediction": {
+      "name": "connect_wallet_highrise",
+      "confidence": 0.09573549032211304
+    }
+  },
+  {
+    "text": "What is the cheapest price for a Highrise Creature?",
+    "intent": "highrise_creature_price_low",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.10704903304576874
+    }
+  },
+  {
+    "text": "Tell me the lowest price for Highrise Creatures.",
+    "intent": "highrise_creature_price_low",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.10677802562713623
+    }
+  },
+  {
+    "text": "What's the minimum cost for a Highrise Creature?",
+    "intent": "highrise_creature_price_low",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.10863760113716125
+    }
+  },
+  {
+    "text": "What's the most a Highrise Creature can cost?",
+    "intent": "highrise_creature_price_high",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.11020807921886444
+    }
+  },
+  {
+    "text": "How expensive can Highrise Creatures get?",
+    "intent": "highrise_creature_price_high",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.10291656106710434
+    }
+  },
+  {
+    "text": "What's the highest price for a Highrise Creature?",
+    "intent": "highrise_creature_price_high",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.1103585883975029
+    }
+  },
+  {
+    "text": "Tell me the maximum cost of Highrise Creatures.",
+    "intent": "highrise_creature_price_high",
+    "intent_prediction": {
+      "name": "ask_price_highrise_creatures",
+      "confidence": 0.10481547564268112
+    }
+  },
+  {
+    "text": "How much can a rare Highrise Creature be priced at?",
+    "intent": "highrise_creature_price_high",
+    "intent_prediction": {
+      "name": "highrise_creature_price_low",
+      "confidence": 0.11292631924152374
+    }
+  },
+  {
+    "text": "Tell me about the Skypass+ benefit.",
+    "intent": "unlock_skypass_plus",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.08440616726875305
+    }
+  },
+  {
+    "text": "Is there a way to get Skypass+ for free?",
+    "intent": "unlock_skypass_plus",
+    "intent_prediction": {
+      "name": "ask_about_skypass_plus",
+      "confidence": 0.07684531807899475
+    }
+  },
+  {
+    "text": "What are the benefits of joining the Highrise Creature Club?",
+    "intent": "inquire_benefits_membership",
+    "intent_prediction": {
+      "name": "perks_highrise_creature_club",
+      "confidence": 0.09600181877613068
+    }
+  },
+  {
+    "text": "What are Creature Coins used for?",
+    "intent": "ask_about_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.08337482810020447
+    }
+  },
+  {
+    "text": "How do daily Creature Coins benefit me?",
+    "intent": "ask_about_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.09630760550498962
+    }
+  },
+  {
+    "text": "Can you tell me more about Creature Coins?",
+    "intent": "ask_about_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.07873457670211792
+    }
+  },
+  {
+    "text": "What can I do with the Creature Coins as a member?",
+    "intent": "ask_about_creature_coins",
+    "intent_prediction": {
+      "name": "daily_creature_coins",
+      "confidence": 0.067581906914711
+    }
+  },
+  {
+    "text": "What makes an NFT special?",
+    "intent": "uniqueness_of_nfts",
+    "intent_prediction": {
+      "name": "ask_about_nfts",
+      "confidence": 0.11792585998773575
+    }
+  },
+  {
+    "text": "What advantages are there in the Highrise Creature Club?",
+    "intent": "perks_highrise_creature_club",
+    "intent_prediction": {
+      "name": "about_highrise_creature_club",
+      "confidence": 0.09829667955636978
+    }
+  },
+  {
+    "text": "How can I learn more about Highrise Creature Club?",
+    "intent": "join_highrise_discord",
+    "intent_prediction": {
+      "name": "about_highrise_creature_club",
+      "confidence": 0.08537302166223526
+    }
+  },
+  {
+    "text": "Is there a Discord server to learn about Highrise?",
+    "intent": "join_highrise_discord",
+    "intent_prediction": {
+      "name": "ask_join_discord",
+      "confidence": 0.10150590538978577
+    }
+  },
+  {
+    "text": "How do I access the Highrise Discord Server?",
+    "intent": "join_highrise_discord",
+    "intent_prediction": {
+      "name": "ask_join_discord",
+      "confidence": 0.10715015977621078
+    }
+  },
+  {
+    "text": "How can I track new information about owning LAND?",
+    "intent": "inquire_about_land_updates",
+    "intent_prediction": {
+      "name": "ask_other_ways_to_own_land",
+      "confidence": 0.06525561213493347
+    }
+  },
+  {
+    "text": "Can you tell me what I get as a LAND owner?",
+    "intent": "inquire_land_benefits",
+    "intent_prediction": {
+      "name": "inquire_about_land_updates",
+      "confidence": 0.052633706480264664
+    }
+  },
+  {
+    "text": "What incentives are there for purchasing Highrise LAND?",
+    "intent": "inquire_land_benefits",
+    "intent_prediction": {
+      "name": "inquire_land_purchase",
+      "confidence": 0.05150585249066353
+    }
+  },
+  {
+    "text": "What kind of economy management is available for LAND owners?",
+    "intent": "create_customizable_rooms",
+    "intent_prediction": {
+      "name": "land_tokens_usage",
+      "confidence": 0.07268346846103668
+    }
+  },
+  {
+    "text": "What kind of items are in the LAND Shop?",
+    "intent": "exclusive_land_shop",
+    "intent_prediction": {
+      "name": "ask_other_ways_to_own_land",
+      "confidence": 0.05716608464717865
+    }
+  },
+  {
+    "text": "Are there exclusive grabs available for LAND owners?",
+    "intent": "exclusive_land_shop",
+    "intent_prediction": {
+      "name": "land_tokens_usage",
+      "confidence": 0.08061482757329941
+    }
+  },
+  {
+    "text": "What exclusive furniture can LAND owners buy?",
+    "intent": "exclusive_land_shop",
+    "intent_prediction": {
+      "name": "land_tokens_usage",
+      "confidence": 0.061367496848106384
+    }
+  },
+  {
+    "text": "How do Boost Tokens and Voice Tokens work in the LAND Shop?",
+    "intent": "exclusive_land_shop",
+    "intent_prediction": {
+      "name": "land_tokens_usage",
+      "confidence": 0.0644238293170929
+    }
+  },
+  {
+    "text": "Is there any furniture that can't be bought in the LAND Shop?",
+    "intent": "exclusive_land_shop",
+    "intent_prediction": {
+      "name": "ask_other_ways_to_own_land",
+      "confidence": 0.0667039081454277
+    }
+  },
+  {
+    "text": "What is the price range for Highrise LAND?",
+    "intent": "ask_land_cost_range",
+    "intent_prediction": {
+      "name": "inquire_land_price_factors",
+      "confidence": 0.06644845753908157
+    }
+  },
+  {
+    "text": "How much do LAND plots cost in Highrise?",
+    "intent": "ask_land_cost_range",
+    "intent_prediction": {
+      "name": "inquire_land_price_factors",
+      "confidence": 0.07143226265907288
+    }
+  },
+  {
+    "text": "Can you tell me the cost range of LAND in Highrise?",
+    "intent": "ask_land_cost_range",
+    "intent_prediction": {
+      "name": "inquire_land_price_factors",
+      "confidence": 0.06778425723314285
+    }
+  },
+  {
+    "text": "What is the cheapest and most expensive price for a LAND plot?",
+    "intent": "ask_land_cost_range",
+    "intent_prediction": {
+      "name": "inquire_land_price_factors",
+      "confidence": 0.07614101469516754
+    }
+  },
+  {
+    "text": "How variable is the pricing for Highrise LAND plots?",
+    "intent": "ask_land_cost_range",
+    "intent_prediction": {
+      "name": "inquire_land_price_factors",
+      "confidence": 0.07159072905778885
+    }
+  },
+  {
+    "text": "How do I create a MetaMask wallet?",
+    "intent": "create_metamask_wallet",
+    "intent_prediction": {
+      "name": "setup_metamask",
+      "confidence": 0.11407050490379333
+    }
+  },
+  {
+    "text": "Guide me in creating a MetaMask wallet.",
+    "intent": "create_metamask_wallet",
+    "intent_prediction": {
+      "name": "setup_metamask",
+      "confidence": 0.1131221354007721
+    }
+  },
+  {
+    "text": "Can you show me how to set up MetaMask?",
+    "intent": "create_metamask_wallet",
+    "intent_prediction": {
+      "name": "setup_metamask",
+      "confidence": 0.10963249206542969
+    }
+  },
+  {
+    "text": "How do I install a MetaMask wallet?",
+    "intent": "create_metamask_wallet",
+    "intent_prediction": {
+      "name": "setup_metamask",
+      "confidence": 0.10726992785930634
+    }
+  },
+  {
+    "text": "How do I buy Highrise LAND?",
+    "intent": "purchase_highrise_land",
+    "intent_prediction": {
+      "name": "purchasing_land",
+      "confidence": 0.07696981728076935
+    }
+  },
+  {
+    "text": "Can you guide me on purchasing Highrise LAND?",
+    "intent": "purchase_highrise_land",
+    "intent_prediction": {
+      "name": "purchasing_land",
+      "confidence": 0.07267741113901138
+    }
+  },
+  {
+    "text": "Steps to buy LAND on OpenSea for Highrise.",
+    "intent": "purchase_highrise_land",
+    "intent_prediction": {
+      "name": "inquire_land_purchase",
+      "confidence": 0.0589573010802269
+    }
+  },
+  {
+    "text": "How do I connect my wallet to Highrise?",
+    "intent": "connect_wallet",
+    "intent_prediction": {
+      "name": "connect_wallet_highrise",
+      "confidence": 0.10903740674257278
+    }
+  },
+  {
+    "text": "Can you guide me to link my wallet with Highrise?",
+    "intent": "connect_wallet",
+    "intent_prediction": {
+      "name": "connect_wallet_highrise",
+      "confidence": 0.11203525960445404
+    }
+  },
+  {
+    "text": "Tell me more about the promotional sale period.",
+    "intent": "promotional_sale_notice",
+    "intent_prediction": {
+      "name": "targeted_sales_criteria",
+      "confidence": 0.07909324765205383
+    }
+  },
+  {
+    "text": "What are the types of parcels in Highrise LAND?",
+    "intent": "parcel_types",
+    "intent_prediction": {
+      "name": "warn_purchase_risk",
+      "confidence": 0.055784400552511215
+    }
+  },
+  {
+    "text": "Where can I buy or sell Highrise LAND?",
+    "intent": "secondary_market",
+    "intent_prediction": {
+      "name": "purchasing_land",
+      "confidence": 0.06603211909532547
+    }
+  },
+  {
+    "text": "How to transfer LAND in Highrise?",
+    "intent": "secondary_market",
+    "intent_prediction": {
+      "name": "purchasing_land",
+      "confidence": 0.06259186565876007
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.15307921171188354
+    }
+  },
+  {
+    "text": "good by",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.12008202075958252
+    }
+  },
+  {
+    "text": "cee you later",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.10771921277046204
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14531195163726807
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.158118337392807
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.16685573756694794
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.14974555373191833
+    }
+  },
+  {
+    "text": "see you around",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.10544019937515259
+    }
+  },
+  {
+    "text": "bye bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.13905131816864014
+    }
+  }
+]

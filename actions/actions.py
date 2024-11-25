@@ -162,15 +162,14 @@ class ActionHandleHelpfulFeedback(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         # Get the actual user message and bot response before the feedback
-        user_message = next(
-            (event["text"] for event in reversed(tracker.events) if event["event"] == "user"),
-            "No user message"
-        )
+        user_events = [event for event in reversed(tracker.events) if event["event"] == "user"]
+        user_message = user_events[1]["text"] if len(user_events) > 1 else "No user message"
         bot_response = next(
             (event["text"] for event in reversed(tracker.events) if event["event"] == "bot"),
             "No response available"
         )
-
+        bot_events = [event for event in reversed(tracker.events) if event["event"] == "bot"]
+        bot_response = bot_events[1]["text"] if len(bot_events) > 1 else "No response available"
         # Log the helpful feedback
         helpful_logger.info(
             f"User: {user_message}, Bot: {bot_response}, Feedback: Helpful"
@@ -189,15 +188,14 @@ class ActionHandleUnhelpfulFeedback(Action):
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
         # Get the actual user message and bot response before the feedback
-        user_message = next(
-            (event["text"] for event in reversed(tracker.events) if event["event"] == "user"),
-            "No user message"
-        )
+        user_events = [event for event in reversed(tracker.events) if event["event"] == "user"]
+        user_message = user_events[1]["text"] if len(user_events) > 1 else "No user message"
         bot_response = next(
             (event["text"] for event in reversed(tracker.events) if event["event"] == "bot"),
             "No response available"
         )
-
+        bot_events = [event for event in reversed(tracker.events) if event["event"] == "bot"]
+        bot_response = bot_events[1]["text"] if len(bot_events) > 1 else "No response available"
         # Log the unhelpful feedback
         unhelpful_logger.info(
             f"User: {user_message}, Bot: {bot_response}, Feedback: Unhelpful"

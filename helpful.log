@@ -1,5 +1,2 @@
-2024-11-24 15:19:06,881 - User: yes, Intent: greet, Bot: Hey! How are you?, Feedback: Helpful
-2024-11-24 16:07:44,772 - User: yes, Intent: feedback_helpful, Bot: Was this response helpful? Please reply with 'yes' or 'no'., Feedback: Helpful
-2024-11-24 16:08:40,741 - User: yes, Intent: feedback_helpful, Bot: Was this response helpful? Please reply with 'yes' or 'no'., Feedback: Helpful
-2024-11-24 18:52:13,933 - User: /feedback_helpful, Bot: Was this response helpful?, Feedback: Helpful
-2024-11-24 18:53:41,097 - User: /feedback_helpful, Bot: Was this response helpful?, Feedback: Helpful
+2024-11-25 14:22:26,227 - User: /feedback_helpful, Bot: Pinning allows you to highlight important content in your profile or feed. Imagine conjuring your beloved content to the forefront of your app. Our Pinning feature allows you to highlight what matters most, be it your Profile or crucial conversations in the Inbox., Feedback: Helpful
+2024-11-25 14:24:56,179 - User: What is pinning?, Bot: Pinning allows you to highlight important content in your profile or feed. Imagine conjuring your beloved content to the forefront of your app. Our Pinning feature allows you to highlight what matters most, be it your Profile or crucial conversations in the Inbox., Feedback: Helpful
