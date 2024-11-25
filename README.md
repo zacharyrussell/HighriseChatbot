@@ -4,7 +4,7 @@
 
 Repo: [zacharyrussell/HighriseChatbot](https://github.com/zacharyrussell/HighriseChatbot) | Live demo: [Rasa Bot](http://3.133.112.190:8000/)  
 Video Presentation:[Drive Link](https://drive.google.com/file/d/1WyldmUUMmmPJOOc3b8Lz_hzCZB2gTD_l/view?usp=sharing)
-
+Documentation: https://docs.google.com/document/d/14NYcVrQh-ERULjw82qdvu6I-cD2BAqgT0j7Fnaydbq8/edit?tab=t.0
 ## **Overview**
 
 This chatbot utilizes an open source Rasa framework, trained with a Huggingface model (BERT).  
